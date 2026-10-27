@@ -77,7 +77,7 @@ def generate_reviewer_index():
         <div class="product-page-header">
             <div class="container">
                 <h1>Top Pickleball Paddle Reviewers</h1>
-                <p>Verified written reviews and measured data from trusted creators. No AI summaries. Direct quotes only.</p>
+                <p>Verified written reviews and measured data from trusted creators.</p>
             </div>
         </div>
 
