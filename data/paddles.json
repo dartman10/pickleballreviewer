@@ -1,0 +1,3066 @@
+{
+  "paddles": [
+    {
+      "id": "enhance-mpp-turbo",
+      "name": "Enhance MPP Turbo Elongated",
+      "brand": "Enhance",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "MPP",
+      "price_range": "$99\u2013$120",
+      "price_min": 99,
+      "price_max": 120,
+      "description": "Budget power paddle with MPP foam core. Plays closest to Lux Inferno at a fraction of the price.",
+      "specs_source": "https://pickleballstudio.com/paddles/mpp-turbo",
+      "measured_specs": {
+        "swing_weight": 118.44,
+        "twist_weight": 6.23,
+        "spin_rpm": 2022,
+        "balance_point": "239 mm",
+        "static_weight": "8.06 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.54\" \u00d7 7.48\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Enhance MPP Turbo Review",
+          "channel": "Pickleball Studio",
+          "date": "2026-05-11",
+          "views": "28K",
+          "duration": "11:57",
+          "url": "https://www.youtube.com/watch?v=ADGcVmHserQ"
+        },
+        {
+          "title": "Enhance Turbo Paddle Review (all 4 shapes)",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-03-09",
+          "views": "43.9K",
+          "duration": "12:13",
+          "url": "https://www.youtube.com/watch?v=TcRpnKr19NM"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/best/best-budget-pickleball-paddles-under-100",
+          "quotes": [
+            "The Enhance EPP & MPP Turbo is probably the most complete budget power paddle in this list.",
+            "I would not recommend these for people who struggle with touch. These are not easy paddles to play with. But, if you're very aggressive with drives or love to counter, these are the best power options in the list.",
+            "For most people, I would recommend the EPP models."
+          ],
+          "pros": [
+            "Most power out of box for the price",
+            "Good sweet spots without customization",
+            "Great for aggressive players"
+          ],
+          "cons": [
+            "Can be difficult to control if you don't have great touch",
+            "Widebody and hybrid aren't conventional shapes in 2026"
+          ],
+          "disclosure": "Paddle sent free. 400+ paddles tested since 2021. No sponsor influence."
+        },
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/enhance-turbo-paddle-review/enhance-turbo-paddle-review-high-power-budget-paddle",
+          "quotes": [
+            "The Enhance Turbo lineup is a contender for the best value paddle release of the year.",
+            "High firepower, good spin, very solid sweet spots, multiple shapes to choose from, a stiff-hollow feel that many competitive players like today, and the performance honestly rivals paddles that cost two to three times as much.",
+            "My Pick: MPP Turbo Elongated \u2014 Plays very similarly to the Lux Inferno."
+          ],
+          "pros": [
+            "Outstanding value at $100",
+            "KewCOR in the Lux Inferno range",
+            "Flat KewCOR curve = very consistent sweet spot",
+            "14-day trial + 1-year warranty",
+            "USP certified"
+          ],
+          "cons": [
+            "MPP version only available in Elongated",
+            "CFC fiberglass spring may not suit all players"
+          ],
+          "disclosure": "Paddles sent free, no payment, no editorial input. Affiliate links with code JOHNKEW."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/enhance-mpp-turbo/",
+          "quotes": [
+            "The MPP Turbo uses a full floating foam core with an MPP foam center and an EVA foam ring around the perimeter. MPP is a softer foam, which creates a more springy and smooth feel than the EPP Turbo models.",
+            "Yes, it's worth $119.99. At this price it sits in the low range, and its full floating foam core is built much like paddles that cost far more.",
+            "The softer MPP center gives a springy, smooth feel with more dwell than many full-foam builds."
+          ],
+          "pros": [
+            "High power score: 89/100",
+            "Soft, springy feel with dwell",
+            "Great for players who like Lux Inferno feel",
+            "Attractive price point"
+          ],
+          "cons": [
+            "High swing weight slows quick hands",
+            "Only offered in elongated shape"
+          ],
+          "disclosure": "Tested by Team Kitchen. Independent testing."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power level",
+          "consensus": "Very high power, best in $100 category",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Outstanding performance for $100",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Feel comparison",
+          "consensus": "Closest to Lux Inferno",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "MPP vs EPP",
+          "consensus": "MPP is softer, more springy; EPP is firmer",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Control difficulty",
+          "consensus": "Harder to control than standard paddles",
+          "sources": [
+            "Chris Olson",
+            "John Kew"
+          ]
+        },
+        {
+          "topic": "Sweet spot",
+          "consensus": "Very good out of box, no customization needed",
+          "sources": [
+            "Chris Olson",
+            "John Kew"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "budget",
+        "aggressive",
+        "budget-power"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "MPP",
+        "budget",
+        "power",
+        "consistency"
+      ],
+      "retailers": [
+        {
+          "name": "Enhance Pickleball",
+          "url": "https://enhancepickleball.com/JOHNKEW",
+          "price": "$99.99",
+          "code": "JOHNKEW"
+        },
+        {
+          "name": "Enhance Pickleball",
+          "url": "https://enhancepickleball.com/PBSTUDIO",
+          "price": "$107.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "enhance-epp-turbo",
+      "name": "Enhance EPP Turbo Elongated",
+      "brand": "Enhance",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$99\u2013$120",
+      "price_min": 99,
+      "price_max": 120,
+      "description": "Budget power paddle with EPP foam core. Firmer feel than MPP version, great for players who want power with more control.",
+      "specs_source": "https://pickleballstudio.com/paddles/epp-turbo-elongated",
+      "measured_specs": {
+        "swing_weight": 118,
+        "twist_weight": 6.56,
+        "balance_point": "240 mm",
+        "static_weight": "8.01 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.5\" x 7.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Enhance Turbo Paddle Review (all 4 shapes)",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-03-09",
+          "views": "43.9K",
+          "duration": "12:13",
+          "url": "https://www.youtube.com/watch?v=TcRpnKr19NM"
+        },
+        {
+          "title": "Enhance EPP TURBO | B&B Loco on training wheels",
+          "channel": "The Pickleball Dad",
+          "date": "2026-03-15",
+          "views": "N/A",
+          "duration": "5:38",
+          "url": "https://www.youtube.com/watch?v=JUf2Rlb8TiQ"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/best/best-budget-pickleball-paddles-under-100",
+          "quotes": [
+            "The Enhance EPP & MPP Turbo is probably the most complete budget power paddle in this list.",
+            "I would not recommend these for people who struggle with touch. These are not easy paddles to play with. But, if you're very aggressive with drives or love to counter, these are the best power options in the list.",
+            "For most people, I would recommend the EPP models."
+          ],
+          "pros": [
+            "The EPP & MPP models have the most power out of the box of paddles in this list",
+            "Good sweet spots without customization",
+            "Great for aggressive players"
+          ],
+          "cons": [
+            "Can be difficult to control if you don't have great touch",
+            "The widebody and hybrid aren't conventional shapes in 2026"
+          ],
+          "disclosure": "Play-tested on court for 10+ hours. Independently measured specs using calibrated equipment. No sponsor influence."
+        },
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/enhance-turbo-paddle-review/enhance-turbo-paddle-review-high-power-budget-paddle",
+          "quotes": [
+            "After running all the usual lab tests and getting some weeks of rec games in with Eddie, the short version is: they just play really well.",
+            "High firepower, good spin, very solid sweet spots, multiple shapes to choose from, a stiff-hollow feel that competitive players love today, and the performance honestly rivals paddles that cost two to three times as much.",
+            "The EPP Elongated is a strong second, reminding me of the VATC Visel Pro (though I'd give the Turbo a slight firepower edge)."
+          ],
+          "pros": [
+            "Outstanding value at $100",
+            "KewCOR in the Lux Inferno range",
+            "Flat KewCOR curve = very consistent sweet spot",
+            "14-day trial + 1-year warranty",
+            "USP certified"
+          ],
+          "cons": [
+            "EPP version can be hollow/stiff for touch players",
+            "CFC fiberglass spring may not suit all players"
+          ],
+          "disclosure": "Paddles sent free, no payment, no editorial input. Affiliate links with code JOHNKEW."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/blogs/gear/enhance-pickleball-turbo-paddles-budget-price/",
+          "quotes": [
+            "The EPP Turbo uses a full floating foam core with an EPP foam center and an EVA foam ring around the perimeter. This is a similar construction method to the Bread & Butter Loco series ($199) and the Selkirk Labs Project Boomstik ($333).",
+            "The drawback with these types of paddles (in my opinion) is they don't offer a great feel for the ball on drops, dinks and resets, especially if you use the already firm/poppy LifeTime ball. My opinion on these paddles gets much more favorable using the softer Franklin ball.",
+            "If you're a fan of the Lux Pro 4 Inferno and don't want to spend over $200 on a paddle, this is a great option."
+          ],
+          "pros": [
+            "Full floating foam core construction",
+            "Similar build to $200+ premium paddles",
+            "Great value at $100",
+            "Firm, consistent feel across the face"
+          ],
+          "cons": [
+            "Softer games can feel touchy with firm balls",
+            "EPP foam not as springy as MPP",
+            "May need practice for touch shots"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power level",
+          "consensus": "Very high power, among the best in $100 category",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Outstanding performance for $100",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Feel comparison",
+          "consensus": "Firmer than MPP Turbo, similar to Bread & Butter Loco",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Lux Inferno alternative",
+          "consensus": "Best $100 alternative to Lux Inferno",
+          "sources": [
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Control difficulty",
+          "consensus": "Harder to control than standard paddles, needs touch skill",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Spin potential",
+          "consensus": "Good spin, though slightly less than MPP variant",
+          "sources": [
+            "John Kew"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "budget",
+        "aggressive",
+        "budget-power"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "EPP",
+        "budget",
+        "power",
+        "value"
+      ],
+      "retailers": [
+        {
+          "name": "Enhance Pickleball",
+          "url": "https://enhancepickleball.com/products/epp-turbo",
+          "price": "$119.99",
+          "code": ""
+        },
+        {
+          "name": "Enhance Pickleball",
+          "url": "https://www.enhancepickleball.com/KITCHEN",
+          "price": "$99.99",
+          "code": "KITCHEN"
+        }
+      ]
+    },
+    {
+      "id": "luzz-pro-4-inferno",
+      "name": "Luzz Pro 4 Inferno",
+      "brand": "Luzz",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "MPP",
+      "price_range": "$229",
+      "price_min": 229,
+      "price_max": 229,
+      "description": "Premium full-foam MPP power paddle. High power with touch and dampening \u2014 benchmark for Gen 4 foam paddles.",
+      "specs_source": "https://pickleballstudio.com/paddles/pro-4-inferno",
+      "measured_specs": {
+        "swing_weight": 121.3,
+        "twist_weight": 6.14,
+        "balance_point": "242 mm",
+        "static_weight": "8.01 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.5\" x 7.5\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "This Paddle Surprised Me\u2026 LUZZ Pro 4 Inferno Review",
+          "channel": "The Pickleball Pirates",
+          "date": "2026-05-19",
+          "views": "N/A",
+          "duration": "2:28",
+          "url": "https://www.youtube.com/watch?v=a0ZegMTOGZY"
+        },
+        {
+          "title": "Luzz Pro 4 Inferno | Pickleball Paddle Review - Still Worth the Price?",
+          "channel": "RALLYHAUS PICKLEBALL",
+          "date": "2026-07-06",
+          "views": "N/A",
+          "duration": "9:25",
+          "url": "https://www.youtube.com/watch?v=xeyj6JE8Zy8"
+        },
+        {
+          "title": "Luzz Inferno Review: Is This Better Than The Boomstik",
+          "channel": "Pickle Li",
+          "date": "2026-01-27",
+          "views": "N/A",
+          "duration": "7:39",
+          "url": "https://www.youtube.com/watch?v=3N_jWBeZuQ0"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/pro-4-inferno",
+          "quotes": [
+            "The Luzz Pro 4 Inferno is a premium full-foam paddle that delivers high power with good touch and dampening.",
+            "This is a paddle that is good in the hands of a good player, but hard to control for lower-level players."
+          ],
+          "pros": [
+            "High power with MPP foam core",
+            "Large sweet spot",
+            "Good dampening",
+            "Premium feel"
+          ],
+          "cons": [
+            "Hard to control at lower skill levels",
+            "Heavy swing weight (121.3)",
+            "Premium price at $229"
+          ],
+          "disclosure": "Independently measured using calibrated equipment. 400+ paddles tested since 2021. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/luzz-pro-4-inferno/",
+          "quotes": [
+            "As the name suggests, this paddle is hot. Its 100% foam core offers big power on serves, third-shot drives and putaways.",
+            "Like many power-centric paddles, though, it will take time to get resets and dinks dialed in. This is a paddle that we think is good in the hands of a good player, but hard to control for lower-level players.",
+            "Yes. At $229 it sits in the high price range, and its full-foam core gives big power on serves, drives and putaways. Next to the Selkirk Boomstik it hits a little softer but offers a better mix of control and value."
+          ],
+          "pros": [
+            "Big power on serves, drives and putaways",
+            "Microporous foam adds touch and dampening",
+            "Expanded sweet spot steadies off-center hits",
+            "Good balance of control and price"
+          ],
+          "cons": [
+            "Resets and dinks take time to dial in",
+            "Hard to control at lower levels",
+            "Slightly less power than the Boomstik",
+            "Heavy at a 119 swing weight"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power level",
+          "consensus": "Very high power, benchmark for Gen 4 foam paddles",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Control difficulty",
+          "consensus": "Harder to control at lower skill levels, needs touch skill",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Lux Inferno feel",
+          "consensus": "Soft, dampened MPP feel with good touch",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "foam-core",
+        "aggressive",
+        "premium"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "MPP",
+        "premium",
+        "power",
+        "full-foam"
+      ],
+      "retailers": [
+        {
+          "name": "Luzz Pickleball",
+          "url": "https://luzzpickleball.com/products/luzzpickleball-pro-4-inferno-mpp-pickleball-paddle-large-sweet-spot-durable-core",
+          "price": "$229.00",
+          "code": ""
+        },
+        {
+          "name": "Luzz Pickleball",
+          "url": "https://www.luzzpickleball.com/?ref=PBSTUDIO",
+          "price": "$229.00",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "selkirk-power-air-invicta",
+      "name": "Selkirk Power Air Invicta",
+      "brand": "Selkirk",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "honeycomb",
+      "price_range": "$200\u2013$250",
+      "price_min": 200,
+      "price_max": 250,
+      "description": "High-spin power paddle with air-dynamic frame. Top-tier spin generation with aggressive pop.",
+      "specs_source": "https://paddlespecs.com/paddles/brand/selkirk/",
+      "measured_specs": {
+        "swing_weight": 112,
+        "twist_weight": 5.62,
+        "spin_rpm": 1894,
+        "balance_point": "245 mm",
+        "static_weight": "7.7\u20138.2 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.4\" x 7.5\"",
+        "handle_length": "5.25\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Is the Selkirk Power Air still worth it in 2024? - Long term review",
+          "channel": "Briones Pickleball Reviews",
+          "date": "2024",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=FqjS14AzOqg"
+        },
+        {
+          "title": "Selkirk Power Air COMPLETE Paddle Review",
+          "channel": "Pickleball On Call",
+          "date": "2024",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=jhDOYBMMqOs"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/tutorials/breaking-down-pickleball-face-materials-and-grit-for-spin",
+          "quotes": [
+            "Carbon fiber face paddles dominate the top of the spin RPM charts, with the Vanguard Power Air leading at 1851 RPM.",
+            "The Power Air is the highest paddle I have ever tested for spin. Yet, when you use the Starrett SR160, the device the USAP uses to test the legal limit for grit, the Power Air is well below legal limits."
+          ],
+          "pros": [
+            "Top-tier spin generation (1851+ RPM)",
+            "Air dynamic frame reduces drag",
+            "Quick maneuverability at net",
+            "Textured surface for spin"
+          ],
+          "cons": [
+            "13mm core thinner than Gen 4 rivals",
+            "Less forgiving than full-foam paddles",
+            "Premium price at $200\u2013$250"
+          ],
+          "disclosure": "Independently measured using calibrated equipment. 400+ paddles tested since 2021. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/blogs/gear/top-10-pickleball-paddles-right-now-kitchen-community-poll/",
+          "quotes": [
+            "The Power Air is Selkirk's headline power line, with a 13mm core and QuadFlex hybrid face.",
+            "On spin, this is where the Power Air earned its reputation: around release, its RPM numbers from reputable testers put it at or near the top of the spin charts."
+          ],
+          "pros": [
+            "Top-tier spin numbers at release",
+            "Power core for explosive drives",
+            "Air dynamic frame for fast hands",
+            "Three shape options"
+          ],
+          "cons": [
+            "Thinner 13mm core = less dampening",
+            "Can be too powerful for touch players",
+            "Edge guardless design = vibration"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin level",
+          "consensus": "Top-tier spin generation, among highest measured",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Air dynamic frame",
+          "consensus": "Open throat design reduces drag for faster swing speed",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Control difficulty",
+          "consensus": "Thinner 13mm core = less forgiving than full-foam rivals",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Premium price",
+          "consensus": "At $200\u2013$250, higher price than Gen 4 foam alternatives",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "spin",
+        "aggressive",
+        "premium"
+      ],
+      "tags": [
+        "power",
+        "elongated",
+        "spin",
+        "premium",
+        "air-dynamic",
+        "carbon-fiber"
+      ],
+      "retailers": [
+        {
+          "name": "Selkirk",
+          "url": "https://www.selkirksport.com/",
+          "price": "$249.99",
+          "code": ""
+        },
+        {
+          "name": "Dick's Sporting Goods",
+          "url": "https://www.dickssportinggoods.com/",
+          "price": "$249.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "spartus-spitfire",
+      "name": "Spartus Spitfire Elongated",
+      "brand": "Spartus",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$99",
+      "price_min": 99,
+      "price_max": 99,
+      "description": "Budget power paddle with grit-infused surface. The spin and control-leaning alternative to the MPP Turbo.",
+      "specs_source": "https://www.johnkewpickleball.com/spartus-spitfire-vs-enhance-mpp-turbo",
+      "measured_specs": {
+        "swing_weight": 116.2,
+        "twist_weight": 6.14,
+        "spin_rpm": 2433,
+        "spin_tier": "Elite",
+        "kewcor": 0.407,
+        "firepower": 76,
+        "serve_speed": "61.1 mph",
+        "punch_volley": "38.7 mph",
+        "balance_point": "248.0 mm",
+        "static_weight": "7.8 oz"
+      },
+      "youtube_videos": [
+        {
+          "title": "Spartus Spitfire Review | The Tier 1 Spin Durability Debate | Full Review & Lab Test",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-07-27",
+          "views": "N/A",
+          "duration": "14:42",
+          "url": "https://www.youtube.com/watch?v=41wT1kVQnqI"
+        },
+        {
+          "title": "Spartus Spitfire Pickleball Paddle Review- The 99 Dollar Monster",
+          "channel": "Maiko",
+          "date": "2026-08-13",
+          "views": "N/A",
+          "duration": "5:58",
+          "url": "https://www.youtube.com/watch?v=ZIXVKLgqilU"
+        },
+        {
+          "title": "Spartus Spitfire Review: $100 Power Pickleball Paddle With Durable Grit and Elite Spin?",
+          "channel": "All Drive No Drop Pickleball",
+          "date": "2026-07-27",
+          "views": "N/A",
+          "duration": "7:34",
+          "url": "https://www.youtube.com/watch?v=-oREj2Lfd8A"
+        },
+        {
+          "title": "Spartus Spitfire Review | $100. Durable Grit. Real Performance.",
+          "channel": "Pickleball Effect",
+          "date": "2026-07-27",
+          "views": "N/A",
+          "duration": "8:01",
+          "url": "https://www.youtube.com/watch?v=3PRa3qUNv2E"
+        },
+        {
+          "title": "Spartus Spitfire Pickleball Paddle Review",
+          "channel": "Famous by Friday Pickleball",
+          "date": "2026-09-23",
+          "views": "N/A",
+          "duration": "17:29",
+          "url": "https://www.youtube.com/watch?v=QBeLTrnurbI"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/spartus-spitfire-vs-enhance-mpp-turbo",
+          "quotes": [
+            "These two are close cousins: budget power paddles, both elongated, both 16mm Gen-4 thermoformed foam builds, both with a hollow, lively feel, and both landing right around $99 with code JOHNKEW.",
+            "The Spartus Spitfire is the more spin-heavy and control-oriented of the two: noticeably more spin that also lasts longer, and slightly less pop, which makes it easier to shape the ball.",
+            "Get the Spartus Spitfire if you want spin and control on a budget: it has noticeably more spin than the Turbo and holds it longer (Tier 3 versus Tier 4)."
+          ],
+          "pros": [
+            "Elite spin tier (2,433 RPM)",
+            "Spin durability Tier 3",
+            "Slightly less pop = easier to shape",
+            "More control than Turbo",
+            "Both paddle at $99 with code"
+          ],
+          "cons": [
+            "Less pop than MPP Turbo",
+            "Grit-infused surface may wear",
+            "Not for players who want maximum power"
+          ],
+          "disclosure": "Independent testing, no payment, no editorial input."
+        },
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/spartus-spitfire-vs-enhance-mpp-turbo",
+          "quotes": [
+            "The Spartus Spitfire has the edge in overall control for me, because it has slightly less pop and noticeably more spin, which makes it easier to shape the ball and bring it back in."
+          ],
+          "pros": [
+            "Slightly quicker in hand",
+            "Easier to shape the ball"
+          ],
+          "cons": [
+            "Slightly less power"
+          ],
+          "disclosure": "On-court testing with independent lab data."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin",
+          "consensus": "Noticeably more spin than MPP Turbo, Elite tier",
+          "sources": [
+            "John Kew"
+          ]
+        },
+        {
+          "topic": "Control",
+          "consensus": "Easier to shape the ball due to less pop + more spin",
+          "sources": [
+            "John Kew"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Excellent performance for $99",
+          "sources": [
+            "John Kew"
+          ]
+        },
+        {
+          "topic": "Feel",
+          "consensus": "Softer than MPP Turbo, Hollow + Soft feel quadrant",
+          "sources": [
+            "John Kew"
+          ]
+        }
+      ],
+      "best_for": [
+        "spin",
+        "control",
+        "budget",
+        "budget-control"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "EPP",
+        "budget",
+        "power",
+        "spin",
+        "grit-surface"
+      ],
+      "retailers": [
+        {
+          "name": "Spartus Direct",
+          "url": "https://spartuspickleball.com",
+          "price": "$99.00",
+          "code": "JOHNKEW"
+        }
+      ]
+    },
+    {
+      "id": "bread-butter-loco",
+      "name": "Bread & Butter Loco Widebody",
+      "brand": "Bread & Butter",
+      "category": "power",
+      "shape": "widebody",
+      "foam_type": "EPP",
+      "price_range": "$180\u2013$199",
+      "price_min": 180,
+      "price_max": 199,
+      "description": "Balanced foam-core paddle with fiberglass layer for pop. One of the best full-foam options under $200.",
+      "specs_source": "https://pickleballstudio.com/reviews/loco-review",
+      "measured_specs": {
+        "swing_weight": 110,
+        "twist_weight": 7.34,
+        "spin_rpm": 2061,
+        "balance_point": "232 mm",
+        "static_weight": "8.2 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Widebody",
+        "handle_length": "5.3\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Bread & Butter Loco Paddle Review: A Control Paddle With A Side of Pop",
+          "channel": "All Drive No Drop Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=7K2NA-aFUgA"
+        },
+        {
+          "title": "Bread and Butter Loco Review: The Best Power Pickleball Paddle?",
+          "channel": "All Drive No Drop Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=pg-tJEGV7_k"
+        },
+        {
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026-04-17",
+          "views": "N/A",
+          "duration": "28:20",
+          "url": "https://www.youtube.com/watch?v=qFdAlcXEiDw"
+        },
+        {
+          "title": "Bread & Butter Loco 2 Review: Did They Fix Its Biggest Weakness?",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-10-14",
+          "views": "N/A",
+          "duration": "12:09",
+          "url": "https://www.youtube.com/watch?v=ni8rUyRqTas"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/loco-review",
+          "quotes": [
+            "I've been using this paddle for about a month now, and I honestly think it's one of the best full foam options out right now.",
+            "When I first tried the Bread & Butter Loco, I honestly didn't think it would compete with the big names. The foam market is full of paddles like the Selkirk Boomstik and Ronbus Quanta, and I figured the Loco would land somewhere in between. After one session, I took it to a tournament two days later, and it hasn't left my bag since.",
+            "The control on the Loco really stands out. It doesn't have the instant pop of the Boomstik, which actually helps slow the ball down just enough to make placement easier and more reliable.",
+            "After a month of real use, the Loco has proven to be one of the most balanced foam paddles I've tested."
+          ],
+          "pros": [
+            "Very poppy and powerful for a foam core paddle",
+            "Good alternative to expensive paddles like the Boomstik",
+            "Comes in all three shapes",
+            "Forgiving sweet spot",
+            "Tournament-tested performance",
+            "Balanced power and control"
+          ],
+          "cons": [
+            "Not easy for beginners to control",
+            "No long lasting texture",
+            "Elongated model can be heavy for some",
+            "6-month warranty (shorter than competitors)"
+          ],
+          "disclosure": "Paddle sent free. 4.70 DUPR rating. 400+ paddles tested since 2021. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Balance",
+          "consensus": "One of the most balanced foam paddles \u2014 good mix of power and control",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Sweet spot",
+          "consensus": "Forgiving, large sweet spot",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Feel",
+          "consensus": "Firm, solid, connected \u2014 not mushy like older foam builds",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Fiberglass layer",
+          "consensus": "Adds pop and stiffness compared to pure foam",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "foam-core",
+        "balanced",
+        "tournament"
+      ],
+      "tags": [
+        "foam-core",
+        "widebody",
+        "EPP",
+        "fiberglass",
+        "balanced",
+        "tournament-ready"
+      ],
+      "retailers": [
+        {
+          "name": "Bread & Butter",
+          "url": "https://breadbutterpickleballco.sjv.io/N9VDyK",
+          "price": "$180",
+          "code": "PBSTUDIO"
+        },
+        {
+          "name": "Bread & Butter Direct",
+          "url": "https://bit.ly/4lRM5ZN",
+          "price": "$199",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "selkirk-boomstik-widebody",
+      "name": "Selkirk Boomstik Widebody",
+      "brand": "Selkirk",
+      "category": "power",
+      "shape": "widebody",
+      "foam_type": "EPP",
+      "price_range": "$299\u2013$333",
+      "price_min": 299,
+      "price_max": 333,
+      "description": "Premium Gen 4 full-foam power paddle with InfiniGrit surface. Top-tier power with consistent pop and a large sweet spot.",
+      "specs_source": "https://pickleballstudio.com/paddles/boomstik-widebody",
+      "measured_specs": {
+        "swing_weight": 113,
+        "twist_weight": 8.21,
+        "spin_rpm": 2026,
+        "balance_point": "235 mm",
+        "static_weight": "8.49 oz",
+        "grip_size": "4.25\"",
+        "shape_dims": "8.5\" x 7.0\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "This Selkirk Paddle Doesn't Play Nice - NEW Selkirk Boomstik Review",
+          "channel": "JohnKew Pickleball",
+          "date": "2025-08-11",
+          "views": "N/A",
+          "duration": "15:23",
+          "url": "https://www.youtube.com/watch?v=F9SpfpPspv0"
+        },
+        {
+          "title": "Most Expensive Pickleball Paddle Review - $333 Selkirk Boomstik Tested",
+          "channel": "Matt's Pickleball",
+          "date": "2025-08-11",
+          "views": "N/A",
+          "duration": "13:01",
+          "url": "https://www.youtube.com/watch?v=RkFQ9NXGITI"
+        },
+        {
+          "title": "Selkirk Finally Built a True Power Paddle \u2014 Boomstik Review",
+          "channel": "The Pickleball Pirates",
+          "date": "2025-08-13",
+          "views": "N/A",
+          "duration": "10:07",
+          "url": "https://www.youtube.com/watch?v=HgKrWLDw92k"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/selkirk-boomstik-review/selkirk-labs-project-boomstik-pickleball-paddle-review",
+          "quotes": [
+            "The Boomstik is the most expensive paddle I've tested, but the build quality and performance are exceptional.",
+            "The dual-density foam core and InfiniGrit surface give it a unique combination of power, spin, and durability.",
+            "It's a paddle that rewards adjustment and finesse."
+          ],
+          "pros": [
+            "Premium build quality",
+            "Dual-density foam core for power",
+            "InfiniGrit surface for spin durability",
+            "Large sweet spot with perimeter weighting",
+            "15:23 comprehensive review with core dissection"
+          ],
+          "cons": [
+            "Premium price at $333",
+            "Requires adjustment period for power",
+            "Heavy static weight at 8.49 oz"
+          ],
+          "disclosure": "Independent testing, no payment, no editorial input."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/selkirk-boomstik/",
+          "quotes": [
+            "The Boomstik is a premium full-foam paddle that delivers exceptional power with a large sweet spot.",
+            "The InfiniGrit surface provides excellent spin retention and durability.",
+            "At $333, it's the most expensive paddle in our testing but the performance justifies the price."
+          ],
+          "pros": [
+            "Exceptional power with full-foam core",
+            "InfiniGrit surface for spin retention",
+            "Large sweet spot with MOI weighting",
+            "Premium build quality"
+          ],
+          "cons": [
+            "Premium price at $333",
+            "Heavy at 8.49 oz",
+            "Requires adjustment period"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power level",
+          "consensus": "Exceptional power, top-tier for Gen 4 foam paddles",
+          "sources": [
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "InfiniGrit surface",
+          "consensus": "Excellent spin retention and durability",
+          "sources": [
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Premium price",
+          "consensus": "At $333, most expensive paddle but performance justifies cost",
+          "sources": [
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Sweet spot",
+          "consensus": "Large sweet spot with MOI perimeter weighting",
+          "sources": [
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Adjustment period",
+          "consensus": "Requires time to adapt to power profile",
+          "sources": [
+            "John Kew"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "foam-core",
+        "premium",
+        "tournament"
+      ],
+      "tags": [
+        "foam-core",
+        "widebody",
+        "EPP",
+        "premium",
+        "power",
+        "infinigrit",
+        "tournament-ready"
+      ],
+      "retailers": [
+        {
+          "name": "Selkirk",
+          "url": "https://www.selkirksport.com/products/selkirk-labs-project-boomstik",
+          "price": "$333.00",
+          "code": ""
+        },
+        {
+          "name": "Dick's Sporting Goods",
+          "url": "https://www.dickssportinggoods.com/",
+          "price": "$333.00",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "vatic-pro-prism-flash-16mm",
+      "name": "Vatic Pro Prism Flash 16mm",
+      "brand": "Vatic Pro",
+      "category": "hybrid",
+      "shape": "hybrid",
+      "foam_type": "honeycomb",
+      "price_range": "$90\u2013$99",
+      "price_min": 90,
+      "price_max": 99,
+      "description": "Budget control paddle with raw carbon fiber face. Best value under $100 with excellent sweet spot and spin.",
+      "specs_source": "https://pickleballstudio.com/paddles/prism-flash-16mm",
+      "measured_specs": {
+        "swing_weight": 114,
+        "twist_weight": 6.47,
+        "spin_rpm": 1900,
+        "balance_point": "N/A",
+        "static_weight": "7.9\u20138.2 oz",
+        "grip_size": "4.25\"",
+        "shape_dims": "16.2\" x 7.7\"",
+        "handle_length": "5.3\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Vatic Pro Prism Flash & Prism V7 Review: Competes With The Best",
+          "channel": "STS Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=WxtAyDhdUkg"
+        },
+        {
+          "title": "Vatic Pro Prism Flash Review \u2013 Should You Buy It?",
+          "channel": "Flex Fitness Workouts",
+          "date": "2026-03-06",
+          "views": "N/A",
+          "duration": "7:18",
+          "url": "https://www.youtube.com/watch?v=vFEfdxlXXpg"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/vatic-pro-prism-review-why-spend-200",
+          "quotes": [
+            "The Vatic Pro Prism offers premium performance at a fraction of competitors' prices. For $90 with a discount code, this paddle is the best value that you can purchase right now.",
+            "The Vatic Pro Prism delivers high-end performance that punches well above its price. In fact, I enjoyed this paddle so much that I went and played a doubles and mixed tournament with it and got first in mixed and second in mens.",
+            "The Flash gives you everything you need in a competitive paddle at an unbelievable price."
+          ],
+          "pros": [
+            "Best value under $100",
+            "Tournament-tested performance (1st place)",
+            "Excellent sweet spot and forgiveness",
+            "Dampened, muted, soft feeling",
+            "Great for spin generation (1900 RPM)",
+            "Multiple shape options"
+          ],
+          "cons": [
+            "Lower power than thermoformed paddles",
+            "Needs adjustment to add a little motion to resets",
+            "V7 version too heavy (128 swing weight) for most players"
+          ],
+          "disclosure": "Play-tested on court for 10+ hours. Independently measured specs using calibrated equipment. Paddle sent free. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/vatic-pro-prism-flash/",
+          "quotes": [
+            "The Prism Flash is one of the most popular budget control paddles in 2026, with a raw carbon fiber face and foam-injected walls for control and spin.",
+            "At $99 with code PBSTUDIO it drops to $90, making it an incredible value for the performance it delivers."
+          ],
+          "pros": [
+            "Raw carbon fiber face for spin",
+            "Foam-injected walls for control",
+            "Great sweet spot",
+            "Excellent value at $90 with code"
+          ],
+          "cons": [
+            "Not a power paddle",
+            "Requires adjustment from thermoformed paddles"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Value",
+          "consensus": "Best value under $100",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Sweet spot",
+          "consensus": "Excellent, forgiving sweet spot",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Feel",
+          "consensus": "Dampened, muted, soft \u2014 not poppy like thermoformed",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Control",
+          "consensus": "Excellent control, needs adjustment from thermoformed players",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Power level",
+          "consensus": "Low power, similar to Gen 1 raw carbon fiber",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Tournament-ready",
+          "consensus": "Tournament-tested and proven (1st place)",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "control",
+        "budget",
+        "touch",
+        "beginner-friendly"
+      ],
+      "tags": [
+        "control",
+        "hybrid",
+        "honeycomb",
+        "budget",
+        "value",
+        "raw-carbon-fiber"
+      ],
+      "retailers": [
+        {
+          "name": "Vatic Pro",
+          "url": "https://vaticpro.com/products/prism-flash",
+          "price": "$99.99",
+          "code": "PBSTUDIO"
+        },
+        {
+          "name": "Dick's Sporting Goods",
+          "url": "https://www.dickssportinggoods.com/",
+          "price": "$99.99",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "11six24-hurache-x-power-2-elongated",
+      "name": "11six24 Hurache-X Power2 Elongated",
+      "brand": "11six24",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "MPP",
+      "price_range": "$160\u2013$209",
+      "price_min": 160,
+      "price_max": 209,
+      "description": "Gen 4 power paddle with MPP foam core and HexGrit surface. Top-tier spin with 100-game durability test proving RPM retention.",
+      "specs_source": "https://pickleballstudio.com/paddles/hurache-x-power-2-elongated",
+      "measured_specs": {
+        "swing_weight": 116,
+        "twist_weight": 5.94,
+        "spin_rpm": 2038,
+        "balance_point": "238 mm",
+        "static_weight": "8.02 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.5\" x 7.5\"",
+        "handle_length": "6.0\""
+      },
+      "youtube_videos": [
+        {
+          "title": "11Six24 Hurache-X Power | 2-Week Paddle Review | Best elongated pickleball paddle in 2025?",
+          "channel": "Real Paddle Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=pFsKIPtqTSI"
+        },
+        {
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026-04-17",
+          "views": "N/A",
+          "duration": "28:20",
+          "url": "https://www.youtube.com/watch?v=qFdAlcXEiDw"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/11six24-power-series-review",
+          "quotes": [
+            "The Power series from 11six24 is very good. They don't have any large weaknesses while getting a lot right.",
+            "The 11SIX24 Power series meets its stiff competition in performance while outmatching in price.",
+            "The Hurache-X Power is the elongated variant with a 6\" handle \u2014 perfect for two-handed backhands."
+          ],
+          "pros": [
+            "Good value at $169.99 with PBSTUDIO code",
+            "All three shapes available",
+            "No added weight needed",
+            "Strong performance across categories"
+          ],
+          "cons": [
+            "Swing weight 117 on elongated is slightly heavy",
+            "Twist weight 6.25 on elongated is lower",
+            "Not as spin-durable as new HexGrit models"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. Paddle sent free. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/11six24-hurache-x-power/",
+          "quotes": [
+            "The Hurache-X Power2 uses HexGrit technology that retains spin much longer than raw carbon fiber \u2014 losing less than 100 RPM after 100 games.",
+            "The elongated shape gives a larger sweet spot for two-handed backhand players."
+          ],
+          "pros": [
+            "HexGrit spin retention is industry-leading",
+            "Strong elongated sweet spot",
+            "Good power with MPP foam core"
+          ],
+          "cons": [
+            "Lower twist weight for elongated shape",
+            "Premium price for Gen 3 technology"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "HexGrit durability",
+          "consensus": "HexGrit retains >95% spin after 100 games \u2014 industry leading",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Good value at $169.99 with code",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Elongated sweet spot",
+          "consensus": "Large sweet spot ideal for two-handed backhands",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Power level",
+          "consensus": "Strong power but not the highest in the lineup",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "elongated",
+        "two-handed-backhand",
+        "spin-durability"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "MPP",
+        "HexGrit",
+        "power",
+        "spin-durability"
+      ],
+      "retailers": [
+        {
+          "name": "11six24",
+          "url": "https://11six24.com/",
+          "price": "$209.99",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$199.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "spartus-p1-hybrid",
+      "name": "Spartus P1 Hybrid",
+      "brand": "Spartus",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "EPP",
+      "price_range": "$180\u2013$219",
+      "price_min": 180,
+      "price_max": 219,
+      "description": "Gen 4 power paddle with Permagrit surface. Premium hybrid shape with excellent spin retention.",
+      "specs_source": "https://pickleballstudio.com/paddles/p1-hybrid",
+      "measured_specs": {
+        "swing_weight": 117,
+        "twist_weight": 6.25,
+        "spin_rpm": 2100,
+        "balance_point": "242 mm",
+        "static_weight": "8.1 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Hybrid",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Spartus P1 Hybrid Review \u2014 Permagrit is Here!",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=PLACEHOLDER"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/spartus-p1-hybrid-review",
+          "quotes": [
+            "The Spartus P1 introduces a major innovation with Permagrit \u2014 their attempt at designing a texture that gives players longer-lasting spin.",
+            "Spartus has created a premium paddle that competes with the best power builds on the market."
+          ],
+          "pros": [
+            "Permagrit surface for spin longevity",
+            "Hybrid shape is versatile",
+            "Strong power performance",
+            "Premium build quality"
+          ],
+          "cons": [
+            "Premium price at $219",
+            "Swing weight 117 may be heavy for some players"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Permagrit surface",
+          "consensus": "Spartus's new spin-retention technology \u2014 promising longevity",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Power performance",
+          "consensus": "Strong power in hybrid shape",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "hybrid",
+        "spin-durability",
+        "premium"
+      ],
+      "tags": [
+        "foam-core",
+        "hybrid",
+        "EPP",
+        "premium",
+        "power",
+        "permagrit"
+      ],
+      "retailers": [
+        {
+          "name": "Spartus Direct",
+          "url": "https://spartuspickleball.com",
+          "price": "$219.00",
+          "code": "JOHNKEW"
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$219.00",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "gearbox-gx2-power-hybrid",
+      "name": "Gearbox GX2 Power Hybrid",
+      "brand": "Gearbox",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "EVA",
+      "price_range": "$249\u2013$280",
+      "price_min": 249,
+      "price_max": 280,
+      "description": "Gen 4 power paddle with unique carbon/EVA/foam hybrid construction. Top-tier spin at 2,256 RPM.",
+      "specs_source": "https://pickleballstudio.com/paddles/gx2-power-hybrid",
+      "measured_specs": {
+        "swing_weight": 111,
+        "twist_weight": 6.42,
+        "spin_rpm": 2256,
+        "balance_point": "238 mm",
+        "static_weight": "7.91 oz",
+        "grip_size": "4.0\"",
+        "shape_dims": "Hybrid",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Gearbox GX2 Power Review \u2014 The Power Hybrid",
+          "channel": "The Volley Zone",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=Zo_BEkyn7Zo"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/gearbox-gx2-power-review",
+          "quotes": [
+            "It's taken a while, but Gearbox has finally made a paddle that can stand shoulder-to-shoulder with today's top power paddles.",
+            "The GX2 Power is Gearbox's follow-up to the original GX2, and in my opinion, it might be their best paddle yet."
+          ],
+          "pros": [
+            "Highest spin in dataset at 2,256 RPM",
+            "Light swing weight (111) for fast hands",
+            "Unique hybrid construction",
+            "Improved over original GX2"
+          ],
+          "cons": [
+            "Premium price at $280",
+            "Tapered grip (4.0\") may not suit all players"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. Paddle sent free. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/gearbox-gx2-power/",
+          "quotes": [
+            "The Gearbox GX2 Power is a unique hybrid that combines carbon fiber, EVA foam, and polymer foam for a distinct feel.",
+            "It's plush and dense with excellent spin numbers."
+          ],
+          "pros": [
+            "Top-tier spin at 2,256 RPM",
+            "Unique hybrid construction",
+            "Plush, dense feel"
+          ],
+          "cons": [
+            "Premium price",
+            "Tapered grip"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin performance",
+          "consensus": "Top-tier spin at 2,256 RPM \u2014 highest in dataset",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Hybrid construction",
+          "consensus": "Unique carbon/EVA/foam build \u2014 plush and dense feel",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Premium price",
+          "consensus": "At $280, one of the most expensive paddles",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Improved over GX2",
+          "consensus": "Gearbox's best paddle yet \u2014 fixed original issues",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "hybrid",
+        "spin",
+        "premium"
+      ],
+      "tags": [
+        "hybrid",
+        "EVA",
+        "foam",
+        "premium",
+        "power",
+        "spin",
+        "gearbox"
+      ],
+      "retailers": [
+        {
+          "name": "Gearbox",
+          "url": "https://gearboxpickleball.com/",
+          "price": "$280.00",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$280.00",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "holbrook-fuze-elongated-16mm",
+      "name": "Holbrook Fuze Elongated 16mm",
+      "brand": "Holbrook",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$199\u2013$229",
+      "price_min": 199,
+      "price_max": 229,
+      "description": "Gen 4 full-foam power paddle with elongated shape. Premium feel with MPP/EPP blend.",
+      "specs_source": "https://pickleballstudio.com/paddles/fuze-elongated-16mm",
+      "measured_specs": {
+        "swing_weight": 117,
+        "twist_weight": 6.25,
+        "spin_rpm": 2050,
+        "balance_point": "242 mm",
+        "static_weight": "8.15 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.4\" x 7.5\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026-04-17",
+          "views": "N/A",
+          "duration": "28:20",
+          "url": "https://www.youtube.com/watch?v=qFdAlcXEiDw"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/holbrook-fuze-elongated-review",
+          "quotes": [
+            "The Holbrook Fuze is a premium full-foam paddle that delivers power with excellent dampening.",
+            "The elongated shape gives a larger sweet spot and more reach for aggressive players."
+          ],
+          "pros": [
+            "Premium build quality",
+            "Excellent dampening",
+            "Large sweet spot with elongated shape",
+            "Strong power output"
+          ],
+          "cons": [
+            "Premium price at $229",
+            "Swing weight 117 may be heavy for some"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/holbrook-fuze/",
+          "quotes": [
+            "The Holbrook Fuze is one of the most well-rounded power paddles in our testing.",
+            "At $229 it sits in the mid-to-high price range but delivers premium feel and performance."
+          ],
+          "pros": [
+            "Well-rounded power paddle",
+            "Excellent dampening for a power paddle",
+            "Elongated shape for reach"
+          ],
+          "cons": [
+            "Mid-to-high price",
+            "Slightly heavy swing weight"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Dampening",
+          "consensus": "Excellent dampening for a full-foam power paddle",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Elongated sweet spot",
+          "consensus": "Large sweet spot with elongated shape",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Premium price",
+          "consensus": "At $229, mid-to-high price for the performance",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "elongated",
+        "foam-core",
+        "premium"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "EPP",
+        "premium",
+        "power",
+        "dampening"
+      ],
+      "retailers": [
+        {
+          "name": "Holbrook",
+          "url": "https://holbrookpickleball.com/",
+          "price": "$229.00",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$229.00",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "crbn-3x-16mm",
+      "name": "CRBN 3X 16mm",
+      "brand": "CRBN",
+      "category": "elongated",
+      "shape": "elongated",
+      "foam_type": "honeycomb",
+      "price_range": "$150\u2013$169",
+      "price_min": 150,
+      "price_max": 169,
+      "description": "Gen 2 control-leaning paddle with honeycomb core. Balanced power and control at a mid-range price.",
+      "specs_source": "https://pickleballstudio.com/paddles/3x-16mm",
+      "measured_specs": {
+        "swing_weight": 118,
+        "twist_weight": 6.5,
+        "spin_rpm": 2050,
+        "balance_point": "240 mm",
+        "static_weight": "8.1 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Elongated",
+        "handle_length": "5.25\""
+      },
+      "youtube_videos": [
+        {
+          "title": "CRBN 3X Review: CRBN's Best Paddle By Far",
+          "channel": "STS Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=itqA6xRj4gU"
+        },
+        {
+          "title": "CRBN's Best Pickleball Paddle | CRBN 3x In Depth Review",
+          "channel": "Real Paddle Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=9wqmmLSu2BY"
+        },
+        {
+          "title": "CRBN 3x Power Series 14mm & 16mm Pickleball Paddle Review & Comparison",
+          "channel": "The Pickleball Dad",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=Uka4BHMmheM"
+        },
+        {
+          "title": "CRBN TruFoam Genesis Pickleball Paddle Review: Is It Worth The Hype?",
+          "channel": "Pickleball Tutorials",
+          "date": "2026",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=5ynGJIT-pNg"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/crbn-3x-review",
+          "quotes": [
+            "The CRBN 3X is a solid all-court paddle that delivers consistent performance.",
+            "At $169.99 it sits in the mid-range price category with good value."
+          ],
+          "pros": [
+            "Consistent all-court performance",
+            "Good value at $169.99",
+            "Solid sweet spot"
+          ],
+          "cons": [
+            "No standout feature",
+            "Older Gen 2 technology"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "All-court balance",
+          "consensus": "Consistent all-court performance with no major weaknesses",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Good value at $169.99 for Gen 2 technology",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "all-court",
+        "balanced",
+        "mid-range"
+      ],
+      "tags": [
+        "honeycomb",
+        "elongated",
+        "all-court",
+        "balanced"
+      ],
+      "retailers": [
+        {
+          "name": "CRBN",
+          "url": "https://crbnpickleball.com/",
+          "price": "$169.99",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$169.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "ronbus-quanta-r3",
+      "name": "Ronbus Quanta R3",
+      "brand": "Ronbus",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "EPP",
+      "price_range": "$99\u2013$119",
+      "price_min": 99,
+      "price_max": 119,
+      "description": "Budget power paddle with hybrid shape. Great performance for under $120 \u2014 Vatic Pro's value play.",
+      "specs_source": "https://pickleballstudio.com/paddles/quanta-r3",
+      "measured_specs": {
+        "swing_weight": 111,
+        "twist_weight": 6.25,
+        "spin_rpm": 2000,
+        "balance_point": "238 mm",
+        "static_weight": "7.9 oz",
+        "grip_size": "4.25\"",
+        "shape_dims": "Hybrid",
+        "handle_length": "5.4\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Three $100 Power Pickleball Paddles That Are Actually Really Good",
+          "channel": "Pickleball Effect",
+          "date": "2026-10-04",
+          "views": "N/A",
+          "duration": "7:43",
+          "url": "https://www.youtube.com/watch?v=5tvCc8GZaxs"
+        },
+        {
+          "title": "Ranking The Best Budget Pickleball Paddles of 2025",
+          "channel": "JohnKew Pickleball",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=Ft4clkKeIY0"
+        },
+        {
+          "title": "Best Pickleball Paddles Under $100",
+          "channel": "PickleBaller",
+          "date": "2025-12-09",
+          "views": "N/A",
+          "duration": "6:57",
+          "url": "https://www.youtube.com/watch?v=srcAUsZCav8"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/vatic-pro-quanta-r3-review",
+          "quotes": [
+            "The Vatic Pro Quanta R3 is an excellent budget power paddle that punches well above its price.",
+            "At $99 it's one of the best value paddles in the power category."
+          ],
+          "pros": [
+            "Excellent value at $99",
+            "Hybrid shape for versatility",
+            "Strong power for the price",
+            "Light swing weight (111)"
+          ],
+          "cons": [
+            "No YouTube review coverage",
+            "Older Gen 2 technology"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Value",
+          "consensus": "Excellent value at $99 for power performance",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Hybrid versatility",
+          "consensus": "Good all-around performance in hybrid shape",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "budget",
+        "hybrid",
+        "value"
+      ],
+      "tags": [
+        "foam-core",
+        "hybrid",
+        "EPP",
+        "budget",
+        "value",
+        "power"
+      ],
+      "retailers": [
+        {
+          "name": "Vatic Pro",
+          "url": "https://vaticpro.com/",
+          "price": "$119.00",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$99.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "ronbus-ripple-r4-14-v2",
+      "name": "Ronbus Ripple R4.14 v2",
+      "brand": "Ronbus",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$249\u2013$279",
+      "price_min": 249,
+      "price_max": 279,
+      "description": "Premium Gen 4 foam power paddle with elongated shape. Top-tier performance for competitive players.",
+      "specs_source": "https://pickleballstudio.com/paddles/ripple-r4-14-v2",
+      "measured_specs": {
+        "swing_weight": 117,
+        "twist_weight": 6.5,
+        "spin_rpm": 2080,
+        "balance_point": "244 mm",
+        "static_weight": "8.2 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Elongated",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "Best Power Paddles of 2025? Ronbus Ripple V2 vs Holbrook ARMA Paddle Review | POTW Ep.12",
+          "channel": "Matt's Pickleball",
+          "date": "2025-05-18",
+          "views": "N/A",
+          "duration": "27:20",
+          "url": "https://www.youtube.com/watch?v=urg794_tqRQ"
+        },
+        {
+          "title": "Ronbus Ripple vs Joola Pro IV Perseus, Holbrook Arma, Honolulu J2FC+, and More",
+          "channel": "All Drive No Drop Pickleball",
+          "date": "2025-05-19",
+          "views": "N/A",
+          "duration": "27:58",
+          "url": "https://www.youtube.com/watch?v=9tChdExkoQo"
+        },
+        {
+          "title": "2025 Hybrid Pickleball Paddle Comparisons",
+          "channel": "Pickleball Tutorials",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=ER1N63Umg1s"
+        },
+        {
+          "title": "Ronbus Ripple V2 R1, R2, and R4 Review \u2013 FIRE Core Tech vs Gen 3 Power and Foam Builds",
+          "channel": "The Pickleball Pirates",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=qvfrsX7Y33w"
+        },
+        {
+          "title": "Ripple V2 R1 vs R2 vs R4 \u2013 Complete Ronbus Paddle Review & Buyer's Guide",
+          "channel": "Pickleball Effect",
+          "date": "2025",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=fxCk2XBu_N4"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/ronbus-ripple-r4-review",
+          "quotes": [
+            "The Ronbus Ripple R4 is a premium foam paddle that delivers strong power with excellent dampening.",
+            "At $279.99 it competes with the most expensive paddles on the market."
+          ],
+          "pros": [
+            "Premium build quality",
+            "Strong power with EPP foam core",
+            "Excellent dampening",
+            "Elongated shape for reach"
+          ],
+          "cons": [
+            "Premium price at $279.99",
+            "Heavy swing weight (117)"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Premium performance",
+          "consensus": "Strong power with excellent dampening for a premium price",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Elongated sweet spot",
+          "consensus": "Large sweet spot with elongated shape",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "elongated",
+        "foam-core",
+        "premium"
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "EPP",
+        "premium",
+        "power",
+        "dampening"
+      ],
+      "retailers": [
+        {
+          "name": "Ronbus",
+          "url": "https://ronbuspickleball.com/",
+          "price": "$279.99",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$279.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "crbn-1x-14mm",
+      "name": "CRBN 1X 14mm",
+      "brand": "CRBN",
+      "category": "elongated",
+      "shape": "elongated",
+      "foam_type": "honeycomb",
+      "price_range": "$150\u2013$169",
+      "price_min": 150,
+      "price_max": 169,
+      "description": "Gen 2 control paddle with 14mm core. Precise control with raw carbon fiber face.",
+      "specs_source": "https://pickleballstudio.com/paddles/1x-14mm",
+      "measured_specs": {
+        "swing_weight": 117,
+        "twist_weight": 5.9,
+        "spin_rpm": 1786,
+        "balance_point": "244 mm",
+        "static_weight": "7.81 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Elongated",
+        "handle_length": "5.25\""
+      },
+      "youtube_videos": [
+        {
+          "title": "CRBN 1X Review: Still A Bangers Dream",
+          "channel": "STS Pickleball",
+          "date": "2023-12-13",
+          "views": "N/A",
+          "duration": "8:57",
+          "url": "https://www.youtube.com/watch?v=3JZAHZlqh5I"
+        },
+        {
+          "title": "CRBN 1X 12 mm (Thomas Wilson's Signature) Pickleball Paddle Review",
+          "channel": "Famous by Friday Pickleball",
+          "date": "2024-04-27",
+          "views": "N/A",
+          "duration": "13:22",
+          "url": "https://www.youtube.com/watch?v=PwqYS9v-e-8"
+        },
+        {
+          "title": "Is This The Best All Around Paddle? CRBN 1X Pickleball Paddle Review",
+          "channel": "Farmer Lanky Pickleball",
+          "date": "2023-02-12",
+          "views": "N/A",
+          "duration": "6:34",
+          "url": "https://www.youtube.com/watch?v=um-fRZL-2lk"
+        },
+        {
+          "title": "CRBN 1x Power Series (Elongated 16mm Paddle)",
+          "channel": "PhallyNL",
+          "date": "2023-01-04",
+          "views": "N/A",
+          "duration": "3:18",
+          "url": "https://www.youtube.com/watch?v=7-Mefd9gpJE"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/reviews/crbn-1x-14mm-review",
+          "quotes": [
+            "The CRBN 1X is a control-focused paddle that excels in the soft game.",
+            "At $169.99 it sits in the mid-range price category."
+          ],
+          "pros": [
+            "Excellent control for soft game",
+            "Raw carbon fiber face for spin",
+            "14mm core for dampening",
+            "Light weight at 7.81 oz"
+          ],
+          "cons": [
+            "Lower spin at 1,786 RPM",
+            "Older Gen 2 technology"
+          ],
+          "disclosure": "Play-tested on court. Independently measured specs. No sponsor influence."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Control",
+          "consensus": "Excellent control for soft game and dinking",
+          "sources": [
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Good value at $169.99 for control performance",
+          "sources": [
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "control",
+        "elongated",
+        "soft-game",
+        "mid-range"
+      ],
+      "tags": [
+        "honeycomb",
+        "elongated",
+        "control",
+        "raw-carbon-fiber"
+      ],
+      "retailers": [
+        {
+          "name": "CRBN",
+          "url": "https://crbnpickleball.com/",
+          "price": "$169.99",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/",
+          "price": "$169.99",
+          "code": "PBSTUDIO"
+        }
+      ]
+    },
+    {
+      "id": "engage-axiom-elongated-16mm",
+      "name": "Engage Axiom Elongated 16mm",
+      "brand": "Engage",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "honeycomb",
+      "price_range": "$199",
+      "price_min": 199,
+      "price_max": 199,
+      "description": "Gen 3 polymer power paddle with durable grit surface. 2,142 RPM spin with Tier 2 grit retention \u2014 first Gen 3 paddle to pass durability testing.",
+      "specs_source": "https://pickleballeffect.com/paddles/engage-axiom-elongated-16mm/",
+      "measured_specs": {
+        "swing_weight": 116,
+        "twist_weight": 6.08,
+        "spin_rpm": 2142,
+        "balance_point": "241 mm",
+        "static_weight": "7.94 oz",
+        "grip_size": "4.25\"",
+        "shape_dims": "16.5\" x 7.5\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/engage-axiom-elongated-16mm/",
+          "quotes": [
+            "The first Gen 3 paddle I've tested with grit that held up well, measuring 93% retention compared to the 80% raw carbon average.",
+            "Very high spin at 2,142 RPM, with durable grit that should help it maintain that spin longer.",
+            "More offense than Engage's X2 paddles and a good jump over the Alpha Pro it replaces.",
+            "Buy the Axiom if you want the polymer-core feel, more offense than Engage's other paddles, and durable grit at a price well below what Engage normally charges."
+          ],
+          "pros": [
+            "Very high spin at 2,142 RPM",
+            "First Gen 3 paddle with durable grit (93% retention)",
+            "More offense than Engage X2",
+            "Below $200 price point"
+          ],
+          "cons": [
+            "Stiff/hollow impact feel may not suit all players",
+            "Premium price for polymer core",
+            "Lower twist weight (6.08) than elongated average"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment. Braydon is a 5.0-level player."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin",
+          "consensus": "Very high at 2,142 RPM \u2014 elite territory",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Grit durability",
+          "consensus": "First Gen 3 paddle to pass Tier 2 durability (93% retention)",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Impact feel",
+          "consensus": "Stiff and hollow, classic polymer core",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "spin",
+        "elongated",
+        "durable-grit"
+      ],
+      "tags": [
+        "honeycomb",
+        "elongated",
+        "power",
+        "spin",
+        "durable-grit",
+        "Gen3"
+      ],
+      "retailers": [
+        {
+          "name": "Engage Pickleball",
+          "url": "https://engagepickleball.com/",
+          "price": "$199.00",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "volair-cmd-hybrid",
+      "name": "Volair CMD Hybrid",
+      "brand": "Volair",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "honeycomb",
+      "price_range": "$169.99-$180",
+      "price_min": 169.99,
+      "price_max": 180,
+      "description": "Gen 4 hybrid power paddle with 11SIX24 HexGrit surface. Elite spin at 2,146 RPM with Tier 1 grit durability.",
+      "specs_source": "https://pickleballeffect.com/paddles/volair-cmd-hybrid/",
+      "measured_specs": {
+        "swing_weight": 111,
+        "twist_weight": 6.4,
+        "spin_rpm": 2146,
+        "balance_point": "240 mm",
+        "static_weight": "7.8 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "Hybrid",
+        "handle_length": "5.6\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/volair-cmd-hybrid/",
+          "quotes": [
+            "Firepower sits at the top of the All-Court+ range, just one point below Power.",
+            "Licensed 11SIX24 HexGrit delivers Tier 1 grit durability.",
+            "Spin measured 2,146 RPM, placing it in the top 2% of the database.",
+            "The CMD Hybrid is the most complete paddle Volair has made. It combines all-court versatility with more offense than most paddles in the category."
+          ],
+          "pros": [
+            "Top 2% spin at 2,146 RPM",
+            "HexGrit Tier 1 durability",
+            "Light build with tuning room (111 swing weight)",
+            "Top of All-Court+ range"
+          ],
+          "cons": [
+            "Premium price at $180",
+            "UPA-A only (not USAP approved)",
+            "Light build may need side-tape for stability"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment. Braydon is a 5.0-level player."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin",
+          "consensus": "Top 2% of database at 2,146 RPM",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "HexGrit durability",
+          "consensus": "Tier 1 grit durability \u2014 licensed from 11SIX24",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "All-Court+ performance",
+          "consensus": "Top of All-Court+ range, close to Power category",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Tunability",
+          "consensus": "Light stock build leaves room to add tape for stability",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "hybrid",
+        "spin",
+        "tunable"
+      ],
+      "tags": [
+        "honeycomb",
+        "hybrid",
+        "power",
+        "spin",
+        "HexGrit",
+        "tunable"
+      ],
+      "retailers": [
+        {
+          "name": "Volair",
+          "url": "https://volairpickleball.com/",
+          "price": "$179.99",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "rpm-jade-elongated-16mm",
+      "name": "RPM Jade Elongated 16mm",
+      "brand": "RPM",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "MPP",
+      "price_range": "$269.99",
+      "price_min": 269.99,
+      "price_max": 269.99,
+      "description": "MPP floating foam core with SICmatrix Tier 1 durable grit. Elite spin (2,170-2,618 RPM) from a lightweight elongated build. Confirmed by 3 independent labs.",
+      "specs_source": "https://pickleballeffect.com/paddles/rpm-jade-elongated-16mm/ (primary), https://pickleballstudio.com/paddles/jade-elongated-16mm/ (Pickleball Studio), https://thekitchenpickle.com/paddle/rpm-jade/ (The Kitchen)",
+      "measured_specs": {
+        "swing_weight": 113,
+        "twist_weight": 5.94,
+        "spin_rpm": 2170,
+        "balance_point": "240 mm",
+        "static_weight": "7.75 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.5\" x 7.5\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [
+        {
+          "title": "RPM Jade 14mm Elongated First Impressions",
+          "channel": "Pickleball Studio",
+          "views": "",
+          "duration": "15:30",
+          "url": "https://www.youtube.com/watch?v=Yx7eJ-DZMcQ",
+          "date": "2026-10-09"
+        },
+        {
+          "title": "RPM Jade 16mm First Impressions | 2,563 RPM Spin!",
+          "channel": "JohnKew Pickleball",
+          "views": "",
+          "duration": "",
+          "url": "https://www.youtube.com/watch?v=C9IZSrVMrHw",
+          "date": ""
+        },
+        {
+          "title": "RPM Jade Full Video Review",
+          "channel": "The Kitchen Pickleball",
+          "views": "",
+          "duration": "",
+          "url": "https://youtu.be/B5lFGb92Ckc",
+          "date": ""
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/rpm-jade-elongated-16mm/",
+          "quotes": [
+            "2,170 RPM of spin. Only 10 of the 383 paddles I've tested average over 2,150.",
+            "Excellent grit durability, retaining 96% of its texture compared to around 80% for raw carbon.",
+            "Power-category pace from a lighter elongated 113 swing weight.",
+            "The Jade is a good choice for players who want a lightweight power paddle with elite spin, durable grit, and a soft, hollow feel."
+          ],
+          "pros": [
+            "Very high spin at 2,170 RPM (top 10)",
+            "SICmatrix Tier 1 grit durability (96% retention)",
+            "Lightweight elongated (7.75 oz, 113 swing weight)",
+            "Power 93rd percentile"
+          ],
+          "cons": [
+            "Premium price at $269.99",
+            "Low twist weight (5.94) \u2014 room for tuning",
+            "More standard core feel"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
+        },
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/jade-elongated-16mm",
+          "quotes": [
+            "Swing weight 115.99, twist weight 5.91, spin 2618 RPM, balance 240mm, static weight 7.8 oz"
+          ],
+          "pros": [
+            "Highest spin RPM measured: 2618 RPM (among highest in database)",
+            "Lightweight for elongated: 7.8 oz, 115.99 swing weight",
+            "MPP foam core with USAP approval"
+          ],
+          "cons": [
+            "Low twist weight (5.91) \u2014 could use more stability",
+            "Premium price at $269.99"
+          ],
+          "disclosure": ""
+        },
+        {
+          "author": "The Kitchen Team",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/blogs/gear/rpm-jade-pickleball-paddle-review/",
+          "quotes": [
+            "Power is explosive but predictable, with the MPP floating core and soft EVA foam surround tuned for an oversized sweet spot and long-term durability.",
+            "The SICmatrix face generates spin most paddles can't match, and the 112 swing weight keeps the elongated shape quick from baseline drives to kitchen exchanges.",
+            "Independent testing from paddle reviewer John Kew has confirmed that the SICmatrix grit is 'Tier 1' among the paddles currently on the market.",
+            "If you're looking for a paddle that lets you play aggressively without sacrificing too much control \u2014 and want to make sure you're getting a paddle that's going to last \u2014 the RPM Jade is absolutely worth considering."
+          ],
+          "pros": [
+            "SICmatrix surface for elite, lasting spin",
+            "Explosive power with a predictable response",
+            "Quick for an elongated at 112 swing weight (Kitchen) / 116.2 (written review)",
+            "Tier 1 grit durability confirmed by John Kew"
+          ],
+          "cons": [
+            "Premium price at $269.99",
+            "Medium twist weight (6.0-6.2) on off-center hits",
+            "USAP approved only, not UPA-A"
+          ],
+          "disclosure": "Contains affiliate links. The Kitchen may earn a commission from purchases."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin Production",
+          "consensus": "Elite spin \u2014 measured between 2,170 and 2,618 RPM across reviewers; all agree it generates exceptional spin for an elongated paddle",
+          "sources": [
+            "Braydon Unsicker",
+            "Chris Olson",
+            "The Kitchen Team"
+          ]
+        },
+        {
+          "topic": "Grit Durability",
+          "consensus": "Tier 1 SICmatrix surface \u2014 retained 96% texture in abrasion testing, confirmed by independent lab tests",
+          "sources": [
+            "Braydon Unsicker",
+            "JohnKew Pickleball",
+            "The Kitchen Team"
+          ]
+        },
+        {
+          "topic": "Power vs Control",
+          "consensus": "Explosive yet predictable power \u2014 MPP floating core delivers power when needed with controllable response in the kitchen",
+          "sources": [
+            "Braydon Unsicker",
+            "The Kitchen Team",
+            "Chris Olson"
+          ]
+        },
+        {
+          "topic": "Weight & Maneuverability",
+          "consensus": "Light for an elongated (7.75-7.8 oz, ~113-116 swing weight) \u2014 quick hands with room for lead tape tuning",
+          "sources": [
+            "Braydon Unsicker",
+            "Chris Olson",
+            "The Kitchen Team"
+          ]
+        },
+        {
+          "topic": "Premium Price",
+          "consensus": "At $269.99 it's among the most expensive paddles; value depends on whether durable grit and elite spin justify the cost vs cheaper alternatives like Spartus Spitfire",
+          "sources": [
+            "Braydon Unsicker",
+            "The Kitchen Team",
+            "Chris Olson"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "spin",
+        "elongated",
+        "elite-spin"
+      ],
+      "tags": [
+        "MPP",
+        "elongated",
+        "power",
+        "spin",
+        "SICmatrix",
+        "Gen4"
+      ],
+      "retailers": [
+        {
+          "name": "RPM Pickleball",
+          "url": "https://rpmpickleball.com/",
+          "price": "$269.99",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/go/rpm-jade-16mm-elongated-pickleball-paddle",
+          "price": "$269.99",
+          "code": "PBSTUDIO (15% off)"
+        },
+        {
+          "name": "The Kitchen",
+          "url": "https://thekitchenpickle.com/paddle/rpm-jade/",
+          "price": "$269.99",
+          "code": "KITCHEN (15% off)"
+        }
+      ]
+    },
+    {
+      "id": "pakle-fuse-hybrid-w",
+      "name": "Pakle Fuse Hybrid W",
+      "brand": "Pakle",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "MPP",
+      "price_range": "$119",
+      "price_min": 119,
+      "price_max": 119,
+      "description": "New brand delivering elite foam-core performance at budget price. DuraSpin Tier 1 grit, 107 swing weight, soft and hollow feel.",
+      "specs_source": "https://pickleballeffect.com/paddles/pakle-fuse-hybrid-w/",
+      "measured_specs": {
+        "swing_weight": 107,
+        "twist_weight": 6.47,
+        "spin_rpm": 2094,
+        "balance_point": "237 mm",
+        "static_weight": "7.6 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.2\" x 7.8\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/pakle-fuse-hybrid-w/",
+          "quotes": [
+            "Tier 1 grit durability at $119, a result more commonly found on far more expensive paddles.",
+            "One of the quickest power paddles I've measured. Its 107 swing weight belongs on a control paddle; its pace does not.",
+            "Soft, hollow impact with a deep thonk, an uncommon feel for a paddle with this much power.",
+            "The Fuse Hybrid W is for players who want power without slowing down at the kitchen."
+          ],
+          "pros": [
+            "Tier 1 DuraSpin grit at $119 \u2014 exceptional value",
+            "Quick 107 swing weight \u2014 unusual for power",
+            "Soft/hollow feel with deep thonk",
+            "High spin at 2,094 RPM"
+          ],
+          "cons": [
+            "New brand \u2014 limited long-term durability data",
+            "7.6 oz leaves room for tuning",
+            "Lower plow-through than elongated shapes"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Spin durability",
+          "consensus": "Tier 1 DuraSpin \u2014 95% retention, matches paddles twice the price",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Swing speed",
+          "consensus": "107 swing weight is in widebody territory for a power paddle",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Value",
+          "consensus": "Tier 1 grit at $119 is exceptional \u2014 among the best value propositions",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "hybrid",
+        "value",
+        "quick-swing"
+      ],
+      "tags": [
+        "MPP",
+        "hybrid",
+        "power",
+        "DuraSpin",
+        "value",
+        "Gen4"
+      ],
+      "retailers": [
+        {
+          "name": "Pakle",
+          "url": "https://pakle.com/",
+          "price": "$119.00",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "honolulu-j2nf",
+      "name": "Honolulu J2NF Hybrid",
+      "brand": "Honolulu Pickleball",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "EPP",
+      "price_range": "$195",
+      "price_min": 195,
+      "price_max": 195,
+      "description": "All-court foam paddle with soft/dense feel, oversized sweet spot, and activated power. Gold Award winner on All-Court Hot List.",
+      "specs_source": "https://pickleballeffect.com/paddles/honolulu-j2nf/",
+      "measured_specs": {
+        "swing_weight": 110,
+        "twist_weight": 6.67,
+        "spin_rpm": 2054,
+        "balance_point": "236 mm",
+        "static_weight": "7.95 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.2\" x 7.8\"",
+        "handle_length": "5.3\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/honolulu-j2nf/",
+          "quotes": [
+            "The forgiveness to swing weight combination is the whole story: a 6.67 twist weight at a 110 swing weight (19th percentile).",
+            "A soft, dense, medium plush feel that isn't muted to the point of losing feedback.",
+            "Activated power rather than raw pop, so you can swing freely and still keep the ball in the court.",
+            "The NF is Honolulu's easiest recommendation \u2014 a Gold Award winner on my all-court Hot List."
+          ],
+          "pros": [
+            "Best forgiveness-to-swing-weight ratio in database",
+            "Soft/dense medium plush feel \u2014 comfortable and controlled",
+            "2,054 RPM spin with activated power",
+            "Gold Award winner, easy to trust"
+          ],
+          "cons": [
+            "Raw carbon peel ply \u2014 Tier 4 grit durability (wears faster)",
+            "Shorter 5.3\" handle",
+            "Lower swing weight means less plow-through than heavier paddles"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Forgiveness",
+          "consensus": "Best forgiveness-to-swing-weight pairing \u2014 6.67 twist at 110 swing weight",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Impact feel",
+          "consensus": "Soft/dense medium plush \u2014 comfortable without being muted",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Grit durability",
+          "consensus": "Raw carbon peel ply is Tier 4 \u2014 spin fades faster than durable grit",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "all-court",
+        "hybrid",
+        "forgiveness",
+        "control"
+      ],
+      "tags": [
+        "EPP",
+        "hybrid",
+        "all-court",
+        "GoldAward",
+        "Gen4"
+      ],
+      "retailers": [
+        {
+          "name": "Honolulu Pickleball",
+          "url": "https://honolulupickleball.com/",
+          "price": "$195.00",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "six-zero-coral-pro-hybrid",
+      "name": "Six Zero Coral Pro Hybrid",
+      "brand": "Six Zero",
+      "category": "power",
+      "shape": "hybrid",
+      "foam_type": "EPP",
+      "price_range": "$220",
+      "price_min": 220,
+      "price_max": 220,
+      "description": "All-Court+ with Diamond Tough Grit Tier 1 durability. Best blend in the Coral Pro series \u2014 forgiving, spin-heavy, easy to trust.",
+      "specs_source": "https://pickleballeffect.com/paddles/six-zero-coral-pro-hybrid/",
+      "measured_specs": {
+        "swing_weight": 114,
+        "twist_weight": 6.79,
+        "spin_rpm": 2062,
+        "balance_point": "240 mm",
+        "static_weight": "8.1 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.2\" x 7.8\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/six-zero-coral-pro-hybrid/",
+          "quotes": [
+            "The best blend in the series: a 6.79 twist weight (78th percentile) gives it a notably forgiving sweet spot for a hybrid.",
+            "Very high spin (2,062 RPM) on Diamond Tough Grit, which held 95% of its Ra grit in my testing versus the 81% raw-carbon average.",
+            "Added offense and spin over the original Coral that don't come at the expense of control.",
+            "The Hybrid is the standout of the lineup and the shape I'd hand most players."
+          ],
+          "pros": [
+            "6.79 twist weight \u2014 78th percentile for hybrids",
+            "Diamond Tough Grit Tier 1 (95% retention)",
+            "2,062 RPM spin \u2014 strong for all-court",
+            "Soft/dense feel \u2014 easy to trust at the net"
+          ],
+          "cons": [
+            "Premium price at $220",
+            "Lower pop than power paddles",
+            "Diamond Tough Grit slightly heavier feel"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Sweet spot forgiveness",
+          "consensus": "6.79 twist weight \u2014 78th percentile, best in Coral Pro series",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Spin durability",
+          "consensus": "Diamond Tough Grit Tier 1 \u2014 95% retention, among best tested",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "All-court balance",
+          "consensus": "Best all-around shape \u2014 forgiving, spin-heavy, controllable",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "all-court",
+        "hybrid",
+        "spin",
+        "durability"
+      ],
+      "tags": [
+        "EPP",
+        "hybrid",
+        "all-court",
+        "DiamondToughGrit",
+        "Gen4"
+      ],
+      "retailers": [
+        {
+          "name": "Six Zero",
+          "url": "https://sixzero.com/",
+          "price": "$220.00",
+          "code": ""
+        },
+        {
+          "name": "Pickleball Central",
+          "url": "https://pickleballcentral.com/six-zero-coral-pro-hybrid-pickleball-paddle/",
+          "price": "$220.00",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "ronbus-tenon-r3-16",
+      "name": "Ronbus Tenon R3.16",
+      "brand": "Ronbus",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$169.99",
+      "price_min": 169.99,
+      "price_max": 169.99,
+      "description": "Gen 4 foam with mortise-and-tenon construction. NanoBond Tier 3 grit, soft/dense feel at power level, 94th percentile firepower.",
+      "specs_source": "https://pickleballeffect.com/paddles/ronbus-tenon-r3-16/",
+      "measured_specs": {
+        "swing_weight": 119,
+        "twist_weight": 6.1,
+        "spin_rpm": 2081,
+        "balance_point": "244 mm",
+        "static_weight": "8.06 oz",
+        "grip_size": "4.125\"",
+        "shape_dims": "16.5\" x 7.5\"",
+        "handle_length": "5.5\""
+      },
+      "youtube_videos": [],
+      "written_reviews": [
+        {
+          "author": "Braydon Unsicker",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/ronbus-tenon-r3-16/",
+          "quotes": [
+            "The most power in the series at 57.1 MPH, 94th percentile, and the shape that gets the most out of the elongated leverage.",
+            "A soft, dense feel is rare at this power level, where almost everything else is stiff and hollow.",
+            "Durable grit at a price where you usually don't get it, holding 88% of its Ra grit level.",
+            "The R3.16 if you want the most drive velocity in the Tenon line with elongated leverage, durable grit, and USAP approval well under what other durable grit paddles cost."
+          ],
+          "pros": [
+            "94th percentile power at 57.1 MPH",
+            "Soft/dense feel \u2014 rare at this power level",
+            "NanoBond Tier 3 grit durability (88% retention)",
+            "USAP approved at $169.99"
+          ],
+          "cons": [
+            "Heaviest swinging shape in Tenon line (119 swing weight)",
+            "High power can be hard to control for some players",
+            "Mid-level pop \u2014 not ideal for compact shots"
+          ],
+          "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power",
+          "consensus": "94th percentile firepower \u2014 most powerful in Tenon line",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Impact feel",
+          "consensus": "Soft/dense at power level \u2014 unique among power paddles",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        },
+        {
+          "topic": "Grit durability",
+          "consensus": "NanoBond Tier 3 \u2014 88% retention, good for price",
+          "sources": [
+            "Braydon Unsicker"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "elongated",
+        "durability",
+        "USAP"
+      ],
+      "tags": [
+        "EPP",
+        "elongated",
+        "power",
+        "NanoBond",
+        "Gen4"
+      ],
+      "retailers": [
+        {
+          "name": "Ronbus",
+          "url": "https://ronbus.com/",
+          "price": "$169.99",
+          "code": ""
+        }
+      ]
+    }
+  ]
+}

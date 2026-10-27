@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare pickleball paddles side-by-side. Compare specs, performance, and value.">
+    <title>Compare Pickleball Paddles — Pickleball Review Hub</title>
+    <link rel="canonical" href="https://picklereviewhub.com/pages/compare.html">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .compare-selectors {
+            display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px;
+        }
+        .compare-select {
+            flex: 1; min-width: 200px;
+        }
+        .compare-select select {
+            width: 100%; padding: 10px 12px; background: var(--bg-alt);
+            border: 1px solid var(--border); border-radius: 6px; color: var(--text);
+            font-size: 0.9rem; font-family: 'Inter', sans-serif; cursor: pointer;
+        }
+        .compare-select select:focus {
+            outline: none; border-color: var(--accent);
+        }
+        .compare-select label {
+            display: block; font-size: 0.8rem; color: var(--text-secondary);
+            margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .compare-btn {
+            display: inline-block; padding: 10px 24px; background: var(--accent);
+            color: white; border: none; border-radius: 6px; font-size: 0.9rem;
+            font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif;
+        }
+        .compare-btn:hover { opacity: 0.9; }
+        .compare-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .compare-results { overflow-x: auto; }
+        .compare-table { width: 100%; border-collapse: collapse; min-width: 600px; }
+        .compare-table th, .compare-table td {
+            padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border);
+        }
+        .compare-table th {
+            background: var(--bg-alt); font-weight: 700; font-size: 0.85rem;
+            text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-secondary);
+        }
+        .compare-table th.paddle-header { text-align: center; }
+        .compare-table th.paddle-header .paddle-name {
+            font-size: 0.95rem; color: var(--text); font-weight: 600;
+            text-transform: none; letter-spacing: 0;
+        }
+        .compare-table th.paddle-header .paddle-price {
+            font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;
+        }
+        .compare-table td:first-child { font-weight: 600; color: var(--text-secondary); }
+        .compare-table td.best-value { background: rgba(76, 209, 129, 0.1); font-weight: 700; }
+        .compare-table td.best-value::after { content: ' ✓'; color: var(--green); }
+        .compare-share {
+            margin-top: 16px; padding: 10px 14px; background: var(--bg-alt);
+            border: 1px solid var(--border); border-radius: 6px; font-family: monospace;
+            font-size: 0.8rem; color: var(--accent); word-break: break-all;
+        }
+        .compare-empty { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
+        @media (max-width: 768px) {
+            .compare-selectors { flex-direction: column; }
+            .compare-select { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">&#127936;</span>
+                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+            </a>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">All Paddles</a>
+                <a href="../pages/categories/index.html" class="nav-link">Categories</a>
+                <a href="guides/index.html" class="nav-link">Guides</a>
+                <a href="../pages/best-of/index.html" class="nav-link">Best Of</a>
+                <a href="../reviewers/index.html" class="nav-link">Reviewers</a>
+                <a href="compare.html" class="nav-link active">Compare</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="product-page-header">
+            <div class="container">
+                <h1>Compare Pickleball Paddles</h1>
+                <p>Select 2–4 paddles and compare their specs side-by-side</p>
+            </div>
+        </div>
+        <section class="products-section">
+            <div class="container">
+                <div class="compare-selectors">
+                    <div class="compare-select">
+                        <label for="paddle-1">Paddle 1</label>
+                        <select id="paddle-1"><option value="">Select a paddle...</option></select>
+                    </div>
+                    <div class="compare-select">
+                        <label for="paddle-2">Paddle 2</label>
+                        <select id="paddle-2"><option value="">Select a paddle...</option></select>
+                    </div>
+                    <div class="compare-select">
+                        <label for="paddle-3">Paddle 3</label>
+                        <select id="paddle-3"><option value="">Select a paddle...</option></select>
+                    </div>
+                    <div class="compare-select">
+                        <label for="paddle-4">Paddle 4</label>
+                        <select id="paddle-4"><option value="">Select a paddle...</option></select>
+                    </div>
+                </div>
+                <button id="compare-btn" class="compare-btn">Compare</button>
+                <div id="compare-results">
+                    <div class="compare-empty"><p>Select at least 2 paddles above to compare.</p></div>
+                </div>
+                <div id="compare-share" class="compare-share" style="display:none;">
+                    Share this comparison: <a id="share-link" href="#" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+    <script>
+    (function() {
+        'use strict';
+        // Step 1b: URL state parser
+        function parseURLParams() {
+            var params = new URLSearchParams(window.location.search);
+            var paddlesParam = params.get('paddles');
+            if (!paddlesParam) return [];
+            return paddlesParam.split(',').filter(function(id) { return id.length > 0; });
+        }
+        // Step 1c: paddles.json fetcher
+        var paddleData = null;
+        function loadPaddleData() {
+            return fetch('../data/paddles.json', {cache: 'no-store'})
+                .then(function(resp) { return resp.json(); })
+                .then(function(data) {
+                    paddleData = data.paddles;
+                    populateDropdowns();
+                    restoreFromURL();
+                    return paddleData;
+                });
+        }
+        function getByName(slug) {
+            for (var i = 0; i < paddleData.length; i++) {
+                if (paddleData[i].id === slug) return paddleData[i];
+            }
+            return null;
+        }
+        function populateDropdowns() {
+            var sorted = paddleData.slice().sort(function(a, b) {
+                return a.name.localeCompare(b.name);
+            });
+            var options = '<option value="">Select a paddle...</option>';
+            for (var i = 0; i < sorted.length; i++) {
+                options += '<option value="' + sorted[i].id + '">' + sorted[i].name + '</option>';
+            }
+            for (var n = 1; n <= 4; n++) {
+                var sel = document.getElementById('paddle-' + n);
+                if (sel) sel.innerHTML = options;
+            }
+        }
+        function restoreFromURL() {
+            var selected = parseURLParams();
+            for (var i = 0; i < Math.min(selected.length, 4); i++) {
+                var sel = document.getElementById('paddle-' + (i + 1));
+                if (sel && selected[i]) sel.value = selected[i];
+            }
+            if (selected.length >= 2) renderComparison();
+        }
+        // Step 1d: Comparison table renderer
+        function getNumeric(paddle, specName) {
+            if (specName === 'Price') {
+                var str = paddle.price_range.replace('$', '').replace('+', '').split('–')[0].trim();
+                return parseInt(str, 10) || null;
+            }
+            if (specName === 'Spin RPM') return paddle.measured_specs.spin_rpm || null;
+            if (specName === 'Swing Weight') return paddle.measured_specs.swing_weight !== undefined ? parseFloat(paddle.measured_specs.swing_weight) : null;
+            if (specName === 'Twist Weight') return paddle.measured_specs.twist_weight !== undefined ? parseFloat(paddle.measured_specs.twist_weight) : null;
+            if (specName === 'Balance Point') return parseNum(paddle.measured_specs.balance_point);
+            if (specName === 'Static Weight') return parseNum(paddle.measured_specs.static_weight);
+            return null;
+        }
+        function parseNum(str) {
+            if (!str) return null;
+            var m = str.toString().match(/[\d.]+/);
+            return m ? parseFloat(m[0]) : null;
+        }
+        function formatSpecValue(paddle, specName) {
+            if (specName === 'Price') return paddle.price_range;
+            if (specName === 'Spin RPM') return paddle.measured_specs.spin_rpm || 'N/A';
+            if (specName === 'Swing Weight') return paddle.measured_specs.swing_weight != null ? paddle.measured_specs.swing_weight + ' g\u00b7cm\u00b2' : 'N/A';
+            if (specName === 'Twist Weight') return paddle.measured_specs.twist_weight != null ? paddle.measured_specs.twist_weight + ' kg\u00b7cm\u00b2' : 'N/A';
+            if (specName === 'Balance Point') return paddle.measured_specs.balance_point || 'N/A';
+            if (specName === 'Static Weight') return paddle.measured_specs.static_weight || 'N/A';
+            if (specName === 'Grip Size') return paddle.measured_specs.grip_size || 'N/A';
+            if (specName === 'Shape') return paddle.shape || 'N/A';
+            if (specName === 'Core') return paddle.foam_type || 'N/A';
+            if (specName === 'Best For') return (paddle.best_for && paddle.best_for.length) ? paddle.best_for.join(', ') : '\u2014';
+            return 'N/A';
+        }
+        var comparisonSpecs = ['Price', 'Spin RPM', 'Swing Weight', 'Twist Weight', 'Balance Point', 'Static Weight', 'Grip Size', 'Shape', 'Core', 'Best For'];
+        var higherIsBetter = { 'Spin RPM': true, 'Twist Weight': true, 'Swing Weight': true };
+        function renderComparison() {
+            var selected = [];
+            for (var n = 1; n <= 4; n++) {
+                var val = document.getElementById('paddle-' + n).value;
+                if (val && selected.indexOf(val) === -1) selected.push(val);
+            }
+            var container = document.getElementById('compare-results');
+            var shareDiv = document.getElementById('compare-share');
+            var shareLink = document.getElementById('share-link');
+            if (selected.length < 2) {
+                container.innerHTML = '<div class="compare-empty"><p>Select at least 2 paddles to compare.</p></div>';
+                shareDiv.style.display = 'none';
+                return;
+            }
+            var paddles = [];
+            for (var i = 0; i < selected.length; i++) {
+                var p = getByName(selected[i]);
+                if (p) paddles.push(p);
+            }
+            if (paddles.length < 2) {
+                container.innerHTML = '<div class="compare-empty"><p>Please select 2 or more different paddles.</p></div>';
+                return;
+            }
+            // Compute best values per row
+            var bestValues = {};
+            for (var s = 0; s < comparisonSpecs.length; s++) {
+                var specName = comparisonSpecs[s];
+                if (specName === 'Grip Size' || specName === 'Shape' || specName === 'Core' || specName === 'Best For') continue;
+                var vals = [];
+                for (var p = 0; p < paddles.length; p++) {
+                    var num = getNumeric(paddles[p], specName);
+                    if (num !== null) vals.push({ paddle: paddles[p], value: num });
+                }
+                if (vals.length > 0) {
+                    var isHB = higherIsBetter[specName] === true;
+                    var best = vals[0];
+                    for (var v = 1; v < vals.length; v++) {
+                        if (isHB ? vals[v].value > best.value : vals[v].value < best.value) best = vals[v];
+                    }
+                    for (var w = 0; w < vals.length; w++) {
+                        if (vals[w].paddle === best.paddle) bestValues[vals[w].paddle.id + '|' + specName] = true;
+                    }
+                }
+            }
+            // Build HTML
+            var headersHTML = '';
+            for (var i = 0; i < paddles.length; i++) {
+                headersHTML += '<th class="paddle-header"><div class="paddle-name">' + paddles[i].name + '</div><div class="paddle-price">' + paddles[i].price_range + '</div></th>';
+            }
+            var rowsHTML = '';
+            for (var s = 0; s < comparisonSpecs.length; s++) {
+                var specName = comparisonSpecs[s];
+                var cellsHTML = '';
+                for (var p = 0; p < paddles.length; p++) {
+                    var val = formatSpecValue(paddles[p], specName);
+                    var isBest = bestValues[paddles[p].id + '|' + specName];
+                    var cls = isBest ? ' class="best-value"' : '';
+                    cellsHTML += '<td' + cls + '>' + val + '</td>';
+                }
+                rowsHTML += '<tr><th>' + specName + '</th>' + cellsHTML + '</tr>';
+            }
+            container.innerHTML = '<div class="compare-results"><table class="compare-table"><thead><tr><th>Spec</th>' + headersHTML + '</tr></thead><tbody>' + rowsHTML + '</tbody></table></div>';
+            // Update share URL
+            var url = window.location.pathname + '?paddles=' + selected.join(',');
+            var fullUrl = window.location.origin + url;
+            shareLink.href = fullUrl;
+            shareLink.textContent = fullUrl;
+            shareDiv.style.display = 'block';
+            history.replaceState(null, '', url);
+        }
+        document.getElementById('compare-btn').addEventListener('click', function() { renderComparison(); });
+        loadPaddleData();
+    })();
+    </script>
+</body>
+</html>
