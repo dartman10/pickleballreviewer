@@ -867,24 +867,65 @@ def generate_best_of_pages():
         sorted_items = sorted(items, key=config['sort_fn'], reverse=config['sort_reverse'])
 
         # Build ranked paddle cards
-        cards = ''
-        for rank, p in enumerate(sorted_items, 1):
-            actual_p = p if not config.get('is_score_list') else p[0]
-            vid_id = extract_video_id(actual_p.get('youtube_videos', [{}])[0].get('url', '')) if actual_p.get('youtube_videos') else ''
-            thumb = f'<img src="https://img.youtube.com/vi/{vid_id}/mqdefault.jpg" alt="{actual_p["name"]}" loading="lazy" style="width:48px;height:36px;object-fit:cover;border-radius:4px;flex-shrink:0;">' if vid_id else ''
+        # Compute max key value for progress bars
+        key_vals = []
+        for item in sorted_items:
+            actual_p = item if not config.get('is_score_list') else item[0]
+            val = _get_spin(actual_p) if config['key_stat_label'] == 'Spin RPM' else (actual_p.get('price_max', 1) if config['key_stat_label'] == 'Price' else (_get_spin(actual_p) / actual_p.get('price_max', 1) if config['key_stat_label'] == 'Value Score' else 0))
+            key_vals.append(val)
+        max_val = max(key_vals) if key_vals else 1
 
-            cards += f'''<div class="best-of-rank-card">
-                <div class="best-of-rank-header">
-                    <span class="best-of-rank-badge">#{rank} {config['badge_prefix']}</span>
-                    <span class="best-of-rank-price">{actual_p['price_range']}</span>
-                </div>
-                <div class="best-of-rank-body">
-                    <h3><a href="../paddles/{actual_p['id']}.html">{actual_p['name']}</a></h3>
-                    <p class="best-of-rank-desc">{actual_p['description']}</p>
-                    <div class="best-of-key-stat">{config['key_stat'](p)} {config['key_stat_label']}</div>
-                </div>
-                <a href="../paddles/{actual_p['id']}.html" class="best-of-view-btn">View Review →</a>
-            </div>'''
+        # Build ranked paddle cards — top 3 get special treatment
+        cards = ''
+        for rank, item in enumerate(sorted_items, 1):
+            actual_p = item if not config.get('is_score_list') else item[0]
+            vid_id = extract_video_id(actual_p.get('youtube_videos', [{}])[0].get('url', '')) if actual_p.get('youtube_videos') else ''
+            thumb_src = f'https://img.youtube.com/vi/{vid_id}/mqdefault.jpg' if vid_id else ''
+
+            # Calculate progress bar percentage
+            val = _get_spin(actual_p) if config['key_stat_label'] == 'Spin RPM' else (actual_p.get('price_max', 1) if config['key_stat_label'] == 'Price' else (_get_spin(actual_p) / actual_p.get('price_max', 1) if config['key_stat_label'] == 'Value Score' else 0))
+            pct = min(int((val / max_val) * 100), 100) if max_val > 0 else 0
+
+            # Top 3 get hero cards; #4+ get compact cards
+            if rank <= 3:
+                gold = ' 🥇' if rank == 1 else (' 🥈' if rank == 2 else ' 🥉')
+                cards += f'''<div class="best-of-hero-card" style="background: linear-gradient(135deg, {['#fef3cd, #fff8e1', '#e8e8e8, #f5f5f5', '#fce4ec, #fff0f3'][rank-1]} 0%, white 100%);">
+                    <div class="best-of-hero-badge">#{rank} <span class="badge-label">{config['badge_prefix']}</span></div>
+                    <div class="best-of-hero-body">
+                        <div class="best-of-hero-thumb">
+                            {f'<img src="{thumb_src}" alt="{actual_p["name"]}" loading="lazy">' if thumb_src else '<div class="best-of-thumb-placeholder">🏓</div>'}
+                        </div>
+                        <div class="best-of-hero-info">
+                            <h3><a href="../paddles/{actual_p['id']}.html">{actual_p['name']}{gold}</a></h3>
+                            <p class="best-of-rank-desc">{actual_p['description']}</p>
+                            <div class="best-of-hero-stat">
+                                <div class="best-of-stat-value">{config['key_stat'](item)} <span class="best-of-stat-label">{config['key_stat_label']}</span></div>
+                                <div class="best-of-stat-bar"><div class="best-of-stat-fill" style="width:{pct}%"></div></div>
+                            </div>
+                            <div class="best-of-hero-price">{actual_p['price_range']}</div>
+                        </div>
+                    </div>
+                    <div class="best-of-hero-cta"><a href="../paddles/{actual_p['id']}.html" class="best-of-hero-btn">View Full Review →</a></div>
+                </div>'''
+            else:
+                cards += f'''<div class="best-of-rank-card">
+                    <div class="best-of-rank-number">#{rank}</div>
+                    <div class="best-of-rank-thumb">
+                        {f'<img src="{thumb_src}" alt="{actual_p["name"]}" loading="lazy">' if thumb_src else '<div class="best-of-thumb-placeholder">🏓</div>'}
+                    </div>
+                    <div class="best-of-rank-body">
+                        <div class="best-of-rank-top">
+                            <h3><a href="../paddles/{actual_p['id']}.html">{actual_p['name']}</a></h3>
+                            <span class="best-of-rank-price">{actual_p['price_range']}</span>
+                        </div>
+                        <p class="best-of-rank-desc">{actual_p['description']}</p>
+                        <div class="best-of-rank-stat-row">
+                            <span class="best-of-rank-stat-value">{config['key_stat'](item)} {config['key_stat_label']}</span>
+                            <div class="best-of-stat-bar best-of-stat-bar-sm"><div class="best-of-stat-fill" style="width:{pct}%"></div></div>
+                        </div>
+                        <a href="../paddles/{actual_p['id']}.html" class="best-of-rank-btn">View Review →</a>
+                    </div>
+                </div>'''
 
         page_html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -901,6 +942,7 @@ def generate_best_of_pages():
     <meta property="og:url" content="https://picklereviewhub.com/pages/best-of/{config['slug']}.html">
     <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/best-of.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="application/ld+json">{{{{
@@ -938,11 +980,14 @@ def generate_best_of_pages():
             </div>
         </nav>
 
-        <div class="product-page-header">
+        <div class="best-of-hero-banner">
             <div class="container">
                 <h1>{config['icon']} {config['title']}</h1>
                 <p>{config['description']}</p>
-                <p style="margin-top:8px;"><strong>{len(sorted_items)} paddle(s) ranked</strong> — sorted by verified measured data</p>
+                <div class="best-of-banner-stats">
+                    <span class="best-of-banner-stat"><strong>{len(sorted_items)}</strong> paddles ranked</span>
+                    <span class="best-of-banner-stat"><strong>Verified data</strong> from lab tests</span>
+                </div>
             </div>
         </div>
 
@@ -952,9 +997,8 @@ def generate_best_of_pages():
                     {cards}
                 </div>
 
-                <div style="text-align:center;margin-top:30px;">
-                    <h3>Want to compare these paddles directly?</h3>
-                    <a href="../compare.html?paddles={','.join(p['id'] if not config.get('is_score_list') else p[0]['id'] for p in sorted_items[:3])}" class="retailer-link">🔍 Compare Top 3 →</a>
+                <div class="best-of-cta-section">
+                    <a href="../compare.html?paddles={','.join(p['id'] if not config.get('is_score_list') else p[0]['id'] for p in sorted_items[:3])}" class="best-of-cta-btn">🔍 Compare Top 3 Side by Side</a>
                 </div>
             </div>
         </section>
