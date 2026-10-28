@@ -794,6 +794,10 @@ def _get_twist(p):
     """Safely extract twist_weight from measured_specs."""
     return p.get('measured_specs', {}).get('twist_weight') or 0
 
+def _get_swing(p):
+    """Safely extract swing_weight from measured_specs."""
+    return p.get('measured_specs', {}).get('swing_weight') or 0
+
 def generate_best_of_pages():
     """Generate 4 curated 'Best Of' ranking pages."""
     paddles = load_data()['paddles']
@@ -812,14 +816,14 @@ def generate_best_of_pages():
         {
             'title': 'Best Power Paddle Pickleball',
             'slug': 'best-power-pickleball-paddles',
-            'description': 'Top-ranked power paddles measured by spin RPM and twist weight — real lab data, not marketing claims.',
-            'icon': '🔥',
+            'description': 'Highest swing weight paddles — the heaviest faces deliver the most pop on contact. Measured by lab test, not marketing claims.',
+            'icon': '💥',
             'badge_prefix': 'Best Power',
-            'sort_fn': lambda p: (_get_spin(p), _get_twist(p)),
+            'sort_fn': lambda p: (_get_swing(p), _get_twist(p)),
             'sort_reverse': True,
             'data': paddles,
-            'key_stat': lambda p: str(_get_spin(p)),
-            'key_stat_label': 'Spin RPM',
+            'key_stat': lambda p: str(_get_swing(p)),
+            'key_stat_label': 'Swing Weight',
         },
         {
             'title': 'Best Budget Pickleball Paddles Under $100',
