@@ -873,9 +873,27 @@ def generate_best_of_pages():
         # Build ranked paddle cards
         # Compute max key value for progress bars
         key_vals = []
+        # Two-pass: first collect raw values, compute global max, then compute display values
+        raw_list = []
         for item in sorted_items:
             actual_p = item if not config.get('is_score_list') else item[0]
-            val = _get_spin(actual_p) if config['key_stat_label'] == 'Spin RPM' else (actual_p.get('price_max', 1) if config['key_stat_label'] == 'Price' else (_get_spin(actual_p) / actual_p.get('price_max', 1) if config['key_stat_label'] == 'Value Score' else 0))
+            label = config['key_stat_label']
+            if label == 'Price':
+                # For budget: use price_min for display (what you actually pay), price_max for sort
+                raw = actual_p.get('price_min', actual_p.get('price_max', 1))
+            else:
+                raw = (_get_spin(actual_p) if label == 'Spin RPM' else
+                       (_get_spin(actual_p) / actual_p.get('price_max', 1) if label == 'Value Score' else
+                       _get_swing(actual_p) if label == 'Swing Weight' else 0))
+            raw_list.append(raw)
+        global_max = max(raw_list) if raw_list else 1
+
+        for i, item in enumerate(sorted_items):
+            actual_p = item if not config.get('is_score_list') else item[0]
+            raw = raw_list[i]
+            # For Price, lower is better — invert so cheapest = 100% bar
+            is_price = config['key_stat_label'] == 'Price'
+            val = raw if not is_price else (global_max - raw) if global_max > 0 else 0
             key_vals.append(val)
         max_val = max(key_vals) if key_vals else 1
 
@@ -886,8 +904,8 @@ def generate_best_of_pages():
             vid_id = extract_video_id(actual_p.get('youtube_videos', [{}])[0].get('url', '')) if actual_p.get('youtube_videos') else ''
             thumb_src = f'https://img.youtube.com/vi/{vid_id}/mqdefault.jpg' if vid_id else ''
 
-            # Calculate progress bar percentage
-            val = _get_spin(actual_p) if config['key_stat_label'] == 'Spin RPM' else (actual_p.get('price_max', 1) if config['key_stat_label'] == 'Price' else (_get_spin(actual_p) / actual_p.get('price_max', 1) if config['key_stat_label'] == 'Value Score' else 0))
+            # Calculate progress bar percentage (reuse pre-computed key_vals)
+            val = key_vals[rank - 1]
             pct = min(int((val / max_val) * 100), 100) if max_val > 0 else 0
 
             # Top 3 get hero cards; #4+ get compact cards

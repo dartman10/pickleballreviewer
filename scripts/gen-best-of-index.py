@@ -7,8 +7,8 @@ def generate_best_of_index():
 
     # Define all Best Of rankings
     best_of_defs = [
-        ('best-power-pickleball-paddles', '🔥', 'Best Power',
-         'Highest spin RPM and twist weight — real measured data'),
+        ('best-power-pickleball-paddles', '💥', 'Best Power',
+         'Highest swing weight paddles — the heaviest faces deliver the most pop on contact'),
         ('best-budget-pickleball-paddles-under-100', '💰', 'Best Budget Under $100',
          'Premium performance without breaking the bank'),
         ('best-spin-pickleball-paddle', '🌀', 'Best Spin',
@@ -94,7 +94,7 @@ def generate_best_of_index():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
