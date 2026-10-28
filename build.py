@@ -550,7 +550,7 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
