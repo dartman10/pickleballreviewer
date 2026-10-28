@@ -157,6 +157,8 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 
 ### Week 5: Best-Of Pages UI Redesign ✅ DONE
 
+**Bugfix:** Best Power ranking was sorting by spin RPM (same metric as Best Spin), causing Spartus Spitfire to appear #1 in all 3 categories. Fixed to sort by swing weight — the proper power metric. Added `_get_swing()` helper. All 20/20 power paddles have swing weight data.
+
 **Goal:** Transform flat text-based ranking pages into a visually structured, user-friendly experience with proper visual hierarchy, progress bars, and thumbnail images.
 
 **Completed:**
