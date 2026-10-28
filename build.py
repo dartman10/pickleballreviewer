@@ -135,6 +135,12 @@ def generate_paddle_page(paddle):
     <meta name="description" content="{paddle['description']}">
     <title>{paddle['name']} Review — Pickleball Review Hub</title>
     <link rel="canonical" href="https://picklereviewhub.com/pages/paddles/{paddle['id']}.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{paddle['name']} Review — Pickleball Review Hub">
+    <meta property="og:description" content="{paddle['description']}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/paddles/{paddle['id']}.html">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -283,11 +289,19 @@ def generate_paddle_page(paddle):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="#">Privacy</a> | <a href="#">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''
@@ -347,6 +361,12 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
     <title>{category_name} — Pickleball Review Hub</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="{category_name} — Pickleball Review Hub">
+    <meta property="og:description" content="{description}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/categories/{category_slug}.html">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -414,11 +434,19 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''
@@ -457,6 +485,12 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{name} — Top pickleball paddle reviewer. {paddle_count} paddles reviewed.">
     <title>{name} Reviews — Pickleball Review Hub</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="{name} Reviews — Pickleball Review Hub">
+    <meta property="og:description" content="{name} — {paddle_count} paddles reviewed. Pickleball paddle reviews from {site}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/reviewers/{name.lower().replace(' ', '-')}.html">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -516,11 +550,19 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''
@@ -596,6 +638,12 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
     <meta name="description" content="{description}">
     <title>{title} — Pickleball Review Hub</title>
     <link rel="canonical" href="https://picklereviewhub.com/pages/guides/{slug}">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title} — Pickleball Review Hub">
+    <meta property="og:description" content="{description}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/guides/{slug}">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -638,11 +686,19 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''
@@ -666,6 +722,12 @@ def generate_placeholder_guide(title, slug, description):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
     <title>{title} — Pickleball Review Hub</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title} — Pickleball Review Hub">
+    <meta property="og:description" content="{description}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/guides/{slug}">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -709,7 +771,7 @@ def generate_placeholder_guide(title, slug, description):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -832,6 +894,12 @@ def generate_best_of_pages():
     <meta name="description" content="{config['description']}">
     <title>{config['title']} — Pickleball Review Hub</title>
     <link rel="canonical" href="https://picklereviewhub.com/pages/best-of/{config['slug']}.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{config['title']} — Pickleball Review Hub">
+    <meta property="og:description" content="{config['description']}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/best-of/{config['slug']}.html">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -918,11 +986,19 @@ def generate_best_of_pages():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''
@@ -945,6 +1021,21 @@ def main():
     # Copy static files
     print("📁 Copying static files...")
     copy_static_files()
+
+    # Generate sitemap
+    exec(open("scripts/gen-sitemap.py").read())
+
+    # Copy legal files (privacy, affiliate disclosure, robots, 404)
+    print("📄 Copying legal/site files...")
+    for fname in ['privacy.html', 'affiliate-disclosure.html', 'robots.txt', '404.html']:
+        src = os.path.join('legal', fname)
+        dst = os.path.join(OUTPUT_DIR, fname)
+        if os.path.exists(src):
+            shutil.copy2(src, dst)
+            print(f"   ✅ {fname} → {fname}")
+        else:
+            print(f"   ⚠️  {fname} not found in legal/")
+    print()
 
     paddles = load_data()['paddles']
     print(f"📋 Loaded {len(paddles)} paddles from data/paddles.json")

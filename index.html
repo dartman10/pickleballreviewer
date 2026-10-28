@@ -6,6 +6,12 @@
     <meta name="description" content="Curated directory of pickleball paddle reviews. Compare top paddles: Enhance MPP Turbo, Bread & Butter Loco, and more. YouTube videos + verified written reviews.">
     <meta name="keywords" content="pickleball paddle review, pickleball paddle, pickleball equipment, paddle comparison">
     <title>Pickleball Paddle Review Hub — Verified Reviews & Comparisons</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pickleball Paddle Review Hub — Verified Reviews & Comparisons">
+    <meta property="og:description" content="Curated directory of pickleball paddle reviews. Compare top paddles: Enhance MPP Turbo, Bread & Butter Loco, and more. YouTube videos + verified written reviews.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://picklereviewhub.com/">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -77,19 +83,19 @@
         <section class="stats-bar">
             <div class="container stats-grid">
                 <div class="stat-item">
-                    <span class="stat-number" id="total-count">3</span>
+                    <span class="stat-number" id="total-count">23</span>
                     <span class="stat-label">Paddles</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">3</span>
+                    <span class="stat-number">7</span>
                     <span class="stat-label">Categories</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">5+</span>
+                    <span class="stat-number">4</span>
                     <span class="stat-label">Verified Reviewers</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">$99</span>
+                    <span class="stat-number">$70</span>
                     <span class="stat-label">Starting Price</span>
                 </div>
             </div>
@@ -113,7 +119,7 @@
         <section class="products-section" style="background: var(--bg-alt);">
             <div class="container">
                 <h2>Browse by Category</h2>
-                <p style="color: var(--text-secondary); margin-bottom: 16px;">View all 9 categories</p>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">View all 7 categories</p>
                 <div class="categories-grid">
                     <a href="pages/categories/index.html" class="category-card" style="border-left: 3px solid var(--accent);">
                         <span class="category-icon">📋</span>
@@ -176,7 +182,7 @@
                     <a href="reviewers/index.html" class="category-card" style="border-left: 3px solid var(--accent);">
                         <span class="category-icon">📋</span>
                         <h3>All Reviewers</h3>
-                        <p class="category-desc">View all 3 reviewer profiles</p>
+                        <p class="category-desc">View all 4 reviewer profiles</p>
                     </a>
                     <a href="reviewers/pickleball-studio.html" class="category-card">
                         <span class="category-icon">🎬</span>
@@ -243,11 +249,19 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="#">Privacy</a> | <a href="#">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="js/app.js"></script>
 </body>
 </html>

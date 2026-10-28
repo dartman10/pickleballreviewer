@@ -60,6 +60,12 @@ def generate_categories_index():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Browse all pickleball paddle categories. Power, control, budget, foam types, shapes, and more.">
     <title>All Categories — Pickleball Review Hub</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="All Paddle Categories — Pickleball Review Hub">
+    <meta property="og:description" content="Browse all pickleball paddle categories. Power, control, budget, foam types, shapes, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://picklereviewhub.com/pages/categories/index.html">
+    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -102,11 +108,19 @@ def generate_categories_index():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved.</p>
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
 
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 </html>'''

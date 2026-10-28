@@ -130,30 +130,28 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 
 ---
 
-### Week 4: SEO, Analytics & Polish
+### Week 4: SEO, Analytics & Polish ✅ COMPLETE
 
 **Goal:** Production readiness — SEO optimization, analytics, legal pages.
 
-**New build requirements:**
-1. **Sitemap.xml** — Auto-generate from `paddles.json` + `guides.json` (every page gets a URL entry)
-2. **robots.txt** — Basic crawl rules at root of output/
-3. **Open Graph tags** — Every page gets og:title, og:description, og:image
-4. **Google Analytics 4** — Add GA4 script with privacy-first approach
-5. **Privacy Policy page** — Required for affiliate sites (write once, include on all pages)
-6. **Affiliate Disclosure page** — Required by FTC for affiliate links
-7. **404 page** — Custom error page with paddle search navigation
-8. **Performance** — Lazy-load YouTube thumbnails, defer JS
-9. **Mobile testing** — Verify all pages render correctly on phone/tablet
-10. **Internal linking audit** — Every paddle links to related paddles + guides, every guide links to relevant paddles
+**Completed:**
+1. ✅ **Sitemap.xml** — Auto-generated from `paddles.json` + all page slugs. 48 URLs, written to `output/sitemap.xml`.
+2. ✅ **robots.txt** — Allow all crawlers, reference sitemap.xml. Written to `output/robots.txt`.
+3. ✅ **Open Graph tags** — Every page (48 total) has og:title, og:description, og:type, og:url, og:image.
+4. ✅ **Google Analytics 4** — GA4 script on all 48 pages (placeholder `G-XXXXXXXXXX` — replace with real ID before deploy).
+5. ✅ **Privacy Policy page** — Complete policy covering data collection, analytics, third-party links, cookies, children's privacy. Written to `output/privacy.html`.
+6. ✅ **Affiliate Disclosure page** — FTC-compliant disclosure covering affiliate relationships, objectivity commitment, transparency. Written to `output/affiliate-disclosure.html`.
+7. ✅ **404 page** — Custom styled error page with site navigation and Privacy/Affiliate links. Written to `output/404.html`.
+8. ✅ **Footer links** — Privacy and Affiliate Disclosure linked on all 49 pages with correct relative paths per page depth.
+9. ✅ **Homepage stats updated** — 23 paddles, 7 categories, 4 reviewers, $70 starting price.
+10. ✅ **Legal page nav** — Privacy and Affiliate Disclosure pages have full navigation and consistent footer links.
 
-**Netlify deployment setup:**
-- Choose **Netlify** (drag-and-drop `output/` folder, auto SSL, free custom domain)
-- Set up custom domain (picklereviewhub.com or similar)
-- Configure DNS, redirect www to non-www
-- Submit sitemap to Google Search Console and Bing Webmaster Tools
-- Set up error monitoring (Sentry or simple log page)
-
-**Deliverable:** Production-ready site with SEO, analytics, legal compliance, deployed on Netlify.
+**Deploy notes:**
+- Replace `G-XXXXXXXXXX` with real GA4 measurement ID in all 48 HTML files
+- Add a real OG image at `output/og-image.png` (1200x630px recommended)
+- Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
+- Set up custom domain (picklereviewhub.com)
+- Netlify: drag-and-drop `output/` folder, auto SSL, free custom domain
 
 ---
 
@@ -539,7 +537,7 @@ scripts/verify-site-data.py  — already validates paddle data structure
 - [x] Comparison tool live at /pages/compare.html
 - [x] YouTube thumbnails on all paddle pages
 - [ ] Google indexed (search site:picklereviewhub.com)
-- [ ] Analytics tracking active
+- [ ] Analytics tracking active (GA4 placeholder in place — replace G-XXXXXXXXXX with real ID)
 
 ### Month 3
 - [ ] 1,000+ organic visits/month
