@@ -47,7 +47,7 @@ def generate_best_of_index():
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">{chr(0x1F3D3)}</span>
-                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
+                <span class="logo-text">Pickleball<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
