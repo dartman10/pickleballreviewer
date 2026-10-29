@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate sitemap.xml for Pickleball Review Hub.
-All URLs are relative to https://picklereviewhub.com/
+All URLs are relative to https://pickleballreviewer.com/
 """
 import json
 import os
@@ -19,7 +19,7 @@ def generate_sitemap():
 
     # Homepage
     urls.append({
-        "loc": "https://picklereviewhub.com/",
+        "loc": "https://pickleballreviewer.com/",
         "priority": "1.0",
         "freq": "weekly"
     })
@@ -27,14 +27,14 @@ def generate_sitemap():
     # Paddle pages
     for p in paddles:
         urls.append({
-            "loc": f"https://picklereviewhub.com/pages/paddles/{p['id']}.html",
+            "loc": f"https://pickleballreviewer.com/pages/paddles/{p['id']}.html",
             "priority": "0.8",
             "freq": "monthly"
         })
 
     # Category index
     urls.append({
-        "loc": "https://picklereviewhub.com/pages/categories/index.html",
+        "loc": "https://pickleballreviewer.com/pages/categories/index.html",
         "priority": "0.9",
         "freq": "weekly"
     })
@@ -50,14 +50,14 @@ def generate_sitemap():
     ]
     for slug, _ in categories:
         urls.append({
-            "loc": f"https://picklereviewhub.com/pages/categories/{slug}.html",
+            "loc": f"https://pickleballreviewer.com/pages/categories/{slug}.html",
             "priority": "0.8",
             "freq": "weekly"
         })
 
     # Guide index
     urls.append({
-        "loc": "https://picklereviewhub.com/pages/guides/index.html",
+        "loc": "https://pickleballreviewer.com/pages/guides/index.html",
         "priority": "0.9",
         "freq": "weekly"
     })
@@ -70,14 +70,14 @@ def generate_sitemap():
     ]
     for g in guides:
         urls.append({
-            "loc": f"https://picklereviewhub.com/pages/guides/{g}.html",
+            "loc": f"https://pickleballreviewer.com/pages/guides/{g}.html",
             "priority": "0.8",
             "freq": "monthly"
         })
 
     # Best Of index
     urls.append({
-        "loc": "https://picklereviewhub.com/pages/best-of/index.html",
+        "loc": "https://pickleballreviewer.com/pages/best-of/index.html",
         "priority": "0.9",
         "freq": "weekly"
     })
@@ -91,14 +91,14 @@ def generate_sitemap():
     ]
     for slug in best_of_slugs:
         urls.append({
-            "loc": f"https://picklereviewhub.com/pages/best-of/{slug}.html",
+            "loc": f"https://pickleballreviewer.com/pages/best-of/{slug}.html",
             "priority": "0.8",
             "freq": "weekly"
         })
 
     # Reviewer index
     urls.append({
-        "loc": "https://picklereviewhub.com/reviewers/index.html",
+        "loc": "https://pickleballreviewer.com/reviewers/index.html",
         "priority": "0.9",
         "freq": "weekly"
     })
@@ -112,26 +112,26 @@ def generate_sitemap():
     ]
     for slug in reviewers:
         urls.append({
-            "loc": f"https://picklereviewhub.com/reviewers/{slug}.html",
+            "loc": f"https://pickleballreviewer.com/reviewers/{slug}.html",
             "priority": "0.8",
             "freq": "weekly"
         })
 
     # Compare page
     urls.append({
-        "loc": "https://picklereviewhub.com/pages/compare.html",
+        "loc": "https://pickleballreviewer.com/pages/compare.html",
         "priority": "0.7",
         "freq": "weekly"
     })
 
     # Legal pages
     urls.append({
-        "loc": "https://picklereviewhub.com/privacy.html",
+        "loc": "https://pickleballreviewer.com/privacy.html",
         "priority": "0.5",
         "freq": "yearly"
     })
     urls.append({
-        "loc": "https://picklereviewhub.com/affiliate-disclosure.html",
+        "loc": "https://pickleballreviewer.com/affiliate-disclosure.html",
         "priority": "0.5",
         "freq": "yearly"
     })

@@ -64,8 +64,8 @@ def generate_categories_index():
     <meta property="og:title" content="All Paddle Categories — Pickleball Review Hub">
     <meta property="og:description" content="Browse all pickleball paddle categories. Power, control, budget, foam types, shapes, and more.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/categories/index.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/categories/index.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

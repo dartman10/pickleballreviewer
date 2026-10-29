@@ -55,8 +55,8 @@ def generate_reviewer_index():
     <meta property="og:title" content="Top Pickleball Paddle Reviewers — Pickleball Review Hub">
     <meta property="og:description" content="Top pickleball paddle reviewers. Verified written reviews and measured data from trusted sources.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://picklereviewhub.com/reviewers/index.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/reviewers/index.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

@@ -134,13 +134,13 @@ def generate_paddle_page(paddle):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{paddle['description']}">
     <title>{paddle['name']} Review — Pickleball Review Hub</title>
-    <link rel="canonical" href="https://picklereviewhub.com/pages/paddles/{paddle['id']}.html">
+    <link rel="canonical" href="https://pickleballreviewer.com/pages/paddles/{paddle['id']}.html">
     <!-- Open Graph -->
     <meta property="og:title" content="{paddle['name']} Review — Pickleball Review Hub">
     <meta property="og:description" content="{paddle['description']}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/paddles/{paddle['id']}.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/paddles/{paddle['id']}.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -149,8 +149,8 @@ def generate_paddle_page(paddle):
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://picklereviewhub.com/"}},
-        {{"@type": "ListItem", "position": 2, "name": "{paddle['category'].title()}", "item": "https://picklereviewhub.com/pages/categories/{paddle['category']}.html"}},
+        {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickleballreviewer.com/"}},
+        {{"@type": "ListItem", "position": 2, "name": "{paddle['category'].title()}", "item": "https://pickleballreviewer.com/pages/categories/{paddle['category']}.html"}},
         {{"@type": "ListItem", "position": 3, "name": "{paddle['name']}"}}
       ]
     }}</script>
@@ -365,8 +365,8 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     <meta property="og:title" content="{category_name} — Pickleball Review Hub">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/categories/{category_slug}.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/categories/{category_slug}.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -374,7 +374,7 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://picklereviewhub.com/"}},
+        {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pickleballreviewer.com/"}},
         {{"@type": "ListItem", "position": 2, "name": "{category_name}"}}
       ]
     }}</script>
@@ -489,8 +489,8 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <meta property="og:title" content="{name} Reviews — Pickleball Review Hub">
     <meta property="og:description" content="{name} — {paddle_count} paddles reviewed. Pickleball paddle reviews from {site}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/reviewers/{name.lower().replace(' ', '-')}.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/reviewers/{name.lower().replace(' ', '-')}.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -637,13 +637,13 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
     <title>{title} — Pickleball Review Hub</title>
-    <link rel="canonical" href="https://picklereviewhub.com/pages/guides/{slug}">
+    <link rel="canonical" href="https://pickleballreviewer.com/pages/guides/{slug}">
     <!-- Open Graph -->
     <meta property="og:title" content="{title} — Pickleball Review Hub">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/guides/{slug}">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/{slug}">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -726,8 +726,8 @@ def generate_placeholder_guide(title, slug, description):
     <meta property="og:title" content="{title} — Pickleball Review Hub">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/guides/{slug}">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/{slug}">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -956,13 +956,13 @@ def generate_best_of_pages():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{config['description']}">
     <title>{config['title']} — Pickleball Review Hub</title>
-    <link rel="canonical" href="https://picklereviewhub.com/pages/best-of/{config['slug']}.html">
+    <link rel="canonical" href="https://pickleballreviewer.com/pages/best-of/{config['slug']}.html">
     <!-- Open Graph -->
     <meta property="og:title" content="{config['title']} — Pickleball Review Hub">
     <meta property="og:description" content="{config['description']}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/best-of/{config['slug']}.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/best-of/{config['slug']}.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/best-of.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

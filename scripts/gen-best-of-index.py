@@ -36,8 +36,8 @@ def generate_best_of_index():
     <meta property="og:title" content="Best Of Rankings — Pickleball Review Hub">
     <meta property="og:description" content="Curated Best Of rankings for pickleball paddles. Power, budget, spin, and value — sorted by verified measured data.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/best-of/index.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/best-of/index.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

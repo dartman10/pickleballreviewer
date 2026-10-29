@@ -150,7 +150,7 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 - Replace `G-XXXXXXXXXX` with real GA4 measurement ID in all 48 HTML files
 - Add a real OG image at `output/og-image.png` (1200x630px recommended)
 - Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- Set up custom domain (picklereviewhub.com)
+- Set up custom domain (pickleballreviewer.com)
 - Netlify: drag-and-drop `output/` folder, auto SSL, free custom domain
 
 ---
@@ -561,7 +561,7 @@ scripts/verify-site-data.py  — already validates paddle data structure
 - [x] Standardized 6-item navigation on all 49 pages
 - [x] Comparison tool live at /pages/compare.html
 - [x] YouTube thumbnails on all paddle pages
-- [ ] Google indexed (search site:picklereviewhub.com)
+- [ ] Google indexed (search site:pickleballreviewer.com)
 - [ ] Analytics tracking active (GA4 placeholder in place — replace G-XXXXXXXXXX with real ID)
 
 ### Month 3

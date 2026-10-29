@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://picklereviewhub.com/sitemap.xml
+Sitemap: https://pickleballreviewer.com/sitemap.xml

@@ -16,8 +16,8 @@ def generate_guide_index():
     <meta property="og:title" content="Buying Guides — Pickleball Review Hub">
     <meta property="og:description" content="Pickleball buying guides and foam core comparisons. Learn how to choose the right paddle for your game.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://picklereviewhub.com/pages/guides/index.html">
-    <meta property="og:image" content="https://picklereviewhub.com/og-image.png">
+    <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/index.html">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
