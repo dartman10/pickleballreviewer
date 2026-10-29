@@ -75,7 +75,7 @@ def generate_categories_index():
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">{chr(0x1F3D3)}</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>

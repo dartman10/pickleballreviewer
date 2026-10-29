@@ -175,7 +175,7 @@ def generate_paddle_page(paddle):
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
@@ -384,7 +384,7 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
@@ -500,7 +500,7 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
@@ -653,7 +653,7 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
@@ -737,7 +737,7 @@ def generate_placeholder_guide(title, slug, description):
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
@@ -979,7 +979,7 @@ def generate_best_of_pages():
         <div class="container">
             <a href="../../index.html" class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">Pickle<span class="highlight">Review</span>Hub</span>
+                <span class="logo-text">Pickle<span class="highlight">Reviewer</span></span>
             </a>
             <nav class="main-nav">
                 <a href="../../index.html" class="nav-link">All Paddles</a>
