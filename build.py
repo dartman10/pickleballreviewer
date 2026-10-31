@@ -592,8 +592,14 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
                 content_html += f'<div><span class="cons-heading">{section["cons_title"]}</span><ul class="cons-list">{cons_list}</ul></div>'
             content_html += '</div>'
         elif section['type'] == 'table':
-            table_rows = ''.join(f'<tr><td>{row[0]}</td><td>{row[1]}</td></tr>' for row in section['data'])
-            content_html += f'<table class="specs-table"><thead><tr><th>{section["col1"]}</th><th>{section["col2"]}</th></tr></thead><tbody>{table_rows}</tbody></table>'
+            headers = [section['col1'], section['col2'], section.get('col3'), section.get('col4'), section.get('col5')]
+            headers = [h for h in headers if h]  # filter out None cols
+            header_row = ''.join(f'<th>{h}</th>' for h in headers)
+            table_rows = ''
+            for row in section['data']:
+                cells = ''.join(f'<td>{row[i]}</td>' for i in range(len(row)))
+                table_rows += f'<tr>{cells}</tr>'
+            content_html += f'<table class="specs-table"><thead><tr>{header_row}</tr></thead><tbody>{table_rows}</tbody></table>'
         elif section['type'] == 'list':
             items = ''.join(f'<li>{item}</li>' for item in section['items'])
             content_html += f'<ul style="padding-left:20px;line-height:1.8;">{items}</ul>'
