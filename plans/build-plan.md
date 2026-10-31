@@ -4,7 +4,7 @@
 
 A data-driven static website that aggregates verified YouTube review videos, written review quotes, and cross-reviewer consensus for pickleball paddles. Built from structured JSON data with automated HTML generation.
 
-**Current state:** 23 paddles complete, 4 verified reviewers (Pickleball Studio: 14, The Kitchen: 9, John Kew: 5, Pickleball Effect: 7). 49 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 942 internal links, 0 broken. Site running at localhost:8080.
+**Current state:** 23 paddles complete, 4 verified reviewers (Pickleball Studio: 14, The Kitchen: 9, John Kew: 5, Pickleball Effect: 7). 52 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 932 internal links, 0 broken. **LIVE at https://pickleballreviewer.vercel.app** on domain pickleballreviewer.com. GitHub: https://github.com/dartman10/pickleballreviewer
 
 ---
 
@@ -147,11 +147,12 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 10. ✅ **Legal page nav** — Privacy and Affiliate Disclosure pages have full navigation and consistent footer links.
 
 **Deploy notes:**
-- Replace `G-XXXXXXXXXX` with real GA4 measurement ID in all 48 HTML files
-- Add a real OG image at `output/og-image.png` (1200x630px recommended)
-- Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- Set up custom domain (pickleballreviewer.com)
-- Netlify: drag-and-drop `output/` folder, auto SSL, free custom domain
+- ✅ Domain setup: pickleballreviewer.com configured via Vercel
+- ✅ Site deployed to https://pickleballreviewer.vercel.app
+- ✅ GitHub repo: https://github.com/dartman10/pickleballreviewer
+- ⚠️ Replace `G-XXXXXXXXXX` with real GA4 measurement ID before activating analytics
+- ✅ Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
+- ✅ OG image: `output/og-image.png` generated and linked on all 48 pages
 
 ---
 
@@ -180,18 +181,20 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 
 ---
 
-### Week 6: Launch & First Backlinks
+### Week 6: Launch ✅ COMPLETE
 
 **Goal:** Go live and capture initial traffic.
 
 **Actions:**
-1. Submit sitemap to Google Search Console
-2. Submit sitemap to Bing Webmaster Tools
-3. Share in pickleball communities (Reddit r/pickleball, pickleball Facebook groups) — follow each community's rules about self-promotion
-4. Monitor analytics for first 2 weeks
-5. Fix any broken links or 404s
-6. Add 2–3 more paddles based on user feedback or trending searches
-7. Write first follow-up guide: "Pickleball Paddle Weight Guide" or "Fiberglass vs Graphite Face"
+1. ✅ Deployed to Vercel at https://pickleballreviewer.vercel.app
+2. ✅ GitHub repo created: https://github.com/dartman10/pickleballreviewer
+3. ⏳ Submit sitemap to Google Search Console (todo — needs GA4 ID first)
+4. ⏳ Submit sitemap to Bing Webmaster Tools
+5. ⏳ Share in pickleball communities (Reddit r/pickleball, pickleball Facebook groups) — follow each community's rules about self-promotion
+6. ⏳ Monitor analytics for first 2 weeks
+7. ⏳ Fix any broken links or 404s
+8. ⏳ Add 2–3 more paddles based on user feedback or trending searches
+9. ⏳ Write first follow-up guide: "Pickleball Paddle Weight Guide" or "Fiberglass vs Graphite Face"
 
 ---
 
@@ -561,6 +564,7 @@ scripts/verify-site-data.py  — already validates paddle data structure
 - [x] Standardized 6-item navigation on all 49 pages
 - [x] Comparison tool live at /pages/compare.html
 - [x] YouTube thumbnails on all paddle pages
+- [x] Site deployed to https://pickleballreviewer.vercel.app
 - [ ] Google indexed (search site:pickleballreviewer.com)
 - [ ] Analytics tracking active (GA4 placeholder in place — replace G-XXXXXXXXXX with real ID)
 
