@@ -3182,6 +3182,172 @@
         "spin",
         "selkirk"
       ]
+    },
+    {
+      "name": "Selkirk OMNI Elongated",
+      "brand": "Selkirk",
+      "id": "selkirk-omni-elongated",
+      "price_range": "$300",
+      "price_min": 300,
+      "price_max": 300,
+      "shape": "Elongated",
+      "core_material": "ReactCore™ (PureFoam floating center + PureFoam Ring + EVA Power Ring)",
+      "surface_material": "InfiniGrit®",
+      "core_thickness": "16mm",
+      "handle_length": "5.8\"",
+      "grip_circumference": "4.25\"",
+      "certifications": "USAP",
+      "year_released": 2026,
+      "generation": "Gen 4",
+      "category": "All-Court",
+      "description": "Premium all-court foam paddle with adjustable MOI weights and ReactCore double-ring technology. Offers a controlled, feel-first response that tones down the Boomstik's raw power while maintaining strong spin and stability.",
+      "measured_specs": {
+        "swing_weight": {
+          "value": 121.5,
+          "unit": "",
+          "source": "John Kew"
+        },
+        "spin": {
+          "value": 2364,
+          "unit": "RPM",
+          "source": "John Kew"
+        },
+        "twist_weight": {
+          "value": 7.06,
+          "unit": "",
+          "source": "John Kew"
+        },
+        "balance": {
+          "value": 24.5,
+          "unit": "cm",
+          "source": "John Kew"
+        },
+        "static_weight": {
+          "value": 8.2,
+          "unit": "oz",
+          "source": "John Kew"
+        }
+      },
+      "measured_specs_alt": {
+        "swing_weight": {
+          "value": 122,
+          "unit": "",
+          "source": "Pickleball Studio"
+        },
+        "spin": {
+          "value": "",
+          "unit": "RPM",
+          "source": "Pickleball Studio"
+        },
+        "twist_weight": {
+          "value": 6.9,
+          "unit": "",
+          "source": "Pickleball Studio"
+        },
+        "balance": {
+          "value": 24.5,
+          "unit": "cm",
+          "source": "Pickleball Studio"
+        },
+        "static_weight": {
+          "value": 8.23,
+          "unit": "oz",
+          "source": "Pickleball Studio"
+        }
+      },
+      "spin_rpm": 2364,
+      "swing_weight": 121.5,
+      "twist_weight": 7.06,
+      "spin_durability": 3,
+      "specs_source": "https://www.johnkewpickleball.com/selkirk-omni-review/selkirk-omni-review-a-more-controlled-boomstik-but-the-trade-offs-are-real",
+      "written_reviews": [
+        {
+          "author": "Team Kitchen",
+          "site": "The Kitchen",
+          "url": "https://thekitchenpickle.com/blogs/gear/selkirk-omni-pickleball-paddle-review/",
+          "quotes": [
+            "The Omni prioritizes feel and controllability over raw power and features removable/repositionable weights that let you customize swing weight, stability and power in seconds without tungsten tape or tools.",
+            "Players who want a controllable, feel-first paddle they can customize without tungsten tape or tools."
+          ],
+          "pros": [
+            "Removable, repositionable MOI weights",
+            "ReactCore double-ring for adaptive feel",
+            "Strong spin from InfiniGrit surface",
+            "Excellent control and forgiveness"
+          ],
+          "cons": [
+            "Premium price at $300",
+            "Less raw power than Boomstik",
+            "Removable weights may loosen over time"
+          ],
+          "disclosure": "Play-tested by multiple 5.0+ players across all shot types."
+        },
+        {
+          "author": "John Kew",
+          "site": "John Kew Pickleball",
+          "url": "https://www.johnkewpickleball.com/selkirk-omni-review/selkirk-omni-review-a-more-controlled-boomstik-but-the-trade-offs-are-real",
+          "quotes": [
+            "The OMNI successfully tones down the Boomstik's power while maintaining much of the same feel and identity.",
+            "It reads 2,364 RPM to the Boomstik's 2,306, both comfortably in Elite territory."
+          ],
+          "pros": [
+            "Higher twist weight (7.06) than Boomstik for more stability",
+            "Elite spin at 2,364 RPM",
+            "Adjustable MOI system lets you customize feel",
+            "Controlled, feel-first response"
+          ],
+          "cons": [
+            "Less raw power than Boomstik",
+            "Premium price at $300",
+            "Potential edge guard durability concerns observed in testing"
+          ],
+          "disclosure": "Independently measured using calibrated lab equipment. 400+ paddles tested since 2021. No sponsor influence."
+        }
+      ],
+      "youtube_videos": [
+        {
+          "title": "Selkirk OMNI Review: More Control, But With Tradeoffs",
+          "url": "https://www.youtube.com/watch?v=pDAHEqE9dts",
+          "channel": "John Kew Pickleball",
+          "date": "2026-06-03"
+        },
+        {
+          "title": "Selkirk OMNI Review | It's Good, but $300 is a Tough Sell",
+          "url": "https://www.youtube.com/watch?v=V1cfBjnklPs",
+          "channel": "Pickleball Studio",
+          "date": "2026-05-29"
+        },
+        {
+          "title": "The Selkirk Omni 16mm: The All-Court Foam Paddle for Players Done With Power",
+          "url": "https://www.youtube.com/watch?v=paH-GmB5yrE",
+          "channel": "Matt's Pickleball",
+          "date": "2026-06-02"
+        }
+      ],
+      "retailers": [
+        {
+          "name": "Selkirk",
+          "url": "https://www.selkirk.com/products/selkirk-omni-pickleball-paddle"
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/go/selkirk-omni"
+        },
+        {
+          "name": "Pickleball Warehouse",
+          "url": "https://www.pickleballwarehouse.com/Selkirk-OMNI-Elongated/c/p/100000000000000000000000000000000000000000000/"
+        }
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "premium",
+        "all-court",
+        "adjustable-moi",
+        "infinigrit",
+        "reactcore",
+        "usap"
+      ]
     }
   ]
 }
