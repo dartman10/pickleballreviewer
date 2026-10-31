@@ -294,13 +294,13 @@ def generate_paddle_page(paddle):
         </div>
     </footer>
 
-    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 — Replace G-6EL1LX9CG6 with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EL1LX9CG6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-6EL1LX9CG6');
     </script>
     <script src="../../js/app.js"></script>
 </body>
@@ -439,13 +439,13 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
         </div>
     </footer>
 
-    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 — Replace G-6EL1LX9CG6 with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EL1LX9CG6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-6EL1LX9CG6');
     </script>
     <script src="../../js/app.js"></script>
 </body>
@@ -555,13 +555,13 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
         </div>
     </footer>
 
-    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 — Replace G-6EL1LX9CG6 with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EL1LX9CG6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-6EL1LX9CG6');
     </script>
     <script src="../../js/app.js"></script>
 </body>
@@ -697,13 +697,13 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
         </div>
     </footer>
 
-    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 — Replace G-6EL1LX9CG6 with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EL1LX9CG6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-6EL1LX9CG6');
     </script>
     <script src="../../js/app.js"></script>
 </body>
@@ -1063,13 +1063,13 @@ def generate_best_of_pages():
         </div>
     </footer>
 
-    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics 4 — Replace G-6EL1LX9CG6 with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EL1LX9CG6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-6EL1LX9CG6');
     </script>
     <script src="../../js/app.js"></script>
 </body>
