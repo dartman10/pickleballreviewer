@@ -161,6 +161,36 @@ git commit -m "add [paddle name] — verified specs from [sources]"
 git push
 ```
 
+## Step 8: Test Live After Deploy
+
+Vercel deploys automatically on push. Wait ~15 seconds, then test:
+
+```bash
+# HTTP status and size
+curl -s -o /dev/null -w "%{http_code} %{size_download} bytes" \
+    https://pickleballreviewer.com/pages/paddles/[paddle-slug].html
+
+# Verify key content (returns count)
+curl -s https://pickleballreviewer.com/pages/paddles/[paddle-slug].html \
+    | grep -c "[paddle-name]"
+
+# Browser test: load page, scroll through sections
+# Check: title, H1, specs table, reviews, videos, retailers, GA4
+```
+
+**Post-deploy verification checklist:**
+- [ ] Status 200
+- [ ] Page size reasonable (>5KB, <30KB)
+- [ ] Paddle name renders in title, H1, OG tags
+- [ ] Price displayed
+- [ ] Measured specs (spin_rpm, swing_weight, twist_weight)
+- [ ] Written reviews (2+ sources with quotes)
+- [ ] YouTube videos (real URLs)
+- [ ] Retailers (3+ links)
+- [ ] GA4 ID: G-6EL1LX9CG6
+- [ ] Tags rendered
+- [ ] Sitemap updated (check sitemap.xml for new URL)
+
 ## Quick Checklist
 
 - [ ] Brand website found and verified
