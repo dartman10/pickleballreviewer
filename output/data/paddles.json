@@ -3425,6 +3425,133 @@
         "usap"
       ],
       "foam_type": "EPP"
+    },
+    {
+      "name": "11six24 Ultre Jelly Bean 2",
+      "brand": "11six24",
+      "id": "11six24-ultre-jelly-bean-2",
+      "price_range": "$169.99",
+      "price_min": 169,
+      "price_max": 170,
+      "shape": "Hybrid",
+      "core_material": "Full foam: EMA center, EVA ring, expanding foam edge",
+      "surface_material": "HexGrit peel-ply carbon fiber",
+      "core_thickness": "16mm",
+      "handle_length": "5.5\"",
+      "grip_circumference": "4.125\"",
+      "certifications": "UPA-A",
+      "year_released": 2026,
+      "generation": "Gen 4",
+      "category": "All-Court",
+      "description": "Soft, dense EMA foam paddle with HexGrit spin surface. The Jelly Bean 2 prioritizes feel, dwell, and control with a linear power profile — a planted, spin-heavy hybrid for players who create their own pace.",
+      "measured_specs": {
+        "swing_weight": 120.1,
+        "spin_rpm": 2354,
+        "twist_weight": 6.71,
+        "balance": "24.3 cm",
+        "static_weight": "8.1 oz"
+      },
+      "spin_rpm": 2354,
+      "swing_weight": 120.1,
+      "twist_weight": 6.71,
+      "spin_durability": 1,
+      "specs_source": "https://www.johnkewpickleball.com/paddle-lab/11six24-ultr-jelly-bean-2-16mm/",
+      "written_reviews": [
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/blogs/gear/11six24-jelly-bean-2-pickleball-paddle-review/",
+          "quotes": [
+            "The Jelly Bean 2 features a brand new EMA foam core, four different shapes and 11SIX24's HexGrit, which is a durable grit surface that produces elite spin and lasts significantly longer than traditional raw carbon fiber.",
+            "On the court, the Jelly Bean 2 has an incredibly soft, dense and muted feel with very little pop and a highly predictable power profile (i.e. the more you put in, the more you get out).",
+            "It's designed around control, but there's more power available on full swings than you might expect, making this a really interesting option for players who want control without completely sacrificing offense."
+          ],
+          "pros": [
+            "Incredibly soft, dense, muted feel",
+            "Elite spin from HexGrit surface",
+            "Predictable linear power profile",
+            "More power on full swings than expected",
+            "Great for spin generation"
+          ],
+          "cons": [
+            "Very little pop — not for power players",
+            "Higher swing weight = slower at net",
+            "All colors sold out at launch"
+          ],
+          "disclosure": "Tested by Team Kitchen (5.0+ players). Independent testing."
+        },
+        {
+          "author": "Sid Parfait",
+          "site": "PickleTip",
+          "url": "https://www.pickletip.com/11six24-ultre-jelly-bean-2-review/",
+          "quotes": [
+            "The spin is outstanding.",
+            "The paddle gives me a lot of dwell. Drops and resets are easy to control.",
+            "The substantial swing gives the paddle a planted feel, and when I have time to complete my stroke, there is plenty of mass moving through the ball.",
+            "The Ultré Jelly Bean 2 is a soft, spin-heavy and extremely planted control-first all-court paddle with excellent dwell and placement."
+          ],
+          "pros": [
+            "Outstanding spin production",
+            "Excellent dwell for drops and resets",
+            "Planted, connected feel at impact",
+            "Excellent control and placement"
+          ],
+          "cons": [
+            "Substantial swing weight limits quick hands at net",
+            "Does not have reactive power payoff of Ultré Power 2",
+            "May not suit players who prefer quick, reactive offense"
+          ],
+          "disclosure": "Based on court time with final-production Ultré Jelly Bean 2, direct comparison with other shapes, and follow-up through prototype discussions."
+        }
+      ],
+      "youtube_videos": [
+        {
+          "title": "11SIX24 Jelly Bean 2 Full Review: All 4 Shapes Tested",
+          "url": "https://www.youtube.com/watch?v=K5_sWLlV528",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-08-21"
+        },
+        {
+          "title": "The 11SIX24 Jelly Bean 2 Just Redefined The Control Category",
+          "url": "https://www.youtube.com/watch?v=WsHA6MwlBKc",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026-08-21"
+        },
+        {
+          "title": "11SIX24 Jelly Bean 2: All-Court, Not Control",
+          "url": "https://www.youtube.com/watch?v=LJ_T6Fps59Q",
+          "channel": "Matt's Pickleball",
+          "date": "2026-08-21"
+        }
+      ],
+      "retailers": [
+        {
+          "name": "11six24",
+          "url": "https://11six24.com/products/ultre-jelly-bean-2",
+          "price": "$169.99"
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/ultre-jelly-bean-2",
+          "price": "$169.99"
+        },
+        {
+          "name": "Pickleball Warehouse",
+          "url": "https://www.pickleballwarehouse.com/11SIX24-Ultre-Jelly-Bean-2/c/p/100000000000000000000000000000000000000000000/",
+          "price": "$169.99"
+        }
+      ],
+      "tags": [
+        "foam-core",
+        "hybrid",
+        "EMA",
+        "all-court",
+        "control",
+        "HexGrit",
+        "gen-4",
+        "spin-durability-tier-1"
+      ],
+      "foam_type": "MPP"
     }
   ]
 }
