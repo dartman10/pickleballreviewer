@@ -228,20 +228,21 @@ Run these checks before every `build.py` run:
 
 ---
 
-## Current State (as of 2026-10-25)
+### Current State (as of 2026-10-31)
 
 ### Data
-- **16 paddles** with verified content
-- **44 YouTube videos** across all paddles (from Pickleball Studio, John Kew, The Kitchen)
-- **28 written reviews** from 3 verified creators
-- **31 retailer links** (Affiliates: Pickleball Direct, Amazon, PickleBaller)
-- **59 consensus topics** across 16 paddles (all sources verified)
-- **3 guides** (How to Choose, MPP vs EPP, Budget Guide)
-- **9 category pages** (Power, Elongated, MPP Foam, etc.)
-- **3 reviewer pages** (Pickleball Studio, John Kew, The Kitchen)
+- **27 paddles** with verified content
+- **44+ YouTube videos** across all paddles (from Pickleball Studio, John Kew, The Kitchen, Pickleball Effect, PickleTip)
+- **35+ written reviews** from 4 verified creators
+- **39+ retailer links** (Affiliates: Pickleball Studio, Pickleball Warehouse, 11six24, 11six24, etc.)
+- **64+ consensus topics** across 27 paddles (all sources verified)
+- **5 guides** (How to Choose, MPP vs EPP, Budget Guide, Elongated vs Widebody, Spin Rankings)
+- **7+ category pages** (Power, Elongated, Widebody, Hybrid, MPP Foam, EPP Foam, Honeycomb, EVA, Budget)
+- **4 reviewer pages** (Pickleball Studio, John Kew, The Kitchen, Pickleball Effect)
 - **Interactive Comparison Tool** (compare?with=... URL-based)
-- **Constant nav** (All Paddles, Categories, Guides, Reviewers, Compare) on all 5 page types
+- **Constant nav** (All Paddles, Categories, Guides, Best Of, Reviewers, Compare) on all 6 page types
 - **4 Best Of ranking pages** (Best Power, Best Budget Under $100, Best Spin, Best Value)
+- **GA4 tracking**: G-6EL1LX9CG6 on all pages
 
 ### Paddles
 | Paddle | Brand | Category | YouTube | Written Reviews | Consensus |
@@ -276,7 +277,7 @@ Run these checks before every `build.py` run:
 
 | File | Purpose |
 |------|---------|
-| `data/paddles.json` | All paddle data — the single source of truth (16 paddles) |
+| `data/paddles.json` | All paddle data — the single source of truth (27 paddles) |
 | `data/guides.json` | Guide content (3 guides) |
 | `build.py` | Generates all HTML pages from JSON (paddles, categories, reviewers, guides, compare) |
 | `css/style.css` | Responsive styles (grid, cards, nav, comparison table) |
@@ -289,16 +290,22 @@ Run these checks before every `build.py` run:
 | `plans/week1-tasks.md` | Week 1 atomic task tracker |
 | `plans/week2-tasks.md` | Week 2 feature task tracker |
 | `plans/project-reference.md` | This file — architecture, schema, state |
-| `output/` | Generated site — deployable directory (37 pages: 16 paddle + 9 category + 3 reviewer + 3 guide + 4 best-of + compare + homepage) |
+| `output/` | Generated site — deployable directory (57 pages: 27 paddle + 7 shape + 4 foam + 5 guide + 4 best-of + compare + homepage + 2 legal) |
 
 ---
 
-## Next Steps (Not Started Yet)
+## Next Steps
 
-- [ ] Deploy to Netlify (or Vercel)
-- [ ] Add Google Analytics / privacy-compliant analytics
-- [ ] Add structured data (Organization, Website) for SEO
-- [ ] Expand paddle dataset (target 30–50 paddles for comprehensive coverage)
-- [ ] Add "Best Of" curated pages for other categories (Best Control, Best Elongated, etc.)
-- [ ] Create affiliate disclosure page
-- [ ] Set up Sitemap.xml and robots.txt for SEO
+- [x] Deploy to Vercel at https://pickleballreviewer.com
+- [x] Add Google Analytics 4 — G-6EL1LX9CG6 on all 57 pages
+- [x] Add structured data (Organization, Website) for SEO
+- [x] Expand paddle dataset — 27 paddles, on track for 50+
+- [x] Add "Best Of" curated pages — 4 ranking pages live
+- [x] Create affiliate disclosure page — live
+- [x] Set up Sitemap.xml and robots.txt — 52 URLs
+- [ ] Submit sitemap to Google Search Console
+- [ ] Submit sitemap to Bing Webmaster Tools
+- [ ] Add Google Analytics to Google Search Console
+- [ ] Add 10+ more paddles (Lux Inferno, Boomstik Elongated, etc.)
+- [ ] Auto-related paddles section on each paddle page (estimated 2h)
+- [ ] Paddle share buttons (estimated 2h)

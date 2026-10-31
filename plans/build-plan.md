@@ -4,7 +4,7 @@
 
 A data-driven static website that aggregates verified YouTube review videos, written review quotes, and cross-reviewer consensus for pickleball paddles. Built from structured JSON data with automated HTML generation.
 
-**Current state:** 23 paddles complete, 4 verified reviewers (Pickleball Studio: 14, The Kitchen: 9, John Kew: 5, Pickleball Effect: 7). 52 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 932 internal links, 0 broken. **LIVE at https://pickleballreviewer.vercel.app** on domain pickleballreviewer.com. GitHub: https://github.com/dartman10/pickleballreviewer
+**Current state:** 27 paddles complete, 4 verified reviewers (Pickleball Studio: 16, The Kitchen: 11, John Kew: 4, Pickleball Effect: 7). 57 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 932+ internal links, 0 broken. **LIVE at https://pickleballreviewer.com** (custom domain). GitHub: https://github.com/dartman10/pickleballreviewer
 
 ---
 
@@ -64,7 +64,7 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 - Consensus topics where available (1+ reviewers agree)
 - Retailer links with prices
 
-**Data stats:** 44 YouTube videos, 35 written reviews, 39 retailer links, 64 consensus topics across 23 paddles. 4 verified reviewers: Pickleball Studio (14 paddles), The Kitchen (9), John Kew (5), Pickleball Effect (7).
+**Data stats:** 44+ YouTube videos, 35+ written reviews, 39+ retailer links, 64+ consensus topics across 27 paddles. 4 verified reviewers: Pickleball Studio (16 paddles), The Kitchen (11), John Kew (4), Pickleball Effect (7).
 
 **Quality gate:** Run `python3 scripts/verify-site-data.py` — must pass with 0 errors. ✅
 
@@ -135,24 +135,24 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 **Goal:** Production readiness — SEO optimization, analytics, legal pages.
 
 **Completed:**
-1. ✅ **Sitemap.xml** — Auto-generated from `paddles.json` + all page slugs. 48 URLs, written to `output/sitemap.xml`.
+1. ✅ **Sitemap.xml** — Auto-generated from `paddles.json` + all page slugs. 52 URLs, written to `output/sitemap.xml`.
 2. ✅ **robots.txt** — Allow all crawlers, reference sitemap.xml. Written to `output/robots.txt`.
-3. ✅ **Open Graph tags** — Every page (48 total) has og:title, og:description, og:type, og:url, og:image.
-4. ✅ **Google Analytics 4** — GA4 script on all 48 pages (placeholder `G-XXXXXXXXXX` — replace with real ID before deploy).
+3. ✅ **Open Graph tags** — Every page (57 total) has og:title, og:description, og:type, og:url, og:image.
+4. ✅ **Google Analytics 4** — GA4 script on all 57 pages. Measurement ID: G-6EL1LX9CG6. Replaced placeholder.
 5. ✅ **Privacy Policy page** — Complete policy covering data collection, analytics, third-party links, cookies, children's privacy. Written to `output/privacy.html`.
 6. ✅ **Affiliate Disclosure page** — FTC-compliant disclosure covering affiliate relationships, objectivity commitment, transparency. Written to `output/affiliate-disclosure.html`.
 7. ✅ **404 page** — Custom styled error page with site navigation and Privacy/Affiliate links. Written to `output/404.html`.
-8. ✅ **Footer links** — Privacy and Affiliate Disclosure linked on all 49 pages with correct relative paths per page depth.
-9. ✅ **Homepage stats updated** — 23 paddles, 7 categories, 4 reviewers, $70 starting price.
+8. ✅ **Footer links** — Privacy and Affiliate Disclosure linked on all 57 pages with correct relative paths per page depth.
+9. ✅ **Homepage stats updated** — 27 paddles, 7+ categories, 4 reviewers, $70 starting price.
 10. ✅ **Legal page nav** — Privacy and Affiliate Disclosure pages have full navigation and consistent footer links.
 
 **Deploy notes:**
 - ✅ Domain setup: pickleballreviewer.com configured via Vercel
-- ✅ Site deployed to https://pickleballreviewer.vercel.app
+- ✅ Site deployed to https://pickleballreviewer.com (custom domain, Vercel URL deleted by user)
 - ✅ GitHub repo: https://github.com/dartman10/pickleballreviewer
-- ⚠️ Replace `G-XXXXXXXXXX` with real GA4 measurement ID before activating analytics
+- ✅ GA4 measurement ID G-6EL1LX9CG6 installed on all pages (no longer placeholder)
 - ✅ Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- ✅ OG image: `output/og-image.png` generated and linked on all 48 pages
+- ✅ OG image: `output/og-image.png` generated and linked on all 57 pages
 
 ---
 
@@ -255,21 +255,25 @@ These are optional improvements that add meaningful value with relatively low ef
 
 ### 5. Add Authority Paddles (Effort: 4-6 hours)
 
-**Why:** Our current set is heavily skewed toward power paddles (21 of 23). Only elongated, hybrid, and power categories exist. The most common comparison search queries are "Lux Inferno review" and "Spartus Spitfire vs Lux Inferno" — if we can add the Lux Inferno, it would be the single highest-impact paddle for SEO and content authority.
+**Why:** Our current set is heavily skewed toward power paddles (21 of 27). Only elongated, hybrid, and power categories exist. The most common comparison search queries are "Lux Inferno review" and "Spartus Spitfire vs Lux Inferno" — if we can add the Lux Inferno, it would be the single highest-impact paddle for SEO and content authority.
 
 **Recommended additions:**
 
-| Paddle | Priority | Why |
+|| Paddle | Priority | Why |
 |--------|----------|-----|
-| Selkirk Lux Inferno | High | The "gold standard" paddle. Everyone compares to it. Highest-volume search term. |
-| Selkirk Boomstik Elongated | Medium | Different shape version of an already-covered paddle. Captures elongated shape queries. |
-| CRBN 3X vs Lux Inferno guide | Medium | Head-to-head guide page (uses existing data from both paddles). |
+|| Selkirk Lux Inferno | High | The "gold standard" paddle. Everyone compares to it. Highest-volume search term. |
+|| Selkirk Boomstik Elongated | Medium | Different shape version of an already-covered paddle. Captures elongated shape queries. |
+|| CRBN 3X vs Lux Inferno guide | Medium | Head-to-head guide page (uses existing data from both paddles). |
+
+**Current dataset composition (27 paddles):** 21 power, 6 control/all-court. Added since original 23: Selkirk OMNI Elongated, RPM Friction Pro V2, 11six24 Ultre Jelly Bean 2. Next targets: Lux Inferno, Boomstik Elongated, Engage Axiom Elongated (already in dataset), RPM Friction Pro V2 (already in dataset).
 
 **Data gathering note:** Lux Inferno may not have measured specs in Pickleball Studio or paddlespecs.com (consistent with the same pattern that caused Joovy Spin / Gamma Raptor skips). If no measured specs exist, the Verified-Only Rule says to use `[REDACTED]` for missing measurements and rely on written reviews + YouTube videos only.
 
 **Where in plan:** After Week 5 launch — "Phase 3" content expansion based on what search queries drive traffic.
 
 **Risk:** Medium. If Lux Inferno has no measured specs in target databases, we'd have to document that limitation explicitly.
+
+**Workflow note:** Use `add-paddle-review` skill (8-step workflow: brand → verify → data → JSON → build → verify → deploy → test live). See `docs/add-paddle-review-workflow.md`.
 
 ---
 
@@ -556,26 +560,26 @@ scripts/verify-site-data.py  — already validates paddle data structure
 ## Success Metrics
 
 ### Month 1 (Launch)
-- [x] 23 paddle pages live
-- [x] 3 guide pages live
+- [x] 27 paddle pages live
+- [x] 5 guide pages live
 - [x] Reviewer index page live
 - [x] Best Of index + 4 ranking pages live
-- [x] 3 categories populated (3+ paddles each)
-- [x] Standardized 6-item navigation on all 49 pages
+- [x] 7+ categories populated (3+ paddles each)
+- [x] Standardized 6-item navigation on all 57 pages
 - [x] Comparison tool live at /pages/compare.html
 - [x] YouTube thumbnails on all paddle pages
-- [x] Site deployed to https://pickleballreviewer.vercel.app
+- [x] Site deployed to https://pickleballreviewer.com (custom domain)
+- [x] GA4 tracking active: G-6EL1LX9CG6
 - [ ] Google indexed (search site:pickleballreviewer.com)
-- [ ] Analytics tracking active (GA4 placeholder in place — replace G-XXXXXXXXXX with real ID)
 
 ### Month 3
 - [ ] 1,000+ organic visits/month
 - [ ] Top 3 ranking for at least 5 long-tail keywords
-- [ ] 10+ paddle reviews (3+ sources per popular paddle) — currently 35 reviews across 23 paddles (avg 1.5 sources)
+- [ ] 10+ paddle reviews (3+ sources per popular paddle) — currently 35+ reviews across 27 paddles (avg 1.3 sources)
 - [ ] 5+ guides ranking on page 1
 
 ### Month 6
 - [ ] 5,000+ organic visits/month
 - [ ] Revenue from affiliate links (projected $200–$500/mo — based on industry benchmarks for niche affiliate sites)
-- [ ] 50+ paddle pages with verified data
+- [ ] 50+ paddle pages with verified data — currently 27, on track
 - [ ] Featured in pickleball community discussions

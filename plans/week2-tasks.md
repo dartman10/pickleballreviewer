@@ -236,9 +236,9 @@ Each task is a feature with atomic sub-steps. Follow the sequence for each featu
   - Updated `reviewer_data` tuples with Pickleball Effect
 
 9c. **Generate individual reviewer pages** ✅ Done
-  - Pickleball Studio: 14 paddles
-  - The Kitchen: 9 paddles
-  - John Kew: 5 paddles
+  - Pickleball Studio: 16 paddles
+  - The Kitchen: 11 paddles
+  - John Kew: 4 paddles
   - Pickleball Effect: 7 paddles
 
 9d. **Fix reviewer paddle links** ✅ Done

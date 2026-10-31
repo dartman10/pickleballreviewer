@@ -301,7 +301,7 @@ For each paddle, execute these steps:
 
 ## Execution Order
 
-**Status:** All 16 paddles completed. Original execution order was:
+**Status:** All 27 paddles completed. Original execution order was:
 
 1. **Enhance MPP Turbo** — first paddle, established the data gathering workflow
 2. **Enhance EPP Turbo** — same brand, validated cross-brand review matching
@@ -325,6 +325,19 @@ For each paddle, execute these steps:
 - Vatic Pro Prism Flash 16mm (replaced Gamma Raptor — no measurement data)
 - 11six24 Hurache-X Power2, Spartus P1, Gearbox GX2, Holbrook Fuze (replaced Head Radical Pro, Paddles Viper — no measurement data)
 - CRBN 3X/1X, Ronbus Quanta R3, Ronbus Ripple V2 (replaced Kettler K1 Pro, Engage PX-3 — no measurement data)
+
+**Post-launch additions (Week 7+):**
+17. **Engage Axiom Elongated 16mm** — added from Pickleball Studio measurement database
+18. **Volair CMD Hybrid** — added from Pickleball Studio measurement database
+19. **RPM Jade Elongated 16mm** — added from Pickleball Studio measurement database
+20. **Pakle Fuse Hybrid W** — added from Pickleball Studio measurement database
+21. **Honolulu J2NF Hybrid** — added from Pickleball Studio measurement database
+22. **Six Zero Coral Pro Hybrid** — added from Pickleball Studio measurement database
+23. **Ronbus Tenon R3.16** — added from Pickleball Studio measurement database
+24. **Selkirk LUXX Control Air Invikta** — added from John Kew measurement database
+25. **Selkirk OMNI Elongated** — added Oct 2026, verified from John Kew, The Kitchen
+26. **RPM Friction Pro V2** — added Oct 2026, verified from John Kew, The Kitchen, Pickleball Effect
+27. **11six24 Ultre Jelly Bean 2** — added Oct 2026, verified from John Kew, The Kitchen, PickleTip
 
 **Rationale for final set:** All 16 paddles have verified measured specs from Pickleball Studio or John Kew, at least 2 written reviews, and YouTube video coverage. The skipped paddles (Joovy Spin, Gamma Raptor, Head Radical Pro, Paddles Viper) were replaced with measurable alternatives that fill the same category/shape gaps.
 
