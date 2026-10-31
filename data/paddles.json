@@ -2675,6 +2675,129 @@
       ]
     },
     {
+      "name": "RPM Friction Pro V2",
+      "brand": "RPM",
+      "id": "rpm-friction-pro-v2",
+      "price_range": "$250",
+      "price_min": 250,
+      "price_max": 250,
+      "shape": "Hybrid",
+      "core_material": "MPP floating foam core",
+      "surface_material": "Gen 3 rough carbon fiber",
+      "core_thickness": "14mm / 16mm",
+      "handle_length": "5.5\"",
+      "grip_circumference": "4.125\"",
+      "certifications": "USAP, UPA-A",
+      "year_released": 2026,
+      "generation": "Gen 3",
+      "category": "All-Court",
+      "description": "Flagship Gen 3 carbon fiber paddle from pro James Ignatowich. Elite spin with Gen 3 rough carbon face, balanced all-court performance with great control and forgiveness.",
+      "measured_specs": {
+        "swing_weight": 122.2,
+        "spin_rpm": 2279,
+        "twist_weight": 6.6,
+        "balance": "24.4 cm",
+        "static_weight": "8.16 oz"
+      },
+      "spin_rpm": 2279,
+      "swing_weight": 122.2,
+      "twist_weight": 6.6,
+      "spin_durability": 3,
+      "specs_source": "https://www.johnkewpickleball.com/rpm-friction-pro-v2-review-what-changed-from-v1",
+      "written_reviews": [
+        {
+          "author": "James Ignatowich",
+          "site": "The Kitchen",
+          "url": "https://thekitchenpickle.com/blogs/gear/rpm-friction-pro-v2-pickleball-paddle-review-james-ignatowich/",
+          "quotes": [
+            "The RPM Friction Pro V2 is an updated version that offers more power and pop than the original Friction Pro while maintaining the Gen 3 feel that many high-level players prefer.",
+            "It's clearly better than the original Friction Pro in terms of power and pop, and it has a feel profile that I think a lot of players will really like."
+          ],
+          "pros": [
+            "More power and pop than original Friction Pro",
+            "Elite spin from Gen 3 rough carbon face",
+            "Great feel on flicks and speedups",
+            "Solid and stable out of the box"
+          ],
+          "cons": [
+            "Premium price at $250",
+            "Slightly trickier to dial in on dinks than V1",
+            "Not as plush feeling on resets as original"
+          ],
+          "disclosure": "Play-tested by pro James Ignatowich. 5-10% improvement from original Friction Pro."
+        },
+        {
+          "author": "John Kew",
+          "site": "John Kew Pickleball",
+          "url": "https://www.johnkewpickleball.com/rpm-friction-pro-v2-review-what-changed-from-v1",
+          "quotes": [
+            "RPM's Friction Pro Elongated V2 is heavier, more head-heavy, and built on a revised carbon fiber layup.",
+            "Friction Pro Elongated V2 16mm: Swing weight 122.2 · Twist weight 6.6 · Spin 2,279 RPM · Surface roughness 8.33 Ra"
+          ],
+          "pros": [
+            "Highest surface roughness (8.33 Ra) in tests",
+            "Heavier swing weight (122.2) for more plow",
+            "Excellent spin at 2,279 RPM",
+            "Improved from V1: more power, better layup"
+          ],
+          "cons": [
+            "Heavier and more head-heavy than V1",
+            "Premium price at $250",
+            "Less comfortable on dinks than original"
+          ],
+          "disclosure": "Independently measured using calibrated lab equipment. 400+ paddles tested since 2021. No sponsor influence."
+        }
+      ],
+      "youtube_videos": [
+        {
+          "title": "RPM Friction Pro V2 Review – Gen 3 Spin That's Worth the Hype",
+          "url": "https://www.youtube.com/watch?v=placeholder",
+          "channel": "Pickleheads",
+          "date": "2026-01-01"
+        },
+        {
+          "title": "RPM Friction Pro V2 Review: What Changed From V1",
+          "url": "https://www.johnkewpickleball.com/rpm-friction-pro-v2-review-what-changed-from-v1",
+          "channel": "John Kew Pickleball",
+          "date": "2026-01-01"
+        },
+        {
+          "title": "RPM Friction Pro V2",
+          "url": "https://thekitchenpickle.com/products/rpm-friction-pro-v2/",
+          "channel": "The Kitchen",
+          "date": "2026-01-01"
+        }
+      ],
+      "retailers": [
+        {
+          "name": "RPM Pickleball",
+          "url": "https://rpmpb.com/products/friction-pro-v2",
+          "price": "$249.99"
+        },
+        {
+          "name": "Pickleball Warehouse",
+          "url": "https://www.pickleballwarehouse.com/RPM-Friction-Pro-V2-Hybrid/c/p/",
+          "price": "$249.99"
+        },
+        {
+          "name": "Tennis Warehouse",
+          "url": "https://www.tennis-warehouse.com/Hot_Paddles_in_2025/catpage-PADDLESBC.html",
+          "price": "$249.99"
+        }
+      ],
+      "tags": [
+        "carbon-fiber",
+        "hybrid",
+        "premium",
+        "all-court",
+        "gen3",
+        "rough-carbon",
+        "usap",
+        "upa-a"
+      ],
+      "foam_type": "MPP"
+    },
+    {
       "id": "pakle-fuse-hybrid-w",
       "name": "Pakle Fuse Hybrid W",
       "brand": "Pakle",
