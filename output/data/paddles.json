@@ -3552,6 +3552,128 @@
         "spin-durability-tier-1"
       ],
       "foam_type": "MPP"
+    },
+    {
+      "id": "luzz-inferno-2-m1",
+      "name": "Luzz Inferno2 M1",
+      "brand": "Luzz",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "MPP",
+      "price_range": "$239",
+      "price_min": 239,
+      "price_max": 239,
+      "description": "Updated MPP power paddle with upgraded MPP2 core, TPE dynamic return ring, and durable Aero-Black grit surface. Designed to fix the original Pro 4 Inferno's unpredictable bounce while keeping its explosive hollow feel.",
+      "specs_source": "https://pickleballstudio.com/paddles/inferno-2-m1",
+      "measured_specs": {
+        "swing_weight": 119.9,
+        "spin_rpm": 2305,
+        "twist_weight": 6.11,
+        "balance": "242 mm",
+        "static_weight": "7.95 oz"
+      },
+      "spin_rpm": 2305,
+      "swing_weight": 119.9,
+      "twist_weight": 6.11,
+      "spin_durability": 3,
+      "core_thickness": "16mm",
+      "handle_length": "5.5\"",
+      "grip_circumference": "4.125\"",
+      "certifications": "UPA-A",
+      "year_released": 2026,
+      "generation": "Gen 4",
+      "written_reviews": [
+        {
+          "author": "Team Kitchen",
+          "site": "The Kitchen",
+          "url": "https://thekitchenpickle.com/paddle/luzz-inferno2-m1/",
+          "quotes": [
+            "The new Luzz Inferno 2 M1 features an upgraded core from the original Pro 4 Inferno, delivering a more uniform feel and added consistency.",
+            "The Aero-Black surface is also designed to maintain dependable friction through extended play."
+          ],
+          "pros": [
+            "Explosive power in an elongated shape",
+            "Upgraded core gives a more uniform feel",
+            "Strong spin to go with the power",
+            "Aero-Black face keeps friction dependable"
+          ],
+          "cons": [
+            "High swing weight slows hands battles",
+            "Elongated shape has a smaller sweet spot than widebodies",
+            "Medium 6.1 twist weight on off-center hits"
+          ],
+          "disclosure": "Tested by Team Kitchen (5.0+ players) on lab equipment with hours of drills and 5.0+ games."
+        },
+        {
+          "author": "Braydon",
+          "site": "Pickleball Effect",
+          "url": "https://pickleballeffect.com/paddles/luzz-inferno2-m1/",
+          "quotes": [
+            "It plays like a Pro-4 Inferno that is already broken in.",
+            "The face is noticeably grittier and it grabs the ball better than the original on softer shots, dinks and flicks especially."
+          ],
+          "pros": [
+            "Very high spin at 2,168 RPM",
+            "Grit held 87% retention (Tier 3 durability)",
+            "Same soft, hollow impact as original with more density behind the ball"
+          ],
+          "cons": [
+            "120 swing weight sits above elongated average",
+            "Price went up from original",
+            "UPA-A only, not USAP approved"
+          ],
+          "disclosure": "Braydon: 5.0 player, 500+ paddles reviewed since 2020"
+        }
+      ],
+      "youtube_videos": [
+        {
+          "title": "Luzz Inferno2 M1 Paddle Review | On court drill & play test",
+          "url": "https://www.youtube.com/watch?v=CV7z1s3fjy0",
+          "channel": "Pickleball Playbook Paddles",
+          "date": "2026-08-14"
+        },
+        {
+          "title": "The Luzz Inferno 2 Tested - Is It Actually Better?",
+          "url": "https://www.youtube.com/watch?v=9SGctn6rKRA",
+          "channel": "Pickleball Willy",
+          "date": "2026-08-25"
+        },
+        {
+          "title": "Luzz Inferno 2 Review: Better Than the Original Inferno?",
+          "url": "https://www.youtube.com/watch?v=hy_0x__ljbQ",
+          "channel": "Dwell Time Pickleball",
+          "date": "2026-09-27"
+        }
+      ],
+      "retailers": [
+        {
+          "name": "Luzz Pickleball",
+          "url": "https://luzzpickleball.com/collections/all",
+          "price": "$239"
+        },
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/inferno-2-m1",
+          "price": "$239"
+        },
+        {
+          "name": "Pickleball Central",
+          "url": "https://pickleballcentral.com/luzz-inferno2-m1-dawn-pickleball-paddle/",
+          "price": "$239"
+        }
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "power",
+        "MPP",
+        "Aero-Black",
+        "gen-4",
+        "spin-durability-tier-3",
+        "UPA-A",
+        "hollow"
+      ],
+      "foam_type": "MPP"
     }
   ]
 }
