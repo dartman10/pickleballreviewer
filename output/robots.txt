@@ -1,0 +1,8 @@
+# Pickleball Review Hub — robots.txt
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pickleballreviewer.com/sitemap.xml

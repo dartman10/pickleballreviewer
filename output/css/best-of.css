@@ -1,0 +1,372 @@
+/* Pickleball Review Hub — Best Of page styles */
+
+/* Hero banner for best-of pages */
+.best-of-hero-banner {
+    background: linear-gradient(135deg, #1d1d1f 0%, #2d2d30 100%);
+    color: white;
+    padding: 40px 0 30px;
+    margin-bottom: 20px;
+}
+.best-of-hero-banner h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+.best-of-hero-banner p {
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+.best-of-banner-stats {
+    display: flex;
+    gap: 24px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+}
+.best-of-banner-stat strong {
+    color: white;
+}
+
+/* ===== TOP 3 HERO CARDS ===== */
+.best-of-hero-card {
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+.best-of-hero-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+.best-of-hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+.best-of-hero-card:nth-child(1)::before { background: linear-gradient(90deg, #f0c040, #f5a623); }
+.best-of-hero-card:nth-child(2)::before { background: linear-gradient(90deg, #b0b0b0, #d0d0d0); }
+.best-of-hero-card:nth-child(3)::before { background: linear-gradient(90deg, #e08060, #d06040); }
+
+.best-of-hero-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--accent);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.badge-label {
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.best-of-hero-body {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.best-of-hero-thumb {
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.best-of-hero-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.best-of-thumb-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-alt);
+    font-size: 2rem;
+    color: var(--text-secondary);
+}
+
+.best-of-hero-info {
+    flex: 1;
+    min-width: 0;
+}
+.best-of-hero-info h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.best-of-hero-info h3 a {
+    color: var(--text);
+    text-decoration: none;
+}
+.best-of-hero-info h3 a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.best-of-rank-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.best-of-hero-stat {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.best-of-stat-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+    white-space: nowrap;
+}
+.best-of-stat-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+.best-of-stat-bar {
+    flex: 1;
+    height: 8px;
+    background: var(--bg-alt);
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 80px;
+}
+.best-of-stat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--accent-light));
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+.best-of-stat-bar-sm {
+    height: 6px;
+    min-width: 60px;
+}
+
+.best-of-hero-price {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.best-of-hero-cta {
+    flex-shrink: 0;
+}
+.best-of-hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.best-of-hero-btn:hover {
+    background: var(--accent-light);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+}
+
+/* ===== #4+ RANKED CARDS ===== */
+.best-of-rank-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    transition: all 0.2s;
+    background: white;
+}
+.best-of-rank-card:hover {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-color: var(--accent);
+}
+
+.best-of-rank-number {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-secondary);
+    min-width: 36px;
+    text-align: center;
+    background: var(--bg-alt);
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+.best-of-rank-card:hover .best-of-rank-number {
+    color: var(--accent);
+    background: rgba(230, 57, 70, 0.08);
+}
+
+.best-of-rank-thumb {
+    width: 72px;
+    height: 54px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.best-of-rank-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.best-of-rank-body {
+    flex: 1;
+    min-width: 0;
+}
+.best-of-rank-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+    gap: 12px;
+}
+.best-of-rank-top h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    flex-shrink: 1;
+    min-width: 0;
+}
+.best-of-rank-top h3 a {
+    color: var(--text);
+    text-decoration: none;
+}
+.best-of-rank-top h3 a:hover {
+    color: var(--accent);
+}
+.best-of-rank-price {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.best-of-rank-stat-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.best-of-rank-stat-value {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+}
+
+.best-of-rank-btn {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    transition: all 0.2s;
+    margin-top: 4px;
+}
+.best-of-rank-btn:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* ===== CTA SECTION ===== */
+.best-of-cta-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 24px;
+    background: var(--bg-alt);
+    border-radius: 12px;
+}
+.best-of-cta-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.best-of-cta-btn:hover {
+    background: var(--accent-light);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(230, 57, 70, 0.3);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .best-of-hero-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .best-of-hero-body {
+        flex-direction: column;
+        text-align: center;
+    }
+    .best-of-hero-stat {
+        justify-content: center;
+    }
+    .best-of-hero-cta {
+        width: 100%;
+        text-align: center;
+    }
+    .best-of-hero-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .best-of-rank-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .best-of-rank-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .best-of-rank-stat-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .best-of-banner-stats {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

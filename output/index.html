@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curated directory of pickleball paddle reviews. Compare top paddles: Enhance MPP Turbo, Bread & Butter Loco, and more. YouTube videos + verified written reviews.">
+    <meta name="keywords" content="pickleball paddle review, pickleball paddle, pickleball equipment, paddle comparison">
+    <title>Pickleball Paddle Review Hub — Verified Reviews & Comparisons</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pickleball Paddle Review Hub — Verified Reviews & Comparisons">
+    <meta property="og:description" content="Curated directory of pickleball paddle reviews. Compare top paddles: Enhance MPP Turbo, Bread & Butter Loco, and more. YouTube videos + verified written reviews.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pickleballreviewer.com/">
+    <meta property="og:image" content="https://pickleballreviewer.com/og-image.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Pickleball Paddle Review Hub",
+      "url": "https://pickleballreviewer.com",
+      "description": "Curated directory of pickleball paddle reviews. YouTube videos + verified written reviews."
+    }
+    </script>
+    <!-- WebSite + SearchAction Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Pickleball Paddle Review Hub",
+      "url": "https://pickleballreviewer.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://pickleballreviewer.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🏓</span>
+                <span class="logo-text">Pickleball<span class="highlight">Reviewer</span></span>
+            </a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link active">All Paddles</a>
+                <a href="pages/categories/index.html" class="nav-link">Categories</a>
+                <a href="pages/guides/index.html" class="nav-link">Guides</a>
+                <a href="pages/best-of/index.html" class="nav-link">Best Of</a>
+                <a href="reviewers/index.html" class="nav-link">Reviewers</a>
+                <a href="pages/compare.html" class="nav-link">Compare</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Find the Right Pickleball Paddle</h1>
+                <p class="hero-subtitle">YouTube review videos + verified written highlights from the top pickleball reviewers.</p>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search paddles... (e.g., 'budget', 'MPP', 'power')">
+                    <button class="search-icon" aria-label="Search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    </button>
+                </div>
+                <div class="filter-tags">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="budget">Under $120</button>
+                    <button class="filter-btn" data-filter="power">Power</button>
+                    <button class="filter-btn" data-filter="MPP">MPP Foam</button>
+                    <button class="filter-btn" data-filter="EPP">EPP Foam</button>
+                    <button class="filter-btn" data-filter="foam-core">Foam Core</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-bar">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-count">23</span>
+                    <span class="stat-label">Paddles</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Verified Reviewers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$70</span>
+                    <span class="stat-label">Starting Price</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>All Paddles</h2>
+                    <span class="product-count" id="product-count">Showing all paddles</span>
+                </div>
+                <div class="products-grid" id="products-grid">
+                    <!-- Paddles rendered by JS -->
+                </div>
+                <div class="no-results" id="no-results" style="display:none;">
+                    <p>No paddles match your search. Try broader terms.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section" style="background: var(--bg-alt);">
+            <div class="container">
+                <h2>Browse by Category</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">View all 7 categories</p>
+                <div class="categories-grid">
+                    <a href="pages/categories/index.html" class="category-card" style="border-left: 3px solid var(--accent);">
+                        <span class="category-icon">📋</span>
+                        <h3>All Categories</h3>
+                        <p class="category-desc">9 categories overview</p>
+                    </a>
+                    <a href="pages/categories/power.html" class="category-card">
+                        <span class="category-icon">💥</span>
+                        <h3>Power Paddles</h3>
+                        <p class="category-desc">Maximum pop and power</p>
+                    </a>
+                    <a href="pages/categories/budget.html" class="category-card">
+                        <span class="category-icon">💰</span>
+                        <h3>Budget Picks</h3>
+                        <p class="category-desc">Under $120</p>
+                    </a>
+                    <a href="pages/categories/MPP.html" class="category-card">
+                        <span class="category-icon">🧊</span>
+                        <h3>MPP Foam</h3>
+                        <p class="category-desc">Soft & springy</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section" style="background: var(--bg-alt);">
+            <div class="container">
+                <h2>🏆 Best Of Rankings</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">Curated rankings sorted by verified measured data — not marketing claims.</p>
+                <div class="categories-grid">
+                    <a href="pages/best-of/best-power-pickleball-paddles.html" class="category-card">
+                        <span class="category-icon">🔥</span>
+                        <h3>Best Power</h3>
+                        <p class="category-desc">Highest spin RPM &amp; twist weight</p>
+                    </a>
+                    <a href="pages/best-of/best-budget-pickleball-paddles-under-100.html" class="category-card">
+                        <span class="category-icon">💰</span>
+                        <h3>Best Budget</h3>
+                        <p class="category-desc">Under $100 measured performance</p>
+                    </a>
+                    <a href="pages/best-of/best-spin-pickleball-paddle.html" class="category-card">
+                        <span class="category-icon">🌀</span>
+                        <h3>Best Spin</h3>
+                        <p class="category-desc">Maximum measured RPM</p>
+                    </a>
+                    <a href="pages/best-of/best-value-pickleball-paddle.html" class="category-card">
+                        <span class="category-icon">📊</span>
+                        <h3>Best Value</h3>
+                        <p class="category-desc">Best spin per dollar spent</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <h2>Top Reviewers</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">Verified written reviews and measured data from trusted creators.</p>
+                <div class="categories-grid">
+                    <a href="reviewers/index.html" class="category-card" style="border-left: 3px solid var(--accent);">
+                        <span class="category-icon">📋</span>
+                        <h3>All Reviewers</h3>
+                        <p class="category-desc">View all 4 reviewer profiles</p>
+                    </a>
+                    <a href="reviewers/pickleball-studio.html" class="category-card">
+                        <span class="category-icon">🎬</span>
+                        <h3>Pickleball Studio</h3>
+                        <p class="category-desc">33K+ subs. Independent, thorough testing.</p>
+                    </a>
+                    <a href="reviewers/john-kew.html" class="category-card">
+                        <span class="category-icon">📊</span>
+                        <h3>John Kew</h3>
+                        <p class="category-desc">14.7K+ subs. Data-driven lab testing.</p>
+                    </a>
+                    <a href="reviewers/the-kitchen.html" class="category-card">
+                        <span class="category-icon">🍳</span>
+                        <h3>The Kitchen</h3>
+                        <p class="category-desc">Expert team. Scored ratings.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section" style="background: var(--bg-alt);">
+            <div class="container">
+                <h2>Buying Guides</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 16px;">Expert buying advice based on verified measured data — not marketing claims.</p>
+                <div class="categories-grid">
+                    <a href="pages/guides/index.html" class="category-card" style="border-left: 3px solid var(--accent);">
+                        <span class="category-icon">📚</span>
+                        <h3>All Guides</h3>
+                        <p class="category-desc">View all 3 buying guides</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Pickleball Review Hub</h4>
+                    <p>Your trusted source for verified pickleball paddle reviews. YouTube videos + written content from trusted reviewers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="pages/categories/power.html">Power Paddles</a></li>
+                        <li><a href="pages/categories/elongated.html">Elongated</a></li>
+                        <li><a href="pages/categories/MPP.html">MPP Foam</a></li>
+                        <li><a href="pages/categories/EPP.html">EPP Foam</a></li>
+                        <li><a href="pages/categories/budget.html">Budget</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Reviewers</h4>
+                    <ul>
+                        <li><a href="reviewers/pickleball-studio.html">Pickleball Studio</a></li>
+                        <li><a href="reviewers/john-kew.html">John Kew</a></li>
+                        <li><a href="reviewers/the-kitchen.html">The Kitchen</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Transparency</h4>
+                    <p>We earn commissions from affiliate links at no extra cost to you. All content is sourced from verified creator websites. No auto-generated transcripts.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="privacy.html">Privacy</a> | <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
