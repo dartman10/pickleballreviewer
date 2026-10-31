@@ -16,10 +16,10 @@ def generate_categories_index():
         ('elongated', '📏', 'Elongated Shape', 'Reach and leverage with an elongated face'),
         ('widebody', '🎯', 'Widebody Shape', 'Larger sweet spot and more stability'),
         ('hybrid', '⚖️', 'Hybrid Shape', 'Balance of power and control'),
-        ('MPP', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Lux Inferno'),
-        ('EPP', '🔥', 'EPP Foam Core', 'Firmer, more connected feel'),
+        ('mpp', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Lux Inferno'),
+        ('epp', '🔥', 'EPP Foam Core', 'Firmer, more connected feel'),
         ('honeycomb', '🐝', 'Honeycomb Core', 'Advanced honeycomb honeycomb technology'),
-        ('EVA', '🥚', 'EVA Foam Core', 'Traditional EVA foam construction'),
+        ('eva', '🥚', 'EVA Foam Core', 'Traditional EVA foam construction'),
         ('budget', '💰', 'Budget Picks', 'Top performance under $120'),
     ]
 
@@ -36,13 +36,13 @@ def generate_categories_index():
                 count += 1
             elif slug == 'hybrid' and p['shape'] == 'hybrid':
                 count += 1
-            elif slug == 'MPP' and p['foam_type'] == 'MPP':
+            elif slug == 'mpp' and p['foam_type'] == 'MPP':
                 count += 1
-            elif slug == 'EPP' and p['foam_type'] == 'EPP':
+            elif slug == 'epp' and p['foam_type'] == 'EPP':
                 count += 1
             elif slug == 'honeycomb' and p['foam_type'] == 'honeycomb':
                 count += 1
-            elif slug == 'EVA' and p['foam_type'] == 'EVA':
+            elif slug == 'eva' and p['foam_type'] == 'EVA':
                 count += 1
             elif slug == 'budget' and p.get('price_max', 9999) <= 120:
                 count += 1
