@@ -50,9 +50,9 @@ def generate_reviewer_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Top pickleball paddle reviewers. Verified written reviews and measured data from trusted sources.">
-    <title>Top Reviewers — Pickleball Review Hub</title>
+    <title>Top Reviewers — Pickleball Reviewer</title>
     <!-- Open Graph -->
-    <meta property="og:title" content="Top Pickleball Paddle Reviewers — Pickleball Review Hub">
+    <meta property="og:title" content="Top Pickleball Paddle Reviewers — Pickleball Reviewer">
     <meta property="og:description" content="Top pickleball paddle reviewers. Verified written reviews and measured data from trusted sources.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pickleballreviewer.com/reviewers/index.html">
@@ -99,7 +99,7 @@ def generate_reviewer_index():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>

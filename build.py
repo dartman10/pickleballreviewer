@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pickleball Review Hub — Build Script
+Pickleball Reviewer — Build Script
 Reads data/paddles.json and generates all HTML pages in output/.
 """
 import json
@@ -133,10 +133,10 @@ def generate_paddle_page(paddle):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{paddle['description']}">
-    <title>{paddle['name']} Review — Pickleball Review Hub</title>
+    <title>{paddle['name']} Review — Pickleball Reviewer</title>
     <link rel="canonical" href="https://pickleballreviewer.com/pages/paddles/{paddle['id']}.html">
     <!-- Open Graph -->
-    <meta property="og:title" content="{paddle['name']} Review — Pickleball Review Hub">
+    <meta property="og:title" content="{paddle['name']} Review — Pickleball Reviewer">
     <meta property="og:description" content="{paddle['description']}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/paddles/{paddle['id']}.html">
@@ -289,7 +289,7 @@ def generate_paddle_page(paddle):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -360,9 +360,9 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
-    <title>{category_name} — Pickleball Review Hub</title>
+    <title>{category_name} — Pickleball Reviewer</title>
     <!-- Open Graph -->
-    <meta property="og:title" content="{category_name} — Pickleball Review Hub">
+    <meta property="og:title" content="{category_name} — Pickleball Reviewer">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/categories/{category_slug}.html">
@@ -434,7 +434,7 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -484,9 +484,9 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{name} — Top pickleball paddle reviewer. {paddle_count} paddles reviewed.">
-    <title>{name} Reviews — Pickleball Review Hub</title>
+    <title>{name} Reviews — Pickleball Reviewer</title>
     <!-- Open Graph -->
-    <meta property="og:title" content="{name} Reviews — Pickleball Review Hub">
+    <meta property="og:title" content="{name} Reviews — Pickleball Reviewer">
     <meta property="og:description" content="{name} — {paddle_count} paddles reviewed. Pickleball paddle reviews from {site}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/reviewers/{name.lower().replace(' ', '-')}.html">
@@ -550,7 +550,7 @@ def generate_reviewer_page(name, site, description, url, paddle_count):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -636,10 +636,10 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
-    <title>{title} — Pickleball Review Hub</title>
+    <title>{title} — Pickleball Reviewer</title>
     <link rel="canonical" href="https://pickleballreviewer.com/pages/guides/{slug}">
     <!-- Open Graph -->
-    <meta property="og:title" content="{title} — Pickleball Review Hub">
+    <meta property="og:title" content="{title} — Pickleball Reviewer">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/{slug}">
@@ -686,7 +686,7 @@ def generate_guide_page(title, slug, description, content_sections, related_padd
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -721,9 +721,9 @@ def generate_placeholder_guide(title, slug, description):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{description}">
-    <title>{title} — Pickleball Review Hub</title>
+    <title>{title} — Pickleball Reviewer</title>
     <!-- Open Graph -->
-    <meta property="og:title" content="{title} — Pickleball Review Hub">
+    <meta property="og:title" content="{title} — Pickleball Reviewer">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/{slug}">
@@ -771,7 +771,7 @@ def generate_placeholder_guide(title, slug, description):
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -955,10 +955,10 @@ def generate_best_of_pages():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{config['description']}">
-    <title>{config['title']} — Pickleball Review Hub</title>
+    <title>{config['title']} — Pickleball Reviewer</title>
     <link rel="canonical" href="https://pickleballreviewer.com/pages/best-of/{config['slug']}.html">
     <!-- Open Graph -->
-    <meta property="og:title" content="{config['title']} — Pickleball Review Hub">
+    <meta property="og:title" content="{config['title']} — Pickleball Reviewer">
     <meta property="og:description" content="{config['description']}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/best-of/{config['slug']}.html">
@@ -1052,7 +1052,7 @@ def generate_best_of_pages():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
@@ -1077,7 +1077,7 @@ def generate_best_of_pages():
     return len(best_of_configs)
 
 def main():
-    print("🏓 Pickleball Review Hub — Building...")
+    print("🏓 Pickleball Reviewer — Building...")
     print()
 
     # Clean output

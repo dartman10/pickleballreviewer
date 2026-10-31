@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pickleball Review Hub — Verification Script
+Pickleball Reviewer — Verification Script
 Run this before every build.py run to catch data quality issues.
 
 Usage: python3 scripts/verify-site-data.py

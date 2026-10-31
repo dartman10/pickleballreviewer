@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate sitemap.xml for Pickleball Review Hub.
+Generate sitemap.xml for Pickleball Reviewer.
 All URLs are relative to https://pickleballreviewer.com/
 """
 import json

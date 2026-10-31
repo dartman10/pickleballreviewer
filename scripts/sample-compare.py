@@ -87,7 +87,7 @@ html = '''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sample Comparison — Pickleball Review Hub</title>
+<title>Sample Comparison — Pickleball Reviewer</title>
 <style>
 :root {
     --bg: #0a0a0f; --bg-alt: #12121a; --text: #e8e8f0; --text-secondary: #8888a0;

@@ -11,9 +11,9 @@ def generate_guide_index():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pickleball buying guides and foam core comparisons. Learn how to choose the right paddle for your game.">
-    <title>Buying Guides — Pickleball Review Hub</title>
+    <title>Buying Guides — Pickleball Reviewer</title>
     <!-- Open Graph -->
-    <meta property="og:title" content="Buying Guides — Pickleball Review Hub">
+    <meta property="og:title" content="Buying Guides — Pickleball Reviewer">
     <meta property="og:description" content="Pickleball buying guides and foam core comparisons. Learn how to choose the right paddle for your game.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pickleballreviewer.com/pages/guides/index.html">
@@ -74,7 +74,7 @@ def generate_guide_index():
     <footer class="site-footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Pickleball Review Hub. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+                <p>&copy; 2026 Pickleball Reviewer. All rights reserved. | <a href="../../privacy.html">Privacy</a> | <a href="../../../affiliate-disclosure.html">Affiliate Disclosure</a></p>
             </div>
         </div>
     </footer>
