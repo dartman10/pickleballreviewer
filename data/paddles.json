@@ -3202,58 +3202,11 @@
       "category": "All-Court",
       "description": "Premium all-court foam paddle with adjustable MOI weights and ReactCore double-ring technology. Offers a controlled, feel-first response that tones down the Boomstik's raw power while maintaining strong spin and stability.",
       "measured_specs": {
-        "swing_weight": {
-          "value": 121.5,
-          "unit": "",
-          "source": "John Kew"
-        },
-        "spin": {
-          "value": 2364,
-          "unit": "RPM",
-          "source": "John Kew"
-        },
-        "twist_weight": {
-          "value": 7.06,
-          "unit": "",
-          "source": "John Kew"
-        },
-        "balance": {
-          "value": 24.5,
-          "unit": "cm",
-          "source": "John Kew"
-        },
-        "static_weight": {
-          "value": 8.2,
-          "unit": "oz",
-          "source": "John Kew"
-        }
-      },
-      "measured_specs_alt": {
-        "swing_weight": {
-          "value": 122,
-          "unit": "",
-          "source": "Pickleball Studio"
-        },
-        "spin": {
-          "value": "",
-          "unit": "RPM",
-          "source": "Pickleball Studio"
-        },
-        "twist_weight": {
-          "value": 6.9,
-          "unit": "",
-          "source": "Pickleball Studio"
-        },
-        "balance": {
-          "value": 24.5,
-          "unit": "cm",
-          "source": "Pickleball Studio"
-        },
-        "static_weight": {
-          "value": 8.23,
-          "unit": "oz",
-          "source": "Pickleball Studio"
-        }
+        "swing_weight": 121.5,
+        "spin_rpm": 2364,
+        "twist_weight": 7.06,
+        "balance": "24.5 cm",
+        "static_weight": "8.2 oz"
       },
       "spin_rpm": 2364,
       "swing_weight": 121.5,
@@ -3347,7 +3300,8 @@
         "infinigrit",
         "reactcore",
         "usap"
-      ]
+      ],
+      "foam_type": "EPP"
     }
   ]
 }
