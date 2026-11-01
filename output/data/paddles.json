@@ -2033,16 +2033,16 @@
     },
     {
       "id": "ronbus-ripple-r4-14-v2",
-      "name": "Ronbus Ripple R4.14 v2",
+      "name": "Ronbus Ripple V2 R4.14",
       "brand": "Ronbus",
       "category": "power",
-      "shape": "elongated",
-      "foam_type": "EPP",
-      "price_range": "$249–$279",
-      "price_min": 249,
-      "price_max": 279,
-      "description": "Premium Gen 4 foam power paddle with elongated shape. Top-tier performance for competitive players.",
-      "specs_source": "https://pickleballstudio.com/paddles/ripple-r4-14-v2",
+      "shape": "hybrid",
+      "foam_type": "EVA",
+      "price_range": "$279–$280",
+      "price_min": 279,
+      "price_max": 280,
+      "description": "Premium Gen 4 EVA foam power paddle with carbon fiber grid reinforcement. Elite-tier power and pop with hybrid shape for versatile play.",
+      "specs_source": "https://www.johnkewpickleball.com/ronbus-ripple-v2-series-full-review",
       "measured_specs": {
         "swing_weight": 117,
         "twist_weight": 6.5,
@@ -2106,9 +2106,9 @@
           ],
           "pros": [
             "Premium build quality",
-            "Strong power with EPP foam core",
+            "Strong power with EVA foam core",
             "Excellent dampening",
-            "Elongated shape for reach"
+            "Hybrid shape for versatile play"
           ],
           "cons": [
             "Premium price at $279.99",
@@ -2126,8 +2126,8 @@
           ]
         },
         {
-          "topic": "Elongated sweet spot",
-          "consensus": "Large sweet spot with elongated shape",
+          "topic": "Hybrid sweet spot",
+          "consensus": "Large sweet spot with hybrid shape",
           "sources": [
             "Chris Olson"
           ]
@@ -2135,14 +2135,14 @@
       ],
       "best_for": [
         "power",
-        "elongated",
+        "hybrid",
         "foam-core",
         "premium"
       ],
       "tags": [
         "foam-core",
-        "elongated",
-        "EPP",
+        "hybrid",
+        "EVA",
         "premium",
         "power",
         "dampening"
@@ -3674,6 +3674,127 @@
         "hollow"
       ],
       "foam_type": "MPP"
+    },
+    {
+      "id": "adidas-metalbone-lp-s",
+      "name": "Adidas Metalbone LP S",
+      "brand": "Adidas",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EVA",
+      "price_range": "$249",
+      "price_min": 249,
+      "price_max": 249,
+      "description": "Extreme-power Gen 4 EVA foam core paddle with carbon fiber reinforcement and adjustable weighting system. Delivers unmatched power with a distinctive edgeless design.",
+      "specs_source": "https://pickleballstudio.com/paddles/metalbone-lp-s",
+      "measured_specs": {
+        "swing_weight": 116,
+        "spin_rpm": 1964,
+        "twist_weight": 5.22,
+        "balance": "244 mm",
+        "static_weight": "8.04 oz"
+      },
+      "spin_rpm": 1964,
+      "swing_weight": 116,
+      "twist_weight": 5.22,
+      "spin_durability": 4,
+      "core_thickness": "16mm",
+      "handle_length": "5.5\"",
+      "grip_circumference": "4.25\"",
+      "certifications": "UPA-A",
+      "year_released": 2025,
+      "generation": "Gen 4",
+      "written_reviews": [
+        {
+          "author": "Team Kitchen",
+          "site": "The Kitchen",
+          "url": "https://thekitchenpickle.com/blogs/gear/adidas-metalbone-pickleball-paddles-2025-release-expert-review/",
+          "quotes": [
+            "The Metalbone LP S and Metalbone LP Team will be very popular because they are able to generate a level of power that puts them ahead of anything else on the market right now.",
+            "They have vaulted to the top of our list of the best power paddles available."
+          ],
+          "pros": [
+            "Highest-tier power on the market",
+            "Adjustable weighting system for customization",
+            "Excellent for aggressive baseline play",
+            "Gen 4 EVA foam core delivers explosive pop"
+          ],
+          "cons": [
+            "UPA-A only — not USAP approved",
+            "Difficult to control at the kitchen",
+            "High power requires advanced technique",
+            "Adjustable weights rule out pro-tour use"
+          ],
+          "disclosure": "Tested by Team Kitchen (5.0+ players) for several hours across all court areas."
+        },
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/metalbone-lp-s",
+          "quotes": [
+            "EVA Foam Core: Similar in concept to paddles like the Gearbox or Adidas Metalbone. The soft foam designed to reduce vibration and create pop."
+          ],
+          "pros": [
+            "EVA foam core delivers unique power and feel",
+            "Spin Blade surface provides good grip",
+            "Edgeless design for clean aesthetics"
+          ],
+          "cons": [
+            "Low twist weight (5.22) — prone to twisting",
+            "High swing weight (116) for an elongated paddle"
+          ],
+          "disclosure": "Lab-measured specs. Pickleball Studio playtest."
+        }
+      ],
+      "youtube_videos": [
+        {
+          "title": "Adidas Metalbone LP S Paddle Review",
+          "url": "https://www.youtube.com/watch?v=SXLgutqoMDc",
+          "channel": "Pickleball Union",
+          "date": "2025-06-13"
+        },
+        {
+          "title": "Adidas Metalbone Paddle Review",
+          "url": "https://www.youtube.com/watch?v=wOjhFz1ixuM",
+          "channel": "Pickleball Tech Dude",
+          "date": "2025-09-18"
+        },
+        {
+          "title": "The MOST POWERFUL on the market... Adidas Metalbone LPs Full Review",
+          "url": "https://www.youtube.com/watch?v=DpdHaK_qblE",
+          "channel": "Hometown Pickleball",
+          "date": "2025-09-23"
+        }
+      ],
+      "retailers": [
+        {
+          "name": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/metalbone-lp-s",
+          "price": "$249.99"
+        },
+        {
+          "name": "Pickleball Central",
+          "url": "https://pickleballcentral.com/",
+          "price": "$249"
+        },
+        {
+          "name": "All Racquet Sports",
+          "url": "https://allracquetsports.com/34-series",
+          "price": "$249"
+        }
+      ],
+      "tags": [
+        "foam-core",
+        "elongated",
+        "power",
+        "EVA",
+        "adjustable-weight",
+        "edgeless",
+        "gen-4",
+        "UPA-A",
+        "spin-durability-tier-4"
+      ],
+      "foam_type": "EVA"
     }
   ]
 }
