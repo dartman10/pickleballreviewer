@@ -4,7 +4,7 @@
 
 A data-driven static website that aggregates verified YouTube review videos, written review quotes, and cross-reviewer consensus for pickleball paddles. Built from structured JSON data with automated HTML generation.
 
-**Current state:** 27 paddles complete, 4 verified reviewers (Pickleball Studio: 16, The Kitchen: 11, John Kew: 4, Pickleball Effect: 7). 57 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 932+ internal links, 0 broken. **LIVE at https://pickleballreviewer.com** (custom domain). GitHub: https://github.com/dartman10/pickleballreviewer
+**Current state:** 28 paddles complete, 4 verified reviewers (Pickleball Studio: 16, The Kitchen: 11, John Kew: 4, Pickleball Effect: 8). 57 pages generated, comparison tool, Best Of rankings, guide pages, reviewer index — all complete. 932+ internal links, 0 broken. **LIVE at https://pickleballreviewer.com** (custom domain). GitHub: https://github.com/dartman10/pickleballreviewer
 
 ---
 
@@ -64,7 +64,7 @@ A data-driven static website that aggregates verified YouTube review videos, wri
 - Consensus topics where available (1+ reviewers agree)
 - Retailer links with prices
 
-**Data stats:** 44+ YouTube videos, 35+ written reviews, 39+ retailer links, 64+ consensus topics across 27 paddles. 4 verified reviewers: Pickleball Studio (16 paddles), The Kitchen (11), John Kew (4), Pickleball Effect (7).
+**Data stats:** 44+ YouTube videos, 35+ written reviews, 39+ retailer links, 64+ consensus topics across 28 paddles. 4 verified reviewers: Pickleball Studio (16 paddles), The Kitchen (11), John Kew (4), Pickleball Effect (8).
 
 **Quality gate:** Run `python3 scripts/verify-site-data.py` — must pass with 0 errors. ✅
 

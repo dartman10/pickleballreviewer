@@ -2033,16 +2033,16 @@
     },
     {
       "id": "ronbus-ripple-r4-14-v2",
-      "name": "Ronbus Ripple R4.14 v2",
+      "name": "Ronbus Ripple V2 R4.14",
       "brand": "Ronbus",
       "category": "power",
-      "shape": "elongated",
-      "foam_type": "EPP",
-      "price_range": "$249–$279",
-      "price_min": 249,
-      "price_max": 279,
-      "description": "Premium Gen 4 foam power paddle with elongated shape. Top-tier performance for competitive players.",
-      "specs_source": "https://pickleballstudio.com/paddles/ripple-r4-14-v2",
+      "shape": "hybrid",
+      "foam_type": "EVA",
+      "price_range": "$279–$280",
+      "price_min": 279,
+      "price_max": 280,
+      "description": "Premium Gen 4 EVA foam power paddle with carbon fiber grid reinforcement. Elite-tier power and pop with hybrid shape for versatile play.",
+      "specs_source": "https://www.johnkewpickleball.com/ronbus-ripple-v2-series-full-review",
       "measured_specs": {
         "swing_weight": 117,
         "twist_weight": 6.5,
@@ -2106,9 +2106,9 @@
           ],
           "pros": [
             "Premium build quality",
-            "Strong power with EPP foam core",
+            "Strong power with EVA foam core",
             "Excellent dampening",
-            "Elongated shape for reach"
+            "Hybrid shape for versatile play"
           ],
           "cons": [
             "Premium price at $279.99",
@@ -2126,8 +2126,8 @@
           ]
         },
         {
-          "topic": "Elongated sweet spot",
-          "consensus": "Large sweet spot with elongated shape",
+          "topic": "Hybrid sweet spot",
+          "consensus": "Large sweet spot with hybrid shape",
           "sources": [
             "Chris Olson"
           ]
@@ -2135,14 +2135,14 @@
       ],
       "best_for": [
         "power",
-        "elongated",
+        "hybrid",
         "foam-core",
         "premium"
       ],
       "tags": [
         "foam-core",
-        "elongated",
-        "EPP",
+        "hybrid",
+        "EVA",
         "premium",
         "power",
         "dampening"
