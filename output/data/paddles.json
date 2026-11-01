@@ -7,7 +7,7 @@
       "category": "power",
       "shape": "elongated",
       "foam_type": "MPP",
-      "price_range": "$99–$120",
+      "price_range": "$99\u2013$120",
       "price_min": 99,
       "price_max": 120,
       "description": "Budget power paddle with MPP foam core. Plays closest to Luzz Pro 4 Inferno at a fraction of the price.",
@@ -19,7 +19,7 @@
         "balance_point": "239 mm",
         "static_weight": "8.06 oz",
         "grip_size": "4.125\"",
-        "shape_dims": "16.54\" × 7.48\""
+        "shape_dims": "16.54\" \u00d7 7.48\""
       },
       "youtube_videos": [
         {
@@ -67,7 +67,7 @@
           "quotes": [
             "The Enhance Turbo lineup is a contender for the best value paddle release of the year.",
             "High firepower, good spin, very solid sweet spots, multiple shapes to choose from, a stiff-hollow feel that many competitive players like today, and the performance honestly rivals paddles that cost two to three times as much.",
-            "My Pick: MPP Turbo Elongated — Plays very similarly to the Lux Inferno."
+            "My Pick: MPP Turbo Elongated \u2014 Plays very similarly to the Lux Inferno."
           ],
           "pros": [
             "Outstanding value at $100",
@@ -194,7 +194,7 @@
       "category": "power",
       "shape": "elongated",
       "foam_type": "EPP",
-      "price_range": "$99–$120",
+      "price_range": "$99\u2013$120",
       "price_min": 99,
       "price_max": 120,
       "description": "Budget power paddle with EPP foam core. Firmer feel than MPP version, great for players who want power with more control.",
@@ -382,7 +382,7 @@
       "price_range": "$229",
       "price_min": 229,
       "price_max": 229,
-      "description": "Premium full-foam MPP power paddle. High power with touch and dampening — benchmark for Gen 4 foam paddles.",
+      "description": "Premium full-foam MPP power paddle. High power with touch and dampening \u2014 benchmark for Gen 4 foam paddles.",
       "specs_source": "https://pickleballstudio.com/paddles/pro-4-inferno",
       "measured_specs": {
         "swing_weight": 121.3,
@@ -395,7 +395,7 @@
       },
       "youtube_videos": [
         {
-          "title": "This Paddle Surprised Me… LUZZ Pro 4 Inferno Review",
+          "title": "This Paddle Surprised Me\u2026 LUZZ Pro 4 Inferno Review",
           "channel": "The Pickleball Pirates",
           "date": "2026-05-19",
           "views": "N/A",
@@ -527,7 +527,7 @@
       "category": "power",
       "shape": "elongated",
       "foam_type": "honeycomb",
-      "price_range": "$200–$250",
+      "price_range": "$200\u2013$250",
       "price_min": 200,
       "price_max": 250,
       "description": "High-spin power paddle with air-dynamic frame. Top-tier spin generation with aggressive pop.",
@@ -537,7 +537,7 @@
         "twist_weight": 5.62,
         "spin_rpm": 1894,
         "balance_point": "245 mm",
-        "static_weight": "7.7–8.2 oz",
+        "static_weight": "7.7\u20138.2 oz",
         "grip_size": "4.125\"",
         "shape_dims": "16.4\" x 7.5\"",
         "handle_length": "5.25\""
@@ -578,7 +578,7 @@
           "cons": [
             "13mm core thinner than Gen 4 rivals",
             "Less forgiving than full-foam paddles",
-            "Premium price at $200–$250"
+            "Premium price at $200\u2013$250"
           ],
           "disclosure": "Independently measured using calibrated equipment. 400+ paddles tested since 2021. No sponsor influence."
         },
@@ -631,7 +631,7 @@
         },
         {
           "topic": "Premium price",
-          "consensus": "At $200–$250, higher price than Gen 4 foam alternatives",
+          "consensus": "At $200\u2013$250, higher price than Gen 4 foam alternatives",
           "sources": [
             "Chris Olson",
             "The Kitchen"
@@ -645,6 +645,7 @@
         "premium"
       ],
       "tags": [
+        "HONEYCOMB",
         "power",
         "elongated",
         "spin",
@@ -835,7 +836,7 @@
       "category": "power",
       "shape": "widebody",
       "foam_type": "EPP",
-      "price_range": "$180–$199",
+      "price_range": "$180\u2013$199",
       "price_min": 180,
       "price_max": 199,
       "description": "Balanced foam-core paddle with fiberglass layer for pop. One of the best full-foam options under $200.",
@@ -868,7 +869,7 @@
           "url": "https://www.youtube.com/watch?v=pg-tJEGV7_k"
         },
         {
-          "title": "I Tested 15 Power Paddles… This One Hits the Hardest",
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
           "channel": "The Kitchen Pickleball",
           "date": "2026-04-17",
           "views": "N/A",
@@ -915,7 +916,7 @@
       "consensus_topics": [
         {
           "topic": "Balance",
-          "consensus": "One of the most balanced foam paddles — good mix of power and control",
+          "consensus": "One of the most balanced foam paddles \u2014 good mix of power and control",
           "sources": [
             "Chris Olson"
           ]
@@ -929,7 +930,7 @@
         },
         {
           "topic": "Feel",
-          "consensus": "Firm, solid, connected — not mushy like older foam builds",
+          "consensus": "Firm, solid, connected \u2014 not mushy like older foam builds",
           "sources": [
             "Chris Olson"
           ]
@@ -978,7 +979,7 @@
       "category": "power",
       "shape": "widebody",
       "foam_type": "EPP",
-      "price_range": "$299–$333",
+      "price_range": "$299\u2013$333",
       "price_min": 299,
       "price_max": 333,
       "description": "Premium Gen 4 full-foam power paddle with InfiniGrit surface. Top-tier power with consistent pop and a large sweet spot.",
@@ -1011,7 +1012,7 @@
           "url": "https://www.youtube.com/watch?v=RkFQ9NXGITI"
         },
         {
-          "title": "Selkirk Finally Built a True Power Paddle — Boomstik Review",
+          "title": "Selkirk Finally Built a True Power Paddle \u2014 Boomstik Review",
           "channel": "The Pickleball Pirates",
           "date": "2025-08-13",
           "views": "N/A",
@@ -1141,10 +1142,10 @@
       "id": "vatic-pro-prism-flash-16mm",
       "name": "Vatic Pro Prism Flash 16mm",
       "brand": "Vatic Pro",
-      "category": "hybrid",
+      "category": "power",
       "shape": "hybrid",
       "foam_type": "honeycomb",
-      "price_range": "$90–$99",
+      "price_range": "$90\u2013$99",
       "price_min": 90,
       "price_max": 99,
       "description": "Budget control paddle with raw carbon fiber face. Best value under $100 with excellent sweet spot and spin.",
@@ -1154,7 +1155,7 @@
         "twist_weight": 6.47,
         "spin_rpm": 1900,
         "balance_point": "N/A",
-        "static_weight": "7.9–8.2 oz",
+        "static_weight": "7.9\u20138.2 oz",
         "grip_size": "4.25\"",
         "shape_dims": "16.2\" x 7.7\"",
         "handle_length": "5.3\""
@@ -1169,7 +1170,7 @@
           "url": "https://www.youtube.com/watch?v=WxtAyDhdUkg"
         },
         {
-          "title": "Vatic Pro Prism Flash Review – Should You Buy It?",
+          "title": "Vatic Pro Prism Flash Review \u2013 Should You Buy It?",
           "channel": "Flex Fitness Workouts",
           "date": "2026-03-06",
           "views": "N/A",
@@ -1242,7 +1243,7 @@
         },
         {
           "topic": "Feel",
-          "consensus": "Dampened, muted, soft — not poppy like thermoformed",
+          "consensus": "Dampened, muted, soft \u2014 not poppy like thermoformed",
           "sources": [
             "Chris Olson",
             "The Kitchen"
@@ -1307,7 +1308,7 @@
       "category": "power",
       "shape": "elongated",
       "foam_type": "MPP",
-      "price_range": "$160–$209",
+      "price_range": "$160\u2013$209",
       "price_min": 160,
       "price_max": 209,
       "description": "Gen 4 power paddle with MPP foam core and HexGrit surface. Top-tier spin with 100-game durability test proving RPM retention.",
@@ -1332,7 +1333,7 @@
           "url": "https://www.youtube.com/watch?v=pFsKIPtqTSI"
         },
         {
-          "title": "I Tested 15 Power Paddles… This One Hits the Hardest",
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
           "channel": "The Kitchen Pickleball",
           "date": "2026-04-17",
           "views": "N/A",
@@ -1348,7 +1349,7 @@
           "quotes": [
             "The Power series from 11six24 is very good. They don't have any large weaknesses while getting a lot right.",
             "The 11SIX24 Power series meets its stiff competition in performance while outmatching in price.",
-            "The Hurache-X Power is the elongated variant with a 6\" handle — perfect for two-handed backhands."
+            "The Hurache-X Power is the elongated variant with a 6\" handle \u2014 perfect for two-handed backhands."
           ],
           "pros": [
             "Good value at $169.99 with PBSTUDIO code",
@@ -1368,7 +1369,7 @@
           "site": "The Kitchen Pickleball",
           "url": "https://thekitchenpickle.com/paddle/11six24-hurache-x-power/",
           "quotes": [
-            "The Hurache-X Power2 uses HexGrit technology that retains spin much longer than raw carbon fiber — losing less than 100 RPM after 100 games.",
+            "The Hurache-X Power2 uses HexGrit technology that retains spin much longer than raw carbon fiber \u2014 losing less than 100 RPM after 100 games.",
             "The elongated shape gives a larger sweet spot for two-handed backhand players."
           ],
           "pros": [
@@ -1386,7 +1387,7 @@
       "consensus_topics": [
         {
           "topic": "HexGrit durability",
-          "consensus": "HexGrit retains >95% spin after 100 games — industry leading",
+          "consensus": "HexGrit retains >95% spin after 100 games \u2014 industry leading",
           "sources": [
             "Chris Olson",
             "The Kitchen"
@@ -1452,7 +1453,7 @@
       "category": "power",
       "shape": "hybrid",
       "foam_type": "EPP",
-      "price_range": "$180–$219",
+      "price_range": "$180\u2013$219",
       "price_min": 180,
       "price_max": 219,
       "description": "Gen 4 power paddle with Permagrit surface. Premium hybrid shape with excellent spin retention.",
@@ -1474,7 +1475,7 @@
           "site": "Pickleball Studio",
           "url": "https://pickleballstudio.com/reviews/spartus-p1-hybrid-review",
           "quotes": [
-            "The Spartus P1 introduces a major innovation with Permagrit — their attempt at designing a texture that gives players longer-lasting spin.",
+            "The Spartus P1 introduces a major innovation with Permagrit \u2014 their attempt at designing a texture that gives players longer-lasting spin.",
             "Spartus has created a premium paddle that competes with the best power builds on the market."
           ],
           "pros": [
@@ -1493,7 +1494,7 @@
       "consensus_topics": [
         {
           "topic": "Permagrit surface",
-          "consensus": "Spartus's new spin-retention technology — promising longevity",
+          "consensus": "Spartus's new spin-retention technology \u2014 promising longevity",
           "sources": [
             "Chris Olson"
           ]
@@ -1542,7 +1543,7 @@
       "category": "power",
       "shape": "hybrid",
       "foam_type": "EVA",
-      "price_range": "$249–$280",
+      "price_range": "$249\u2013$280",
       "price_min": 249,
       "price_max": 280,
       "description": "Gen 4 power paddle with unique carbon/EVA/foam hybrid construction. Top-tier spin at 2,256 RPM.",
@@ -1559,7 +1560,7 @@
       },
       "youtube_videos": [
         {
-          "title": "Gearbox GX2 Power Review — The Power Hybrid",
+          "title": "Gearbox GX2 Power Review \u2014 The Power Hybrid",
           "channel": "The Volley Zone",
           "date": "2025",
           "views": "N/A",
@@ -1611,7 +1612,7 @@
       "consensus_topics": [
         {
           "topic": "Spin performance",
-          "consensus": "Top-tier spin at 2,256 RPM — highest in dataset",
+          "consensus": "Top-tier spin at 2,256 RPM \u2014 highest in dataset",
           "sources": [
             "Chris Olson",
             "The Kitchen"
@@ -1619,7 +1620,7 @@
         },
         {
           "topic": "Hybrid construction",
-          "consensus": "Unique carbon/EVA/foam build — plush and dense feel",
+          "consensus": "Unique carbon/EVA/foam build \u2014 plush and dense feel",
           "sources": [
             "Chris Olson",
             "The Kitchen"
@@ -1634,7 +1635,7 @@
         },
         {
           "topic": "Improved over GX2",
-          "consensus": "Gearbox's best paddle yet — fixed original issues",
+          "consensus": "Gearbox's best paddle yet \u2014 fixed original issues",
           "sources": [
             "Chris Olson"
           ]
@@ -1677,7 +1678,7 @@
       "category": "power",
       "shape": "elongated",
       "foam_type": "EPP",
-      "price_range": "$199–$229",
+      "price_range": "$199\u2013$229",
       "price_min": 199,
       "price_max": 229,
       "description": "Gen 4 full-foam power paddle with elongated shape. Premium feel with MPP/EPP blend.",
@@ -1694,7 +1695,7 @@
       },
       "youtube_videos": [
         {
-          "title": "I Tested 15 Power Paddles… This One Hits the Hardest",
+          "title": "I Tested 15 Power Paddles\u2026 This One Hits the Hardest",
           "channel": "The Kitchen Pickleball",
           "date": "2026-04-17",
           "views": "N/A",
@@ -1801,10 +1802,10 @@
       "id": "crbn-3x-16mm",
       "name": "CRBN 3X 16mm",
       "brand": "CRBN",
-      "category": "elongated",
+      "category": "power",
       "shape": "elongated",
       "foam_type": "honeycomb",
-      "price_range": "$150–$169",
+      "price_range": "$150\u2013$169",
       "price_min": 150,
       "price_max": 169,
       "description": "Gen 2 control-leaning paddle with honeycomb core. Balanced power and control at a mid-range price.",
@@ -1923,10 +1924,10 @@
       "category": "power",
       "shape": "hybrid",
       "foam_type": "EPP",
-      "price_range": "$99–$119",
+      "price_range": "$99\u2013$119",
       "price_min": 99,
       "price_max": 119,
-      "description": "Budget power paddle with hybrid shape. Great performance for under $120 — Vatic Pro's value play.",
+      "description": "Budget power paddle with hybrid shape. Great performance for under $120 \u2014 Vatic Pro's value play.",
       "specs_source": "https://pickleballstudio.com/paddles/quanta-r3",
       "measured_specs": {
         "swing_weight": 111,
@@ -2038,7 +2039,7 @@
       "category": "power",
       "shape": "hybrid",
       "foam_type": "EVA",
-      "price_range": "$279–$280",
+      "price_range": "$279\u2013$280",
       "price_min": 279,
       "price_max": 280,
       "description": "Premium Gen 4 EVA foam power paddle with carbon fiber grid reinforcement. Elite-tier power and pop with hybrid shape for versatile play.",
@@ -2079,7 +2080,7 @@
           "url": "https://www.youtube.com/watch?v=ER1N63Umg1s"
         },
         {
-          "title": "Ronbus Ripple V2 R1, R2, and R4 Review – FIRE Core Tech vs Gen 3 Power and Foam Builds",
+          "title": "Ronbus Ripple V2 R1, R2, and R4 Review \u2013 FIRE Core Tech vs Gen 3 Power and Foam Builds",
           "channel": "The Pickleball Pirates",
           "date": "2025",
           "views": "N/A",
@@ -2087,7 +2088,7 @@
           "url": "https://www.youtube.com/watch?v=qvfrsX7Y33w"
         },
         {
-          "title": "Ripple V2 R1 vs R2 vs R4 – Complete Ronbus Paddle Review & Buyer's Guide",
+          "title": "Ripple V2 R1 vs R2 vs R4 \u2013 Complete Ronbus Paddle Review & Buyer's Guide",
           "channel": "Pickleball Effect",
           "date": "2025",
           "views": "N/A",
@@ -2166,10 +2167,10 @@
       "id": "crbn-1x-14mm",
       "name": "CRBN 1X 14mm",
       "brand": "CRBN",
-      "category": "elongated",
+      "category": "control",
       "shape": "elongated",
       "foam_type": "honeycomb",
-      "price_range": "$150–$169",
+      "price_range": "$150\u2013$169",
       "price_min": 150,
       "price_max": 169,
       "description": "Gen 2 control paddle with 14mm core. Precise control with raw carbon fiber face.",
@@ -2293,7 +2294,7 @@
       "price_range": "$199",
       "price_min": 199,
       "price_max": 199,
-      "description": "Gen 3 polymer power paddle with durable grit surface. 2,142 RPM spin with Tier 2 grit retention — first Gen 3 paddle to pass durability testing.",
+      "description": "Gen 3 polymer power paddle with durable grit surface. 2,142 RPM spin with Tier 2 grit retention \u2014 first Gen 3 paddle to pass durability testing.",
       "specs_source": "https://pickleballeffect.com/paddles/engage-axiom-elongated-16mm/",
       "measured_specs": {
         "swing_weight": 116,
@@ -2334,7 +2335,7 @@
       "consensus_topics": [
         {
           "topic": "Spin",
-          "consensus": "Very high at 2,142 RPM — elite territory",
+          "consensus": "Very high at 2,142 RPM \u2014 elite territory",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -2435,7 +2436,7 @@
         },
         {
           "topic": "HexGrit durability",
-          "consensus": "Tier 1 grit durability — licensed from 11SIX24",
+          "consensus": "Tier 1 grit durability \u2014 licensed from 11SIX24",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -2545,7 +2546,7 @@
           ],
           "cons": [
             "Premium price at $269.99",
-            "Low twist weight (5.94) — room for tuning",
+            "Low twist weight (5.94) \u2014 room for tuning",
             "More standard core feel"
           ],
           "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
@@ -2563,7 +2564,7 @@
             "MPP foam core with USAP approval"
           ],
           "cons": [
-            "Low twist weight (5.91) — could use more stability",
+            "Low twist weight (5.91) \u2014 could use more stability",
             "Premium price at $269.99"
           ],
           "disclosure": ""
@@ -2576,7 +2577,7 @@
             "Power is explosive but predictable, with the MPP floating core and soft EVA foam surround tuned for an oversized sweet spot and long-term durability.",
             "The SICmatrix face generates spin most paddles can't match, and the 112 swing weight keeps the elongated shape quick from baseline drives to kitchen exchanges.",
             "Independent testing from paddle reviewer John Kew has confirmed that the SICmatrix grit is 'Tier 1' among the paddles currently on the market.",
-            "If you're looking for a paddle that lets you play aggressively without sacrificing too much control — and want to make sure you're getting a paddle that's going to last — the RPM Jade is absolutely worth considering."
+            "If you're looking for a paddle that lets you play aggressively without sacrificing too much control \u2014 and want to make sure you're getting a paddle that's going to last \u2014 the RPM Jade is absolutely worth considering."
           ],
           "pros": [
             "SICmatrix surface for elite, lasting spin",
@@ -2595,7 +2596,7 @@
       "consensus_topics": [
         {
           "topic": "Spin Production",
-          "consensus": "Elite spin — measured between 2,170 and 2,618 RPM across reviewers; all agree it generates exceptional spin for an elongated paddle",
+          "consensus": "Elite spin \u2014 measured between 2,170 and 2,618 RPM across reviewers; all agree it generates exceptional spin for an elongated paddle",
           "sources": [
             "Braydon Unsicker",
             "Chris Olson",
@@ -2604,7 +2605,7 @@
         },
         {
           "topic": "Grit Durability",
-          "consensus": "Tier 1 SICmatrix surface — retained 96% texture in abrasion testing, confirmed by independent lab tests",
+          "consensus": "Tier 1 SICmatrix surface \u2014 retained 96% texture in abrasion testing, confirmed by independent lab tests",
           "sources": [
             "Braydon Unsicker",
             "JohnKew Pickleball",
@@ -2613,7 +2614,7 @@
         },
         {
           "topic": "Power vs Control",
-          "consensus": "Explosive yet predictable power — MPP floating core delivers power when needed with controllable response in the kitchen",
+          "consensus": "Explosive yet predictable power \u2014 MPP floating core delivers power when needed with controllable response in the kitchen",
           "sources": [
             "Braydon Unsicker",
             "The Kitchen Team",
@@ -2622,7 +2623,7 @@
         },
         {
           "topic": "Weight & Maneuverability",
-          "consensus": "Light for an elongated (7.75-7.8 oz, ~113-116 swing weight) — quick hands with room for lead tape tuning",
+          "consensus": "Light for an elongated (7.75-7.8 oz, ~113-116 swing weight) \u2014 quick hands with room for lead tape tuning",
           "sources": [
             "Braydon Unsicker",
             "Chris Olson",
@@ -2681,7 +2682,7 @@
       "price_range": "$250",
       "price_min": 250,
       "price_max": 250,
-      "shape": "Hybrid",
+      "shape": "hybrid",
       "core_material": "MPP floating foam core",
       "surface_material": "Gen 3 rough carbon fiber",
       "core_thickness": "14mm / 16mm",
@@ -2690,7 +2691,7 @@
       "certifications": "USAP, UPA-A",
       "year_released": 2026,
       "generation": "Gen 3",
-      "category": "All-Court",
+      "category": "power",
       "description": "Flagship Gen 3 carbon fiber paddle from pro James Ignatowich. Elite spin with Gen 3 rough carbon face, balanced all-court performance with great control and forgiveness.",
       "measured_specs": {
         "swing_weight": 122.2,
@@ -2732,7 +2733,7 @@
           "url": "https://www.johnkewpickleball.com/rpm-friction-pro-v2-review-what-changed-from-v1",
           "quotes": [
             "RPM's Friction Pro Elongated V2 is heavier, more head-heavy, and built on a revised carbon fiber layup.",
-            "Friction Pro Elongated V2 16mm: Swing weight 122.2 · Twist weight 6.6 · Spin 2,279 RPM · Surface roughness 8.33 Ra"
+            "Friction Pro Elongated V2 16mm: Swing weight 122.2 \u00b7 Twist weight 6.6 \u00b7 Spin 2,279 RPM \u00b7 Surface roughness 8.33 Ra"
           ],
           "pros": [
             "Highest surface roughness (8.33 Ra) in tests",
@@ -2750,7 +2751,7 @@
       ],
       "youtube_videos": [
         {
-          "title": "RPM Friction Pro V2 Review – Gen 3 Spin That's Worth the Hype",
+          "title": "RPM Friction Pro V2 Review \u2013 Gen 3 Spin That's Worth the Hype",
           "url": "https://www.youtube.com/watch?v=placeholder",
           "channel": "Pickleheads",
           "date": "2026-01-01"
@@ -2786,6 +2787,7 @@
         }
       ],
       "tags": [
+        "MPP",
         "carbon-fiber",
         "hybrid",
         "premium",
@@ -2832,13 +2834,13 @@
             "The Fuse Hybrid W is for players who want power without slowing down at the kitchen."
           ],
           "pros": [
-            "Tier 1 DuraSpin grit at $119 — exceptional value",
-            "Quick 107 swing weight — unusual for power",
+            "Tier 1 DuraSpin grit at $119 \u2014 exceptional value",
+            "Quick 107 swing weight \u2014 unusual for power",
             "Soft/hollow feel with deep thonk",
             "High spin at 2,094 RPM"
           ],
           "cons": [
-            "New brand — limited long-term durability data",
+            "New brand \u2014 limited long-term durability data",
             "7.6 oz leaves room for tuning",
             "Lower plow-through than elongated shapes"
           ],
@@ -2848,7 +2850,7 @@
       "consensus_topics": [
         {
           "topic": "Spin durability",
-          "consensus": "Tier 1 DuraSpin — 95% retention, matches paddles twice the price",
+          "consensus": "Tier 1 DuraSpin \u2014 95% retention, matches paddles twice the price",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -2862,7 +2864,7 @@
         },
         {
           "topic": "Value",
-          "consensus": "Tier 1 grit at $119 is exceptional — among the best value propositions",
+          "consensus": "Tier 1 grit at $119 is exceptional \u2014 among the best value propositions",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -2923,16 +2925,16 @@
             "The forgiveness to swing weight combination is the whole story: a 6.67 twist weight at a 110 swing weight (19th percentile).",
             "A soft, dense, medium plush feel that isn't muted to the point of losing feedback.",
             "Activated power rather than raw pop, so you can swing freely and still keep the ball in the court.",
-            "The NF is Honolulu's easiest recommendation — a Gold Award winner on my all-court Hot List."
+            "The NF is Honolulu's easiest recommendation \u2014 a Gold Award winner on my all-court Hot List."
           ],
           "pros": [
             "Best forgiveness-to-swing-weight ratio in database",
-            "Soft/dense medium plush feel — comfortable and controlled",
+            "Soft/dense medium plush feel \u2014 comfortable and controlled",
             "2,054 RPM spin with activated power",
             "Gold Award winner, easy to trust"
           ],
           "cons": [
-            "Raw carbon peel ply — Tier 4 grit durability (wears faster)",
+            "Raw carbon peel ply \u2014 Tier 4 grit durability (wears faster)",
             "Shorter 5.3\" handle",
             "Lower swing weight means less plow-through than heavier paddles"
           ],
@@ -2942,21 +2944,21 @@
       "consensus_topics": [
         {
           "topic": "Forgiveness",
-          "consensus": "Best forgiveness-to-swing-weight pairing — 6.67 twist at 110 swing weight",
+          "consensus": "Best forgiveness-to-swing-weight pairing \u2014 6.67 twist at 110 swing weight",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "Impact feel",
-          "consensus": "Soft/dense medium plush — comfortable without being muted",
+          "consensus": "Soft/dense medium plush \u2014 comfortable without being muted",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "Grit durability",
-          "consensus": "Raw carbon peel ply is Tier 4 — spin fades faster than durable grit",
+          "consensus": "Raw carbon peel ply is Tier 4 \u2014 spin fades faster than durable grit",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -2994,7 +2996,7 @@
       "price_range": "$220",
       "price_min": 220,
       "price_max": 220,
-      "description": "All-Court+ with Diamond Tough Grit Tier 1 durability. Best blend in the Coral Pro series — forgiving, spin-heavy, easy to trust.",
+      "description": "All-Court+ with Diamond Tough Grit Tier 1 durability. Best blend in the Coral Pro series \u2014 forgiving, spin-heavy, easy to trust.",
       "specs_source": "https://pickleballeffect.com/paddles/six-zero-coral-pro-hybrid/",
       "measured_specs": {
         "swing_weight": 114,
@@ -3019,10 +3021,10 @@
             "The Hybrid is the standout of the lineup and the shape I'd hand most players."
           ],
           "pros": [
-            "6.79 twist weight — 78th percentile for hybrids",
+            "6.79 twist weight \u2014 78th percentile for hybrids",
             "Diamond Tough Grit Tier 1 (95% retention)",
-            "2,062 RPM spin — strong for all-court",
-            "Soft/dense feel — easy to trust at the net"
+            "2,062 RPM spin \u2014 strong for all-court",
+            "Soft/dense feel \u2014 easy to trust at the net"
           ],
           "cons": [
             "Premium price at $220",
@@ -3035,21 +3037,21 @@
       "consensus_topics": [
         {
           "topic": "Sweet spot forgiveness",
-          "consensus": "6.79 twist weight — 78th percentile, best in Coral Pro series",
+          "consensus": "6.79 twist weight \u2014 78th percentile, best in Coral Pro series",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "Spin durability",
-          "consensus": "Diamond Tough Grit Tier 1 — 95% retention, among best tested",
+          "consensus": "Diamond Tough Grit Tier 1 \u2014 95% retention, among best tested",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "All-court balance",
-          "consensus": "Best all-around shape — forgiving, spin-heavy, controllable",
+          "consensus": "Best all-around shape \u2014 forgiving, spin-heavy, controllable",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -3119,14 +3121,14 @@
           ],
           "pros": [
             "94th percentile power at 57.1 MPH",
-            "Soft/dense feel — rare at this power level",
+            "Soft/dense feel \u2014 rare at this power level",
             "NanoBond Tier 3 grit durability (88% retention)",
             "USAP approved at $169.99"
           ],
           "cons": [
             "Heaviest swinging shape in Tenon line (119 swing weight)",
             "High power can be hard to control for some players",
-            "Mid-level pop — not ideal for compact shots"
+            "Mid-level pop \u2014 not ideal for compact shots"
           ],
           "disclosure": "All measurements taken in-house using standardized equipment. Independent testing, no brand payment."
         }
@@ -3134,21 +3136,21 @@
       "consensus_topics": [
         {
           "topic": "Power",
-          "consensus": "94th percentile firepower — most powerful in Tenon line",
+          "consensus": "94th percentile firepower \u2014 most powerful in Tenon line",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "Impact feel",
-          "consensus": "Soft/dense at power level — unique among power paddles",
+          "consensus": "Soft/dense at power level \u2014 unique among power paddles",
           "sources": [
             "Braydon Unsicker"
           ]
         },
         {
           "topic": "Grit durability",
-          "consensus": "NanoBond Tier 3 — 88% retention, good for price",
+          "consensus": "NanoBond Tier 3 \u2014 88% retention, good for price",
           "sources": [
             "Braydon Unsicker"
           ]
@@ -3183,7 +3185,7 @@
       "category": "control",
       "shape": "elongated",
       "foam_type": "honeycomb",
-      "price_range": "$200–$280",
+      "price_range": "$200\u2013$280",
       "price_min": 200,
       "price_max": 280,
       "description": "Control-oriented elongated paddle with InfiniGrit carbon fiber surface. Best for players who prioritize precision, resets, and dinks over raw power.",
@@ -3257,7 +3259,7 @@
             "Pickleball Studio",
             "Ed Ju"
           ],
-          "consensus": "The LUXX Control Air excels at precision play — resets and drops feel effortless, making it ideal for players who prioritize placement over power."
+          "consensus": "The LUXX Control Air excels at precision play \u2014 resets and drops feel effortless, making it ideal for players who prioritize placement over power."
         },
         {
           "topic": "Power Limitations",
@@ -3313,16 +3315,16 @@
       "price_range": "$300",
       "price_min": 300,
       "price_max": 300,
-      "shape": "Elongated",
-      "core_material": "ReactCore™ (PureFoam floating center + PureFoam Ring + EVA Power Ring)",
-      "surface_material": "InfiniGrit®",
+      "shape": "elongated",
+      "core_material": "ReactCore\u2122 (PureFoam floating center + PureFoam Ring + EVA Power Ring)",
+      "surface_material": "InfiniGrit\u00ae",
       "core_thickness": "16mm",
       "handle_length": "5.8\"",
       "grip_circumference": "4.25\"",
       "certifications": "USAP",
       "year_released": 2026,
       "generation": "Gen 4",
-      "category": "All-Court",
+      "category": "power",
       "description": "Premium all-court foam paddle with adjustable MOI weights and ReactCore double-ring technology. Offers a controlled, feel-first response that tones down the Boomstik's raw power while maintaining strong spin and stability.",
       "measured_specs": {
         "swing_weight": 121.5,
@@ -3415,6 +3417,7 @@
         }
       ],
       "tags": [
+        "EPP",
         "foam-core",
         "elongated",
         "premium",
@@ -3433,7 +3436,7 @@
       "price_range": "$169.99",
       "price_min": 169,
       "price_max": 170,
-      "shape": "Hybrid",
+      "shape": "hybrid",
       "core_material": "Full foam: EMA center, EVA ring, expanding foam edge",
       "surface_material": "HexGrit peel-ply carbon fiber",
       "core_thickness": "16mm",
@@ -3442,8 +3445,8 @@
       "certifications": "UPA-A",
       "year_released": 2026,
       "generation": "Gen 4",
-      "category": "All-Court",
-      "description": "Soft, dense EMA foam paddle with HexGrit spin surface. The Jelly Bean 2 prioritizes feel, dwell, and control with a linear power profile — a planted, spin-heavy hybrid for players who create their own pace.",
+      "category": "power",
+      "description": "Soft, dense EMA foam paddle with HexGrit spin surface. The Jelly Bean 2 prioritizes feel, dwell, and control with a linear power profile \u2014 a planted, spin-heavy hybrid for players who create their own pace.",
       "measured_specs": {
         "swing_weight": 120.1,
         "spin_rpm": 2354,
@@ -3474,7 +3477,7 @@
             "Great for spin generation"
           ],
           "cons": [
-            "Very little pop — not for power players",
+            "Very little pop \u2014 not for power players",
             "Higher swing weight = slower at net",
             "All colors sold out at launch"
           ],
@@ -3488,7 +3491,7 @@
             "The spin is outstanding.",
             "The paddle gives me a lot of dwell. Drops and resets are easy to control.",
             "The substantial swing gives the paddle a planted feel, and when I have time to complete my stroke, there is plenty of mass moving through the ball.",
-            "The Ultré Jelly Bean 2 is a soft, spin-heavy and extremely planted control-first all-court paddle with excellent dwell and placement."
+            "The Ultr\u00e9 Jelly Bean 2 is a soft, spin-heavy and extremely planted control-first all-court paddle with excellent dwell and placement."
           ],
           "pros": [
             "Outstanding spin production",
@@ -3498,10 +3501,10 @@
           ],
           "cons": [
             "Substantial swing weight limits quick hands at net",
-            "Does not have reactive power payoff of Ultré Power 2",
+            "Does not have reactive power payoff of Ultr\u00e9 Power 2",
             "May not suit players who prefer quick, reactive offense"
           ],
-          "disclosure": "Based on court time with final-production Ultré Jelly Bean 2, direct comparison with other shapes, and follow-up through prototype discussions."
+          "disclosure": "Based on court time with final-production Ultr\u00e9 Jelly Bean 2, direct comparison with other shapes, and follow-up through prototype discussions."
         }
       ],
       "youtube_videos": [
@@ -3542,6 +3545,7 @@
         }
       ],
       "tags": [
+        "MPP",
         "foam-core",
         "hybrid",
         "EMA",
@@ -3672,8 +3676,7 @@
         "spin-durability-tier-3",
         "UPA-A",
         "hollow"
-      ],
-      "foam_type": "MPP"
+      ]
     },
     {
       "id": "adidas-metalbone-lp-s",
@@ -3720,7 +3723,7 @@
             "Gen 4 EVA foam core delivers explosive pop"
           ],
           "cons": [
-            "UPA-A only — not USAP approved",
+            "UPA-A only \u2014 not USAP approved",
             "Difficult to control at the kitchen",
             "High power requires advanced technique",
             "Adjustable weights rule out pro-tour use"
@@ -3740,7 +3743,7 @@
             "Edgeless design for clean aesthetics"
           ],
           "cons": [
-            "Low twist weight (5.22) — prone to twisting",
+            "Low twist weight (5.22) \u2014 prone to twisting",
             "High swing weight (116) for an elongated paddle"
           ],
           "disclosure": "Lab-measured specs. Pickleball Studio playtest."
@@ -3793,8 +3796,7 @@
         "gen-4",
         "UPA-A",
         "spin-durability-tier-4"
-      ],
-      "foam_type": "EVA"
+      ]
     }
   ]
 }
