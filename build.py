@@ -127,12 +127,13 @@ def generate_paddle_page(paddle):
             specs_html += f'<tr><th>{k.replace("_", " ").title()}</th><td>{v}</td></tr>'
 
     # Generate page HTML
+    seo_desc = paddle.get('seo_meta_description', paddle['description'])
     page_html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{paddle['description']}">
+    <meta name="description" content="{seo_desc}">
     <title>{paddle['name']} Review — Pickleball Reviewer</title>
     <link rel="canonical" href="https://pickleballreviewer.com/pages/paddles/{paddle['id']}.html">
     <!-- Open Graph -->
