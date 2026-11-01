@@ -46,6 +46,8 @@ When adding a new paddle review, follow this process:
 
 | Wrong Name | Correct Name | Notes |
 |------------|--------------|-------|
-| Lux Inferno | LUXX Control Air (Selkirk) | "Lux" is a typo; Selkirk uses double "X" |
-| Luzz Inferno | Luzz Pro 4 Inferno | Full product name is "Pro 4 Inferno" |
-| Selkirk Lux Inferno | Selkirk LUXX Control Air | Does not exist as "Lux Inferno" |
+| Lux Inferno | Luzz Pro 4 Inferno | "Lux" is a typo/autocorrect; the brand is **Luzz** (luzzpickleball.com), product is "Luzz Pro 4 Inferno" |
+| Lux Pro 4 | Luzz Pro 4 | Same typo — "Lux" ≠ "Luzz" |
+| Luzz Inferno | Luzz Pro 4 Inferno | Full product name is "Luzz Pro 4 Inferno" (also sold as "Luzz Inferno" informally) |
+| Luxx Control Air | LUXX Control Air | Selkirk uses double X "LUXX" (not "Lux" or "Luxx") |
+| Selkirk Lux Inferno | Does not exist | "Lux Inferno" is a typo for "Luzz Pro 4 Inferno"; Selkirk has "LUXX Control Air" |

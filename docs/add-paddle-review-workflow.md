@@ -21,9 +21,11 @@ Search the official brand site for the exact product name. Check:
 - Core thickness (14mm, 16mm)
 
 **Common pitfalls:**
-- "Lux Inferno" → "LUXX Control Air" (Selkirk, double X)
-- "Luzz Inferno" → "Luzz Pro 4 Inferno" (full name)
-- "Selkirk Lux Inferno" → Does not exist
+- "Lux Inferno" → "Luzz Pro 4 Inferno" (brand: **Luzz**, not "Lux"; typo/autocorrect)
+- "Lux Pro 4" → "Luzz Pro 4" (same typo)
+- "Luzz Inferno" → "Luzz Pro 4 Inferno" (full product name)
+- "Luxx Control Air" → "LUXX Control Air" (Selkirk uses double X)
+- "Selkirk Lux Inferno" → Does not exist (it's "Luzz Pro 4 Inferno", not a Selkirk product)
 
 ## Step 3: Gather Verified Data
 

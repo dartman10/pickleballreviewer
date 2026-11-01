@@ -306,6 +306,6 @@ Run these checks before every `build.py` run:
 - [ ] Submit sitemap to Google Search Console
 - [ ] Submit sitemap to Bing Webmaster Tools
 - [ ] Add Google Analytics to Google Search Console
-- [ ] Add 10+ more paddles (Lux Inferno, Boomstik Elongated, etc.)
+- [ ] Add 10+ more paddles (Luzz Pro 4 Inferno, Boomstik Elongated, etc.)
 - [ ] Auto-related paddles section on each paddle page (estimated 2h)
 - [ ] Paddle share buttons (estimated 2h)

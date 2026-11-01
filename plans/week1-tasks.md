@@ -115,7 +115,7 @@ For each paddle, execute these steps:
 - **Shape:** elongated
 - **Foam:** MPP
 - **Price range:** $229–$249
-- **Why:** Premium power paddle competing with Lux Inferno
+- **Why:** Premium power paddle competing with Luzz Pro 4 Inferno
 - **Key angle:** Luzz's flagship — high-tech construction with measured performance data
 - **Expected YouTube channels:** Pickleball Studio, John Kew
 - **Priority:** HIGH — premium power comparison candidate
@@ -307,7 +307,7 @@ For each paddle, execute these steps:
 2. **Enhance EPP Turbo** — same brand, validated cross-brand review matching
 3. **Spartus Spitfire** — confirmed multi-source written review extraction
 4. **Bread & Butter Loco** — verified B&B brand data availability
-5. **Luzz Pro 4 Inferno** — corrected from "Selkirk Lux Inferno" based on search results
+5. **Luzz Pro 4 Inferno** — confirmed name is "Luzz Pro 4 Inferno" (not "Lux Inferno"); also have "Luzz Inferno2 M1"
 6. **Selkirk Power Air Invicta** — resolved naming ambiguity (Power Air vs Invicta)
 7. **Selkirk Boomstik Widebody** — replacement for unmeasurable Joovy Spin
 8. **Vatic Pro Prism Flash 16mm** — first control paddle added

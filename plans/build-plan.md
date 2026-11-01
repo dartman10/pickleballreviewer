@@ -255,23 +255,23 @@ These are optional improvements that add meaningful value with relatively low ef
 
 ### 5. Add Authority Paddles (Effort: 4-6 hours)
 
-**Why:** Our current set is heavily skewed toward power paddles (21 of 27). Only elongated, hybrid, and power categories exist. The most common comparison search queries are "Lux Inferno review" and "Spartus Spitfire vs Lux Inferno" — if we can add the Lux Inferno, it would be the single highest-impact paddle for SEO and content authority.
+**Why:** Our current set is heavily skewed toward power paddles (21 of 27). Only elongated, hybrid, and power categories exist. The most common comparison search queries are "Luzz Pro 4 Inferno review" and "Spartus Spitfire vs Luzz Pro 4 Inferno" — if we can add the Luzz Pro 4 Inferno, it would be the single highest-impact paddle for SEO and content authority.
 
 **Recommended additions:**
 
 || Paddle | Priority | Why |
 |--------|----------|-----|
-|| Selkirk Lux Inferno | High | The "gold standard" paddle. Everyone compares to it. Highest-volume search term. |
+|| Luzz Pro 4 Inferno | High | The "gold standard" paddle. Everyone compares to it. Highest-volume search term. |
 || Selkirk Boomstik Elongated | Medium | Different shape version of an already-covered paddle. Captures elongated shape queries. |
-|| CRBN 3X vs Lux Inferno guide | Medium | Head-to-head guide page (uses existing data from both paddles). |
+|| CRBN 3X vs Luzz Pro 4 Inferno guide | Medium | Head-to-head guide page (uses existing data from both paddles). |
 
-**Current dataset composition (27 paddles):** 21 power, 6 control/all-court. Added since original 23: Selkirk OMNI Elongated, RPM Friction Pro V2, 11six24 Ultre Jelly Bean 2. Next targets: Lux Inferno, Boomstik Elongated, Engage Axiom Elongated (already in dataset), RPM Friction Pro V2 (already in dataset).
+**Current dataset composition (27 paddles):** 21 power, 6 control/all-court. Added since original 23: Selkirk OMNI Elongated, RPM Friction Pro V2, 11six24 Ultre Jelly Bean 2. Next targets: Luzz Pro 4 Inferno, Boomstik Elongated, Engage Axiom Elongated (already in dataset), RPM Friction Pro V2 (already in dataset).
 
-**Data gathering note:** Lux Inferno may not have measured specs in Pickleball Studio or paddlespecs.com (consistent with the same pattern that caused Joovy Spin / Gamma Raptor skips). If no measured specs exist, the Verified-Only Rule says to use `[REDACTED]` for missing measurements and rely on written reviews + YouTube videos only.
+**Data gathering note:** Luzz Pro 4 Inferno may not have measured specs in Pickleball Studio or paddlespecs.com (consistent with the same pattern that caused Joovy Spin / Gamma Raptor skips). If no measured specs exist, the Verified-Only Rule says to use `[REDACTED]` for missing measurements and rely on written reviews + YouTube videos only.
 
 **Where in plan:** After Week 5 launch — "Phase 3" content expansion based on what search queries drive traffic.
 
-**Risk:** Medium. If Lux Inferno has no measured specs in target databases, we'd have to document that limitation explicitly.
+**Risk:** Medium. If Luzz Pro 4 Inferno has no measured specs in target databases, we'd have to document that limitation explicitly.
 
 **Workflow note:** Use `add-paddle-review` skill (8-step workflow: brand → verify → data → JSON → build → verify → deploy → test live). See `docs/add-paddle-review-workflow.md`.
 
@@ -506,7 +506,7 @@ scripts/verify-site-data.py  — already validates paddle data structure
 ### Features
 
 - **Smart defaults:** If user clicks "Compare" from a paddle page, auto-add that paddle as the first selection
-- **Popular comparisons:** Suggest common head-to-heads on the compare page (e.g., "Lux Inferno vs Boomstik", "MPP Turbo vs Spartus Spitfire")
+- **Popular comparisons:** Suggest common head-to-heads on the compare page (e.g., "Luzz Pro 4 Inferno vs Boomstik", "MPP Turbo vs Spartus Spitfire")
 - **Highlight winner:** Each row highlights the best value (green for higher is better, blue for lower is better)
 - **Responsive:** Works on mobile (horizontal scroll for wide tables)
 - **No server needed:** Fully static — generated at build time, runs in browser

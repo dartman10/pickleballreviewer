@@ -16,7 +16,7 @@ def generate_categories_index():
         ('elongated', '📏', 'Elongated Shape', 'Reach and leverage with an elongated face'),
         ('widebody', '🎯', 'Widebody Shape', 'Larger sweet spot and more stability'),
         ('hybrid', '⚖️', 'Hybrid Shape', 'Balance of power and control'),
-        ('mpp', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Lux Inferno'),
+        ('mpp', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Luzz Pro 4 Inferno'),
         ('epp', '🔥', 'EPP Foam Core', 'Firmer, more connected feel'),
         ('honeycomb', '🐝', 'Honeycomb Core', 'Advanced honeycomb honeycomb technology'),
         ('eva', '🥚', 'EVA Foam Core', 'Traditional EVA foam construction'),

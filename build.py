@@ -335,7 +335,7 @@ def generate_category_page(paddle_list, category_name, category_slug, descriptio
     all_categories = [
         ('power', '💥', 'Power Paddles', 'Maximum pop and power for aggressive players'),
         ('elongated', '📏', 'Elongated Shape', 'Reach and leverage with an elongated face'),
-        ('MPP', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Lux Inferno'),
+        ('MPP', '🧊', 'MPP Foam Core', 'Softer, springy feel — closer to Luzz Pro 4 Inferno'),
         ('EPP', '🔥', 'EPP Foam Core', 'Firmer, more connected feel'),
         ('budget', '💰', 'Budget Picks', 'Top performance without breaking the bank'),
     ]
@@ -1150,7 +1150,7 @@ def main():
         foams[foam].append(p)
     for foam, foam_paddles in foams.items():
         slug = foam.lower()
-        foam_desc = 'MPP (microcellular polypropylene) — softer, springy feel closer to Lux Inferno.' if foam == 'MPP' else 'EPP (expanded polypropylene) — firmer, more connected feel.'
+        foam_desc = 'MPP (microcellular polypropylene) — softer, springy feel closer to Luzz Pro 4 Inferno.' if foam == 'MPP' else 'EPP (expanded polypropylene) — firmer, more connected feel.'
         generate_category_page(foam_paddles, f'{foam} Foam Core', slug, foam_desc)
         print(f"   ✅ {foam} Foam ({len(foam_paddles)} paddles) → pages/categories/{slug}.html")
 
