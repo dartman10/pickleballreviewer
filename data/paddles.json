@@ -3798,6 +3798,204 @@
         "UPA-A",
         "spin-durability-tier-4"
       ]
+    },
+    {
+      "id": "selkirk-boomstik-elongated",
+      "name": "Selkirk Boomstik Elongated",
+      "brand": "Selkirk",
+      "category": "power",
+      "shape": "elongated",
+      "foam_type": "EPP",
+      "price_range": "$333",
+      "price_min": 333,
+      "price_max": 333,
+      "description": "Premium Gen 4 full-foam power paddle with InfiniGrit surface and MOI tuning weights. Maximum pop with explosive putaway power on a 16mm EPP core.",
+      "specs_source": "https://pickleballstudio.com/paddles/boomstik-elongated",
+      "measured_specs": {
+        "swing_weight": 118.0,
+        "twist_weight": 6.81,
+        "spin_rpm": 2306,
+        "balance_point": "243 mm",
+        "static_weight": "8.2 oz",
+        "grip_size": "4.25\\\"",
+        "shape_dims": "16.5\\\" x 7.5\\\"",
+        "handle_length": "5.8\\\""
+      },
+      "spin_rpm": 2306,
+      "swing_weight": 118.0,
+      "twist_weight": 6.81,
+      "spin_durability": 3,
+      "youtube_videos": [
+        {
+          "title": "Selkirk Boomstik vs OMNI (Elongated): Lab-Tested Comparison",
+          "channel": "JohnKew Pickleball",
+          "date": "2026-09-15",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.johnkewpickleball.com/selkirk-boomstik-vs-omni-elongated"
+        },
+        {
+          "title": "Selkirk Labs Project Boomstik Review \u2014 Jack Sock Signature Paddle",
+          "channel": "The Kitchen Pickleball",
+          "date": "2026-04-17",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://thekitchenpickle.com/paddle/selkirk-labs-project-boomstik-jack-sock-signature-paddle/"
+        },
+        {
+          "title": "This Selkirk Paddle Doesn't Play Nice \u2014 NEW Selkirk Boomstik Review",
+          "channel": "JohnKew Pickleball",
+          "date": "2025-08-11",
+          "views": "N/A",
+          "duration": "N/A",
+          "url": "https://www.youtube.com/watch?v=F9SpfpPspv0"
+        }
+      ],
+      "written_reviews": [
+        {
+          "author": "Chris Olson",
+          "site": "Pickleball Studio",
+          "url": "https://pickleballstudio.com/paddles/boomstik-elongated",
+          "quotes": [
+            "The Boomstik delivers elite-level pop, power, and spin with a large sweet spot and a predictable feel.",
+            "One of the hardest hitting and poppiest paddles you can buy, combined with the largest sweet spot on the market."
+          ],
+          "pros": [
+            "Elite power with EPP foam core",
+            "Largest sweet spot in the power category",
+            "InfiniGrit surface for spin durability",
+            "MOI tuning weights for customization",
+            "Lifetime warranty"
+          ],
+          "cons": [
+            "Premium price at $333",
+            "Early edge guard issues (resolved in retail)",
+            "Hard to control for players below 4.5",
+            "Stiff, hollow feel not for everyone"
+          ],
+          "disclosure": "Independently measured using calibrated equipment. 400+ paddles tested since 2021. No sponsor influence."
+        },
+        {
+          "author": "John Kew",
+          "site": "JohnKew Pickleball",
+          "url": "https://www.johnkewpickleball.com/selkirk-boomstik-vs-omni-elongated",
+          "quotes": [
+            "The Boomstik is a firepower monster, one of the hottest paddles I have tested, very stiff and poppy.",
+            "The Boomstik posts a KewCOR of 0.431 and a Firepower score of 94, which is near the top of everything in my database."
+          ],
+          "pros": [
+            "Near-top firepower score (94/100)",
+            "Elite spin (2,306 RPM)",
+            "Serve speed 62.5 mph",
+            "Very stiff, very hollow feel",
+            "Premium build quality"
+          ],
+          "cons": [
+            "Steepest learning curve for control",
+            "Pop-ups for players below 4.5",
+            "Most expensive paddle in dataset",
+            "Heavy swing weight (118)"
+          ],
+          "disclosure": "Independent testing, no payment, no editorial input."
+        },
+        {
+          "author": "The Kitchen",
+          "site": "The Kitchen Pickleball",
+          "url": "https://thekitchenpickle.com/paddle/selkirk-labs-project-boomstik/",
+          "quotes": [
+            "The Selkirk Labs Project Boomstik delivers explosive power with a forgiving sweet spot, making it great for both offensive and defensive shots.",
+            "Power is high from the full-foam core, with medium spin from the InfiniGrit surface. A 121 swing weight and 6.9 twist weight give it a stable, hard-hitting platform."
+          ],
+          "pros": [
+            "Explosive full-foam putaway power",
+            "InfiniGrit surface with medium spin",
+            "Pre-installed MOI tuning system",
+            "Stable 121 swing weight and 6.9 twist weight"
+          ],
+          "cons": [
+            "Premium price of $333",
+            "Early edge guards loosened on some",
+            "MOI clips feel loose to some players",
+            "Steep learning curve for control"
+          ],
+          "disclosure": "Tested by The Kitchen team. Independent testing. Affiliate links may earn commission."
+        }
+      ],
+      "consensus_topics": [
+        {
+          "topic": "Power level",
+          "consensus": "Near-top firepower (94/100), one of the most powerful foam-core paddles available",
+          "sources": [
+            "Chris Olson",
+            "John Kew",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Spin durability",
+          "consensus": "Tier 3 \u2014 InfiniGrit provides good spin retention, not Tier 1",
+          "sources": [
+            "John Kew"
+          ]
+        },
+        {
+          "topic": "Control learning curve",
+          "consensus": "Steep \u2014 best for players 4.5+, pop-ups for lower-level players",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Premium price",
+          "consensus": "At $333, most expensive paddle but lifetime warranty offsets cost",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        },
+        {
+          "topic": "Sweet spot",
+          "consensus": "Largest sweet spot in the power category \u2014 forgiving for off-center hits",
+          "sources": [
+            "Chris Olson",
+            "The Kitchen"
+          ]
+        }
+      ],
+      "best_for": [
+        "power",
+        "elongated",
+        "foam-core",
+        "aggressive",
+        "premium"
+      ],
+      "tags": [
+        "EPP",
+        "foam-core",
+        "elongated",
+        "power",
+        "premium",
+        "infinigrit",
+        "MOI-tuning"
+      ],
+      "retailers": [
+        {
+          "name": "Selkirk",
+          "url": "https://www.selkirksport.com/products/selkirk-labs-project-boomstik-elongated",
+          "price": "$333.00"
+        },
+        {
+          "name": "Dick's Sporting Goods",
+          "url": "https://www.dickssportinggoods.com/p/selkirk-labs-project-boomstik-elongated-pickleball-paddle",
+          "price": "$333.00"
+        },
+        {
+          "name": "Pickleball Warehouse",
+          "url": "https://pickleballwarehouse.com/selkirk-boomstik-elongated",
+          "price": "$333.00"
+        }
+      ]
     }
   ]
 }
